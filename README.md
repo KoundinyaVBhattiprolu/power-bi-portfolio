@@ -1,4 +1,5 @@
 # Power BI Portfolio — Koundinya Bhattiprolu
+📄 Resume: [Venkata Koundinya Bhattiprolu — Resume (PDF)](Venkata_Koundinya_Bhattiprolu_Resume.pdf)
 
 BI Analyst / Power BI Developer portfolio. All projects are **sample projects with sample data, built from scratch** — my production reports live on my work laptop and are not shared here. The stories, scale, questions and methods are real; the rows are synthetic.
 
