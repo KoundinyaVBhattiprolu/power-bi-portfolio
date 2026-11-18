@@ -1,0 +1,66 @@
+// Koundinya — Power BI Portfolio: DAX measures
+// Paste these into Power BI Desktop (Modeling > New measure) after loading
+// the CSVs in data/ and creating the relationships in docs/BUILD_GUIDE.md.
+// Date table: 'Date' from date_dim.csv, marked as a date table.
+// All measures assume a star schema: sales_fact -> Date, product_dim.
+
+// ---------- SALES (sales_fact.csv) ----------
+Total Revenue = SUM ( sales_fact[RevenueINR] )
+
+Total Cost = SUM ( sales_fact[CostINR] )
+
+Profit = [Total Revenue] - [Total Cost]
+
+Profit Margin % = DIVIDE ( [Profit], [Total Revenue] )
+
+Total Orders = COUNTROWS ( sales_fact )
+
+Avg Order Value = DIVIDE ( [Total Revenue], [Total Orders] )
+
+Revenue LY =
+CALCULATE (
+    [Total Revenue],
+    SAMEPERIODLASTYEAR ( 'Date'[Date] )
+)
+
+Revenue YoY % =
+DIVIDE (
+    [Total Revenue] - [Revenue LY],
+    [Revenue LY]
+)
+
+// ---------- FINANCE (finance_pl_monthly.csv) ----------
+// Month is text "2025-01". In Power BI, split / convert it to a date
+// (first of month) and relate it to 'Date'[Date], or use it directly in a table.
+Actual = SUM ( finance_pl_monthly[RevenueINR] )
+
+Budget = SUM ( finance_pl_monthly[BudgetINR] )
+
+Budget Variance % = DIVIDE ( [Actual] - [Budget], [Budget] )
+
+Net Profit = SUM ( finance_pl_monthly[NetProfitINR] )
+
+Total COGS = SUM ( finance_pl_monthly[COGSINR] )
+
+// ---------- HR (hr_employees.csv) ----------
+Headcount = COUNTROWS ( hr_employees )
+
+Employees Left = SUM ( hr_employees[LeftCompany] )
+
+Attrition Rate % = DIVIDE ( [Employees Left], [Headcount] )
+
+Avg Tenure Years = AVERAGE ( hr_employees[TenureYears] )
+
+// ---------- SUPPLY CHAIN (supply_inventory.csv + supply_shipments.csv) ----------
+SKUs at Risk = CALCULATE (
+    COUNTROWS ( supply_inventory ),
+    supply_inventory[DaysOfCover] < 7
+)
+
+On-Time Delivery % =
+DIVIDE (
+    SUM ( supply_shipments[OnTime] ),
+    COUNTROWS ( supply_shipments )
+)
+
+Avg Lead Time Days = AVERAGE ( supply_inventory[LeadTimeDays] )

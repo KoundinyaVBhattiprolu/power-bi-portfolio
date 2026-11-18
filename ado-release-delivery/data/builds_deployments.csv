@@ -1,0 +1,697 @@
+BuildID,Pipeline,BuildDate,SprintID,Release,Branch,Status,DurationMinutes,DeploymentEnv,Deployed
+BLD-5001,Jenkins,2025-01-12,2025-01,R25.1,feature/*,Success,14,Prod,Yes
+BLD-5002,Jenkins,2025-01-19,2025-01,R25.1,main,Success,12,QA,Yes
+BLD-5003,Jenkins,2025-01-17,2025-01,R25.1,main,Success,34,Dev,Yes
+BLD-5004,Jenkins,2025-01-11,2025-01,R25.1,release/R26.3,Success,26,Staging,Yes
+BLD-5005,Jenkins,2025-01-18,2025-01,R25.1,main,Success,22,Staging,Yes
+BLD-5006,Jenkins,2025-01-13,2025-01,R25.1,feature/*,Success,43,QA,Yes
+BLD-5007,Jenkins,2025-01-08,2025-01,R25.1,release/R26.3,Success,23,Staging,Yes
+BLD-5008,Jenkins,2025-01-13,2025-01,R25.1,main,Success,17,Prod,Yes
+BLD-5009,Jenkins,2025-01-18,2025-01,R25.1,feature/*,Success,14,Prod,Yes
+BLD-5010,Jenkins,2025-01-08,2025-01,R25.1,main,Success,31,QA,No
+BLD-5011,Jenkins,2025-01-19,2025-01,R25.1,feature/*,Success,17,Staging,Yes
+BLD-5012,Jenkins,2025-01-16,2025-01,R25.1,main,Success,36,QA,Yes
+BLD-5013,Jenkins,2025-01-30,2025-02,R25.1,release/R26.3,Success,16,Prod,Yes
+BLD-5014,Jenkins,2025-01-24,2025-02,R25.1,feature/*,Success,6,Staging,Yes
+BLD-5015,Jenkins,2025-01-26,2025-02,R25.1,release/R26.3,Success,38,Prod,No
+BLD-5016,Jenkins,2025-01-22,2025-02,R25.1,main,Success,45,Prod,Yes
+BLD-5017,Jenkins,2025-01-23,2025-02,R25.1,main,Success,23,Staging,Yes
+BLD-5018,Jenkins,2025-01-23,2025-02,R25.1,release/R26.3,Success,40,QA,Yes
+BLD-5019,Jenkins,2025-01-31,2025-02,R25.1,main,Success,24,Prod,Yes
+BLD-5020,Jenkins,2025-02-01,2025-02,R25.1,release/R26.3,Success,47,Dev,Yes
+BLD-5021,Jenkins,2025-01-23,2025-02,R25.1,main,Failed,33,QA,No
+BLD-5022,Jenkins,2025-02-01,2025-02,R25.1,feature/*,Success,24,Staging,Yes
+BLD-5023,Jenkins,2025-01-23,2025-02,R25.1,main,Success,34,Dev,Yes
+BLD-5024,Jenkins,2025-01-27,2025-02,R25.1,release/R26.3,Success,14,Staging,Yes
+BLD-5025,Jenkins,2025-02-01,2025-02,R25.1,feature/*,Success,7,Dev,Yes
+BLD-5026,Jenkins,2025-02-15,2025-03,R25.1,release/R26.3,Success,32,Staging,Yes
+BLD-5027,Jenkins,2025-02-11,2025-03,R25.1,main,Success,46,Dev,Yes
+BLD-5028,Jenkins,2025-02-03,2025-03,R25.1,feature/*,Success,15,QA,Yes
+BLD-5029,Jenkins,2025-02-06,2025-03,R25.1,main,Failed,41,QA,No
+BLD-5030,Jenkins,2025-02-10,2025-03,R25.1,main,Failed,15,QA,No
+BLD-5031,Jenkins,2025-02-15,2025-03,R25.1,feature/*,Success,34,QA,Yes
+BLD-5032,Jenkins,2025-02-11,2025-03,R25.1,feature/*,Success,9,Prod,Yes
+BLD-5033,Jenkins,2025-02-11,2025-03,R25.1,release/R26.3,Success,41,Dev,Yes
+BLD-5034,Jenkins,2025-02-07,2025-03,R25.1,feature/*,Success,28,Dev,Yes
+BLD-5035,Jenkins,2025-02-12,2025-03,R25.1,main,Failed,13,Staging,No
+BLD-5036,Jenkins,2025-02-12,2025-03,R25.1,release/R26.3,Success,15,Dev,Yes
+BLD-5037,Jenkins,2025-02-10,2025-03,R25.1,main,Success,48,QA,Yes
+BLD-5038,Jenkins,2025-02-14,2025-03,R25.1,feature/*,Success,14,Prod,No
+BLD-5039,Jenkins,2025-02-07,2025-03,R25.1,release/R26.3,Cancelled,22,Staging,No
+BLD-5040,Jenkins,2025-02-05,2025-03,R25.1,release/R26.3,Success,41,Dev,Yes
+BLD-5041,Jenkins,2025-02-07,2025-03,R25.1,main,Success,20,QA,Yes
+BLD-5042,Jenkins,2025-02-20,2025-04,R25.1,feature/*,Success,15,Prod,No
+BLD-5043,Jenkins,2025-02-18,2025-04,R25.1,release/R26.3,Success,21,QA,No
+BLD-5044,Jenkins,2025-02-27,2025-04,R25.1,main,Success,6,QA,Yes
+BLD-5045,Jenkins,2025-02-25,2025-04,R25.1,feature/*,Success,30,Dev,Yes
+BLD-5046,Jenkins,2025-02-23,2025-04,R25.1,feature/*,Success,11,Dev,Yes
+BLD-5047,Jenkins,2025-02-27,2025-04,R25.1,main,Success,42,QA,Yes
+BLD-5048,Jenkins,2025-02-23,2025-04,R25.1,main,Success,39,Dev,Yes
+BLD-5049,Jenkins,2025-02-25,2025-04,R25.1,feature/*,Success,26,QA,Yes
+BLD-5050,Jenkins,2025-02-18,2025-04,R25.1,release/R26.3,Success,28,QA,Yes
+BLD-5051,Jenkins,2025-02-24,2025-04,R25.1,release/R26.3,Success,9,Dev,No
+BLD-5052,Jenkins,2025-02-28,2025-04,R25.1,main,Success,30,Dev,Yes
+BLD-5053,Jenkins,2025-02-19,2025-04,R25.1,feature/*,Success,12,Dev,No
+BLD-5054,Jenkins,2025-03-05,2025-05,R25.1,release/R26.3,Cancelled,10,Staging,No
+BLD-5055,Jenkins,2025-03-04,2025-05,R25.1,main,Success,11,Staging,Yes
+BLD-5056,Jenkins,2025-03-15,2025-05,R25.1,main,Success,40,QA,Yes
+BLD-5057,Jenkins,2025-03-03,2025-05,R25.1,main,Success,47,Staging,Yes
+BLD-5058,Jenkins,2025-03-10,2025-05,R25.1,release/R26.3,Failed,35,QA,No
+BLD-5059,Jenkins,2025-03-10,2025-05,R25.1,release/R26.3,Success,33,Staging,No
+BLD-5060,Jenkins,2025-03-07,2025-05,R25.1,main,Success,7,Prod,Yes
+BLD-5061,Jenkins,2025-03-03,2025-05,R25.1,feature/*,Success,14,QA,No
+BLD-5062,Jenkins,2025-03-14,2025-05,R25.1,main,Success,18,Prod,Yes
+BLD-5063,Jenkins,2025-03-04,2025-05,R25.1,main,Success,21,Dev,No
+BLD-5064,Jenkins,2025-03-07,2025-05,R25.1,release/R26.3,Failed,29,QA,No
+BLD-5065,Jenkins,2025-03-16,2025-05,R25.1,release/R26.3,Success,26,Prod,Yes
+BLD-5066,Jenkins,2025-03-15,2025-05,R25.1,main,Success,16,Staging,Yes
+BLD-5067,Jenkins,2025-03-07,2025-05,R25.1,main,Cancelled,21,Prod,No
+BLD-5068,Jenkins,2025-03-05,2025-05,R25.1,release/R26.3,Success,26,Staging,Yes
+BLD-5069,Jenkins,2025-03-06,2025-05,R25.1,main,Success,47,Dev,Yes
+BLD-5070,Jenkins,2025-03-27,2025-06,R25.1,main,Success,12,Staging,Yes
+BLD-5071,Jenkins,2025-03-24,2025-06,R25.1,main,Success,19,Staging,Yes
+BLD-5072,Jenkins,2025-03-28,2025-06,R25.1,main,Success,38,QA,Yes
+BLD-5073,Jenkins,2025-03-28,2025-06,R25.1,release/R26.3,Failed,46,Prod,No
+BLD-5074,Jenkins,2025-03-18,2025-06,R25.1,main,Success,10,Prod,Yes
+BLD-5075,Jenkins,2025-03-25,2025-06,R25.1,main,Success,48,Prod,Yes
+BLD-5076,Jenkins,2025-03-20,2025-06,R25.1,main,Success,19,QA,Yes
+BLD-5077,Jenkins,2025-03-25,2025-06,R25.1,main,Success,46,Dev,Yes
+BLD-5078,Jenkins,2025-03-23,2025-06,R25.1,main,Success,16,Prod,Yes
+BLD-5079,Jenkins,2025-03-19,2025-06,R25.1,feature/*,Success,48,Prod,No
+BLD-5080,Jenkins,2025-03-25,2025-06,R25.1,main,Success,23,QA,Yes
+BLD-5081,Jenkins,2025-03-27,2025-06,R25.1,feature/*,Success,17,Prod,No
+BLD-5082,Jenkins,2025-03-25,2025-06,R25.1,main,Success,29,Prod,No
+BLD-5083,Jenkins,2025-03-24,2025-06,R25.1,feature/*,Success,38,Staging,Yes
+BLD-5084,Jenkins,2025-04-02,2025-07,R25.1,release/R26.3,Success,24,QA,Yes
+BLD-5085,Jenkins,2025-04-10,2025-07,R25.1,release/R26.3,Success,42,Prod,Yes
+BLD-5086,Jenkins,2025-04-04,2025-07,R25.1,release/R26.3,Cancelled,7,Staging,No
+BLD-5087,Jenkins,2025-04-09,2025-07,R25.1,main,Success,36,Prod,Yes
+BLD-5088,Jenkins,2025-04-07,2025-07,R25.1,release/R26.3,Success,22,Dev,No
+BLD-5089,Jenkins,2025-04-10,2025-07,R25.1,release/R26.3,Success,41,Prod,Yes
+BLD-5090,Jenkins,2025-04-06,2025-07,R25.1,main,Success,31,Dev,Yes
+BLD-5091,Jenkins,2025-04-05,2025-07,R25.1,feature/*,Success,28,Staging,Yes
+BLD-5092,Jenkins,2025-04-11,2025-07,R25.1,main,Success,23,Staging,Yes
+BLD-5093,Jenkins,2025-04-13,2025-07,R25.1,release/R26.3,Success,27,Dev,No
+BLD-5094,Jenkins,2025-04-09,2025-07,R25.1,main,Success,47,QA,Yes
+BLD-5095,Jenkins,2025-04-04,2025-07,R25.1,release/R26.3,Failed,34,Dev,No
+BLD-5096,Jenkins,2025-04-01,2025-07,R25.1,feature/*,Success,28,Staging,No
+BLD-5097,Jenkins,2025-04-12,2025-07,R25.1,main,Failed,24,QA,No
+BLD-5098,Jenkins,2025-04-05,2025-07,R25.1,release/R26.3,Success,43,QA,Yes
+BLD-5099,Jenkins,2025-04-21,2025-08,R25.1,main,Success,9,Staging,Yes
+BLD-5100,Jenkins,2025-04-14,2025-08,R25.1,main,Success,16,Dev,Yes
+BLD-5101,Jenkins,2025-04-23,2025-08,R25.1,feature/*,Success,6,Dev,Yes
+BLD-5102,Jenkins,2025-04-19,2025-08,R25.1,main,Success,17,Dev,No
+BLD-5103,Jenkins,2025-04-19,2025-08,R25.1,main,Success,44,Staging,Yes
+BLD-5104,Jenkins,2025-04-25,2025-08,R25.1,release/R26.3,Success,40,QA,Yes
+BLD-5105,Jenkins,2025-04-25,2025-08,R25.1,feature/*,Cancelled,10,QA,No
+BLD-5106,Jenkins,2025-04-19,2025-08,R25.1,feature/*,Success,26,QA,Yes
+BLD-5107,Jenkins,2025-04-24,2025-08,R25.1,main,Success,33,Dev,Yes
+BLD-5108,Jenkins,2025-04-22,2025-08,R25.1,feature/*,Success,20,QA,Yes
+BLD-5109,Jenkins,2025-04-23,2025-08,R25.1,main,Success,35,QA,Yes
+BLD-5110,Jenkins,2025-04-18,2025-08,R25.1,main,Success,18,Staging,Yes
+BLD-5111,Jenkins,2025-04-21,2025-08,R25.1,main,Success,26,Staging,Yes
+BLD-5112,Jenkins,2025-04-24,2025-08,R25.1,main,Success,19,Dev,Yes
+BLD-5113,Jenkins,2025-04-17,2025-08,R25.1,main,Cancelled,36,Staging,No
+BLD-5114,Jenkins,2025-04-21,2025-08,R25.1,release/R26.3,Success,45,Prod,No
+BLD-5115,Jenkins,2025-05-03,2025-09,R25.2,main,Success,22,Prod,Yes
+BLD-5116,Jenkins,2025-05-11,2025-09,R25.2,main,Success,13,Prod,Yes
+BLD-5117,Jenkins,2025-05-11,2025-09,R25.2,main,Success,30,Dev,Yes
+BLD-5118,Jenkins,2025-04-28,2025-09,R25.2,feature/*,Success,39,Prod,Yes
+BLD-5119,Jenkins,2025-05-05,2025-09,R25.2,release/R26.3,Success,32,Dev,Yes
+BLD-5120,Jenkins,2025-04-30,2025-09,R25.2,main,Success,11,Staging,Yes
+BLD-5121,Jenkins,2025-04-30,2025-09,R25.2,feature/*,Success,16,Prod,Yes
+BLD-5122,Jenkins,2025-05-10,2025-09,R25.2,main,Success,24,Dev,Yes
+BLD-5123,Jenkins,2025-05-02,2025-09,R25.2,main,Success,41,QA,No
+BLD-5124,Jenkins,2025-04-30,2025-09,R25.2,feature/*,Success,11,Staging,Yes
+BLD-5125,Jenkins,2025-04-29,2025-09,R25.2,main,Failed,13,Staging,No
+BLD-5126,Jenkins,2025-05-09,2025-09,R25.2,main,Success,35,QA,Yes
+BLD-5127,Jenkins,2025-05-07,2025-09,R25.2,release/R26.3,Success,33,Dev,Yes
+BLD-5128,Jenkins,2025-05-23,2025-10,R25.2,feature/*,Success,46,QA,Yes
+BLD-5129,Jenkins,2025-05-19,2025-10,R25.2,main,Success,35,Prod,Yes
+BLD-5130,Jenkins,2025-05-23,2025-10,R25.2,feature/*,Success,17,Dev,Yes
+BLD-5131,Jenkins,2025-05-21,2025-10,R25.2,main,Failed,13,Staging,No
+BLD-5132,Jenkins,2025-05-21,2025-10,R25.2,main,Success,34,Staging,Yes
+BLD-5133,Jenkins,2025-05-20,2025-10,R25.2,main,Success,15,QA,Yes
+BLD-5134,Jenkins,2025-05-24,2025-10,R25.2,main,Success,20,Dev,Yes
+BLD-5135,Jenkins,2025-05-19,2025-10,R25.2,main,Success,23,QA,Yes
+BLD-5136,Jenkins,2025-05-20,2025-10,R25.2,feature/*,Success,11,Staging,Yes
+BLD-5137,Jenkins,2025-05-17,2025-10,R25.2,main,Success,31,Dev,Yes
+BLD-5138,Jenkins,2025-05-17,2025-10,R25.2,release/R26.3,Failed,22,QA,No
+BLD-5139,Jenkins,2025-05-12,2025-10,R25.2,main,Success,24,QA,Yes
+BLD-5140,Jenkins,2025-05-24,2025-10,R25.2,feature/*,Success,43,Prod,Yes
+BLD-5141,Jenkins,2025-05-23,2025-10,R25.2,main,Success,10,QA,Yes
+BLD-5142,Jenkins,2025-05-22,2025-10,R25.2,feature/*,Success,34,QA,Yes
+BLD-5143,Jenkins,2025-06-03,2025-11,R25.2,main,Success,30,Dev,Yes
+BLD-5144,Jenkins,2025-06-08,2025-11,R25.2,feature/*,Success,43,Staging,Yes
+BLD-5145,Jenkins,2025-06-02,2025-11,R25.2,main,Success,7,Prod,Yes
+BLD-5146,Jenkins,2025-05-29,2025-11,R25.2,main,Failed,39,QA,No
+BLD-5147,Jenkins,2025-06-07,2025-11,R25.2,main,Success,31,Dev,No
+BLD-5148,Jenkins,2025-05-29,2025-11,R25.2,main,Success,45,QA,Yes
+BLD-5149,Jenkins,2025-06-06,2025-11,R25.2,feature/*,Success,22,Staging,Yes
+BLD-5150,Jenkins,2025-05-31,2025-11,R25.2,feature/*,Success,18,Prod,Yes
+BLD-5151,Jenkins,2025-06-05,2025-11,R25.2,release/R26.3,Success,7,Dev,Yes
+BLD-5152,Jenkins,2025-06-03,2025-11,R25.2,release/R26.3,Success,38,QA,No
+BLD-5153,Jenkins,2025-06-07,2025-11,R25.2,release/R26.3,Success,42,Staging,Yes
+BLD-5154,Jenkins,2025-05-26,2025-11,R25.2,main,Success,40,Dev,No
+BLD-5155,Jenkins,2025-06-07,2025-11,R25.2,main,Success,48,Dev,Yes
+BLD-5156,Jenkins,2025-06-08,2025-11,R25.2,main,Cancelled,24,Prod,No
+BLD-5157,Jenkins,2025-06-03,2025-11,R25.2,main,Success,13,QA,Yes
+BLD-5158,Jenkins,2025-05-28,2025-11,R25.2,release/R26.3,Success,44,Prod,Yes
+BLD-5159,Jenkins,2025-06-21,2025-12,R25.2,feature/*,Success,44,Staging,Yes
+BLD-5160,Jenkins,2025-06-19,2025-12,R25.2,release/R26.3,Success,20,Dev,Yes
+BLD-5161,Jenkins,2025-06-11,2025-12,R25.2,main,Success,6,Prod,Yes
+BLD-5162,Jenkins,2025-06-21,2025-12,R25.2,main,Success,27,Prod,Yes
+BLD-5163,Jenkins,2025-06-13,2025-12,R25.2,feature/*,Success,47,Dev,Yes
+BLD-5164,Jenkins,2025-06-20,2025-12,R25.2,main,Success,21,Prod,Yes
+BLD-5165,Jenkins,2025-06-17,2025-12,R25.2,main,Success,9,Dev,Yes
+BLD-5166,Jenkins,2025-06-15,2025-12,R25.2,release/R26.3,Success,15,QA,Yes
+BLD-5167,Jenkins,2025-06-14,2025-12,R25.2,release/R26.3,Success,29,Prod,Yes
+BLD-5168,Jenkins,2025-06-21,2025-12,R25.2,main,Success,8,Dev,Yes
+BLD-5169,Jenkins,2025-06-11,2025-12,R25.2,release/R26.3,Success,23,Dev,Yes
+BLD-5170,Jenkins,2025-06-09,2025-12,R25.2,feature/*,Success,12,Dev,Yes
+BLD-5171,Jenkins,2025-06-16,2025-12,R25.2,main,Success,23,Staging,Yes
+BLD-5172,Jenkins,2025-06-21,2025-12,R25.2,feature/*,Success,23,Dev,No
+BLD-5173,Jenkins,2025-06-10,2025-12,R25.2,main,Success,17,Dev,Yes
+BLD-5174,Jenkins,2025-06-22,2025-12,R25.2,main,Success,42,Staging,Yes
+BLD-5175,Jenkins,2025-06-26,2025-13,R25.2,main,Success,13,Dev,Yes
+BLD-5176,Jenkins,2025-07-04,2025-13,R25.2,release/R26.3,Success,38,Staging,No
+BLD-5177,Jenkins,2025-06-26,2025-13,R25.2,release/R26.3,Success,8,Dev,Yes
+BLD-5178,Jenkins,2025-07-05,2025-13,R25.2,main,Success,31,Dev,Yes
+BLD-5179,Jenkins,2025-07-02,2025-13,R25.2,release/R26.3,Success,20,Staging,Yes
+BLD-5180,Jenkins,2025-07-02,2025-13,R25.2,feature/*,Cancelled,38,Dev,No
+BLD-5181,Jenkins,2025-07-05,2025-13,R25.2,main,Success,48,Prod,Yes
+BLD-5182,Jenkins,2025-07-06,2025-13,R25.2,main,Success,46,Prod,Yes
+BLD-5183,Jenkins,2025-07-03,2025-13,R25.2,release/R26.3,Success,13,Staging,Yes
+BLD-5184,Jenkins,2025-07-05,2025-13,R25.2,main,Success,37,Prod,Yes
+BLD-5185,Jenkins,2025-07-06,2025-13,R25.2,main,Success,12,Dev,Yes
+BLD-5186,Jenkins,2025-06-24,2025-13,R25.2,feature/*,Success,34,Dev,No
+BLD-5187,Jenkins,2025-07-07,2025-14,R25.2,release/R26.3,Success,41,Dev,Yes
+BLD-5188,Jenkins,2025-07-17,2025-14,R25.2,release/R26.3,Success,30,QA,No
+BLD-5189,Jenkins,2025-07-07,2025-14,R25.2,main,Success,46,Dev,Yes
+BLD-5190,Jenkins,2025-07-12,2025-14,R25.2,main,Success,47,QA,Yes
+BLD-5191,Jenkins,2025-07-14,2025-14,R25.2,main,Success,29,Dev,No
+BLD-5192,Jenkins,2025-07-18,2025-14,R25.2,release/R26.3,Success,30,Dev,Yes
+BLD-5193,Jenkins,2025-07-18,2025-14,R25.2,main,Success,33,QA,Yes
+BLD-5194,Jenkins,2025-07-09,2025-14,R25.2,feature/*,Success,45,Prod,Yes
+BLD-5195,Jenkins,2025-07-10,2025-14,R25.2,main,Success,28,Dev,No
+BLD-5196,Jenkins,2025-07-10,2025-14,R25.2,main,Success,47,Dev,Yes
+BLD-5197,Jenkins,2025-07-14,2025-14,R25.2,main,Success,35,QA,Yes
+BLD-5198,Jenkins,2025-07-20,2025-14,R25.2,feature/*,Success,41,QA,Yes
+BLD-5199,Jenkins,2025-08-03,2025-15,R25.2,main,Success,14,Prod,Yes
+BLD-5200,Jenkins,2025-07-25,2025-15,R25.2,main,Success,23,Staging,Yes
+BLD-5201,Jenkins,2025-08-03,2025-15,R25.2,feature/*,Success,39,Dev,Yes
+BLD-5202,Jenkins,2025-07-26,2025-15,R25.2,feature/*,Success,47,Dev,Yes
+BLD-5203,Jenkins,2025-07-29,2025-15,R25.2,main,Success,45,QA,Yes
+BLD-5204,Jenkins,2025-08-03,2025-15,R25.2,main,Success,34,Dev,Yes
+BLD-5205,Jenkins,2025-07-21,2025-15,R25.2,release/R26.3,Success,48,QA,Yes
+BLD-5206,Jenkins,2025-07-31,2025-15,R25.2,main,Success,36,Staging,Yes
+BLD-5207,Jenkins,2025-07-29,2025-15,R25.2,main,Success,26,QA,Yes
+BLD-5208,Jenkins,2025-07-26,2025-15,R25.2,main,Success,18,Prod,Yes
+BLD-5209,Jenkins,2025-07-31,2025-15,R25.2,main,Success,32,Dev,Yes
+BLD-5210,Jenkins,2025-07-24,2025-15,R25.2,main,Success,9,Staging,No
+BLD-5211,ADO Pipelines,2025-08-12,2025-16,R25.2,release/R26.3,Success,15,Prod,Yes
+BLD-5212,ADO Pipelines,2025-08-13,2025-16,R25.2,main,Success,18,Dev,Yes
+BLD-5213,ADO Pipelines,2025-08-09,2025-16,R25.2,feature/*,Success,28,QA,Yes
+BLD-5214,ADO Pipelines,2025-08-17,2025-16,R25.2,feature/*,Success,22,Dev,Yes
+BLD-5215,ADO Pipelines,2025-08-04,2025-16,R25.2,release/R26.3,Success,24,Staging,Yes
+BLD-5216,ADO Pipelines,2025-08-08,2025-16,R25.2,main,Failed,7,QA,No
+BLD-5217,ADO Pipelines,2025-08-09,2025-16,R25.2,release/R26.3,Success,44,Dev,Yes
+BLD-5218,ADO Pipelines,2025-08-17,2025-16,R25.2,main,Success,34,Dev,No
+BLD-5219,ADO Pipelines,2025-08-13,2025-16,R25.2,release/R26.3,Success,23,Dev,No
+BLD-5220,ADO Pipelines,2025-08-06,2025-16,R25.2,release/R26.3,Success,48,QA,Yes
+BLD-5221,ADO Pipelines,2025-08-06,2025-16,R25.2,feature/*,Success,44,Prod,Yes
+BLD-5222,ADO Pipelines,2025-08-17,2025-16,R25.2,release/R26.3,Success,45,Dev,No
+BLD-5223,ADO Pipelines,2025-08-13,2025-16,R25.2,release/R26.3,Success,34,Dev,Yes
+BLD-5224,ADO Pipelines,2025-08-21,2025-17,R25.2,main,Success,40,Dev,Yes
+BLD-5225,ADO Pipelines,2025-08-18,2025-17,R25.2,main,Success,27,Staging,Yes
+BLD-5226,ADO Pipelines,2025-08-18,2025-17,R25.2,main,Success,12,Dev,Yes
+BLD-5227,ADO Pipelines,2025-08-20,2025-17,R25.2,feature/*,Success,16,QA,Yes
+BLD-5228,ADO Pipelines,2025-08-21,2025-17,R25.2,release/R26.3,Success,29,Dev,Yes
+BLD-5229,ADO Pipelines,2025-08-19,2025-17,R25.2,main,Success,9,QA,No
+BLD-5230,ADO Pipelines,2025-08-19,2025-17,R25.2,main,Success,26,Staging,Yes
+BLD-5231,ADO Pipelines,2025-08-21,2025-17,R25.2,release/R26.3,Success,6,Dev,Yes
+BLD-5232,ADO Pipelines,2025-08-20,2025-17,R25.2,feature/*,Success,42,QA,Yes
+BLD-5233,ADO Pipelines,2025-08-21,2025-17,R25.2,main,Success,27,Prod,Yes
+BLD-5234,ADO Pipelines,2025-08-19,2025-17,R25.2,feature/*,Failed,15,Staging,No
+BLD-5235,ADO Pipelines,2025-08-21,2025-17,R25.2,release/R26.3,Success,12,QA,Yes
+BLD-5236,ADO Pipelines,2025-08-21,2025-17,R25.2,release/R26.3,Success,32,Staging,Yes
+BLD-5237,ADO Pipelines,2025-08-21,2025-17,R25.2,release/R26.3,Success,6,Prod,Yes
+BLD-5238,ADO Pipelines,2025-08-22,2025-17,R25.2,feature/*,Success,13,QA,Yes
+BLD-5239,ADO Pipelines,2025-08-31,2025-18,R25.3,feature/*,Success,42,QA,Yes
+BLD-5240,ADO Pipelines,2025-08-27,2025-18,R25.3,release/R26.3,Success,43,Prod,Yes
+BLD-5241,ADO Pipelines,2025-08-29,2025-18,R25.3,main,Success,33,Dev,Yes
+BLD-5242,ADO Pipelines,2025-08-26,2025-18,R25.3,release/R26.3,Success,32,Prod,Yes
+BLD-5243,ADO Pipelines,2025-09-03,2025-18,R25.3,release/R26.3,Success,34,Prod,Yes
+BLD-5244,ADO Pipelines,2025-08-28,2025-18,R25.3,main,Success,21,QA,Yes
+BLD-5245,ADO Pipelines,2025-09-01,2025-18,R25.3,feature/*,Failed,36,Dev,No
+BLD-5246,ADO Pipelines,2025-08-30,2025-18,R25.3,main,Success,24,Staging,Yes
+BLD-5247,ADO Pipelines,2025-09-02,2025-18,R25.3,main,Success,33,Dev,Yes
+BLD-5248,ADO Pipelines,2025-08-29,2025-18,R25.3,main,Success,46,Staging,Yes
+BLD-5249,ADO Pipelines,2025-08-31,2025-18,R25.3,release/R26.3,Success,41,Staging,Yes
+BLD-5250,ADO Pipelines,2025-09-02,2025-18,R25.3,release/R26.3,Success,34,Dev,No
+BLD-5251,ADO Pipelines,2025-09-11,2025-19,R25.3,feature/*,Success,18,Staging,Yes
+BLD-5252,ADO Pipelines,2025-09-20,2025-19,R25.3,feature/*,Success,31,Dev,Yes
+BLD-5253,ADO Pipelines,2025-09-18,2025-19,R25.3,main,Success,11,Prod,Yes
+BLD-5254,ADO Pipelines,2025-09-13,2025-19,R25.3,feature/*,Success,32,Staging,Yes
+BLD-5255,ADO Pipelines,2025-09-18,2025-19,R25.3,main,Failed,37,Dev,No
+BLD-5256,ADO Pipelines,2025-09-15,2025-19,R25.3,main,Success,48,QA,Yes
+BLD-5257,ADO Pipelines,2025-09-09,2025-19,R25.3,release/R26.3,Success,35,QA,Yes
+BLD-5258,ADO Pipelines,2025-09-19,2025-19,R25.3,feature/*,Success,46,Staging,Yes
+BLD-5259,ADO Pipelines,2025-09-10,2025-19,R25.3,feature/*,Success,13,Prod,No
+BLD-5260,ADO Pipelines,2025-09-21,2025-19,R25.3,main,Success,22,Prod,No
+BLD-5261,ADO Pipelines,2025-09-13,2025-19,R25.3,feature/*,Success,17,Dev,Yes
+BLD-5262,ADO Pipelines,2025-09-15,2025-19,R25.3,feature/*,Success,23,Prod,Yes
+BLD-5263,ADO Pipelines,2025-09-12,2025-19,R25.3,main,Success,7,QA,Yes
+BLD-5264,ADO Pipelines,2025-09-18,2025-19,R25.3,feature/*,Success,38,Dev,Yes
+BLD-5265,ADO Pipelines,2025-10-04,2025-20,R25.3,main,Success,37,QA,No
+BLD-5266,ADO Pipelines,2025-09-23,2025-20,R25.3,release/R26.3,Success,31,Dev,Yes
+BLD-5267,ADO Pipelines,2025-09-25,2025-20,R25.3,main,Failed,47,Dev,No
+BLD-5268,ADO Pipelines,2025-09-30,2025-20,R25.3,release/R26.3,Failed,11,Staging,No
+BLD-5269,ADO Pipelines,2025-10-02,2025-20,R25.3,feature/*,Success,9,Dev,Yes
+BLD-5270,ADO Pipelines,2025-10-01,2025-20,R25.3,release/R26.3,Success,32,Dev,Yes
+BLD-5271,ADO Pipelines,2025-09-25,2025-20,R25.3,main,Success,40,Dev,Yes
+BLD-5272,ADO Pipelines,2025-09-30,2025-20,R25.3,feature/*,Success,19,Prod,Yes
+BLD-5273,ADO Pipelines,2025-09-26,2025-20,R25.3,main,Success,24,Dev,Yes
+BLD-5274,ADO Pipelines,2025-09-28,2025-20,R25.3,feature/*,Success,46,QA,Yes
+BLD-5275,ADO Pipelines,2025-09-22,2025-20,R25.3,feature/*,Success,18,Dev,Yes
+BLD-5276,ADO Pipelines,2025-09-28,2025-20,R25.3,main,Success,46,Dev,Yes
+BLD-5277,ADO Pipelines,2025-09-26,2025-20,R25.3,main,Success,38,Prod,Yes
+BLD-5278,ADO Pipelines,2025-09-29,2025-20,R25.3,release/R26.3,Success,43,Staging,Yes
+BLD-5279,ADO Pipelines,2025-10-03,2025-20,R25.3,release/R26.3,Success,9,QA,Yes
+BLD-5280,ADO Pipelines,2025-09-29,2025-20,R25.3,main,Success,19,Dev,Yes
+BLD-5281,ADO Pipelines,2025-10-17,2025-21,R25.3,main,Success,27,QA,Yes
+BLD-5282,ADO Pipelines,2025-10-16,2025-21,R25.3,release/R26.3,Success,27,Staging,Yes
+BLD-5283,ADO Pipelines,2025-10-18,2025-21,R25.3,main,Success,27,Staging,No
+BLD-5284,ADO Pipelines,2025-10-16,2025-21,R25.3,main,Success,13,Staging,Yes
+BLD-5285,ADO Pipelines,2025-10-07,2025-21,R25.3,release/R26.3,Success,28,Dev,Yes
+BLD-5286,ADO Pipelines,2025-10-19,2025-21,R25.3,release/R26.3,Success,29,QA,Yes
+BLD-5287,ADO Pipelines,2025-10-09,2025-21,R25.3,main,Success,28,Dev,Yes
+BLD-5288,ADO Pipelines,2025-10-09,2025-21,R25.3,feature/*,Success,45,Dev,Yes
+BLD-5289,ADO Pipelines,2025-10-13,2025-21,R25.3,main,Success,18,Dev,Yes
+BLD-5290,ADO Pipelines,2025-10-19,2025-21,R25.3,release/R26.3,Success,31,Prod,Yes
+BLD-5291,ADO Pipelines,2025-10-16,2025-21,R25.3,release/R26.3,Success,34,QA,Yes
+BLD-5292,ADO Pipelines,2025-10-18,2025-21,R25.3,main,Success,27,Prod,Yes
+BLD-5293,ADO Pipelines,2025-10-09,2025-21,R25.3,main,Success,33,Dev,Yes
+BLD-5294,ADO Pipelines,2025-10-12,2025-21,R25.3,main,Success,13,Staging,No
+BLD-5295,ADO Pipelines,2025-10-11,2025-21,R25.3,feature/*,Success,11,Dev,Yes
+BLD-5296,ADO Pipelines,2025-10-11,2025-21,R25.3,feature/*,Success,25,Prod,Yes
+BLD-5297,ADO Pipelines,2025-10-20,2025-22,R25.3,feature/*,Success,38,QA,Yes
+BLD-5298,ADO Pipelines,2025-11-01,2025-22,R25.3,feature/*,Success,8,Staging,Yes
+BLD-5299,ADO Pipelines,2025-11-01,2025-22,R25.3,release/R26.3,Success,20,QA,No
+BLD-5300,ADO Pipelines,2025-10-26,2025-22,R25.3,main,Success,36,Dev,Yes
+BLD-5301,ADO Pipelines,2025-10-26,2025-22,R25.3,main,Success,41,Staging,Yes
+BLD-5302,ADO Pipelines,2025-10-30,2025-22,R25.3,release/R26.3,Success,43,Dev,Yes
+BLD-5303,ADO Pipelines,2025-10-27,2025-22,R25.3,main,Success,32,Prod,Yes
+BLD-5304,ADO Pipelines,2025-10-30,2025-22,R25.3,feature/*,Success,19,Prod,Yes
+BLD-5305,ADO Pipelines,2025-10-21,2025-22,R25.3,main,Success,11,Staging,Yes
+BLD-5306,ADO Pipelines,2025-10-22,2025-22,R25.3,main,Success,7,Dev,Yes
+BLD-5307,ADO Pipelines,2025-10-28,2025-22,R25.3,release/R26.3,Success,34,Dev,Yes
+BLD-5308,ADO Pipelines,2025-10-26,2025-22,R25.3,main,Failed,18,QA,No
+BLD-5309,ADO Pipelines,2025-11-07,2025-23,R25.3,main,Success,8,Staging,Yes
+BLD-5310,ADO Pipelines,2025-11-14,2025-23,R25.3,main,Success,23,QA,Yes
+BLD-5311,ADO Pipelines,2025-11-16,2025-23,R25.3,main,Success,46,QA,Yes
+BLD-5312,ADO Pipelines,2025-11-14,2025-23,R25.3,main,Success,43,Staging,Yes
+BLD-5313,ADO Pipelines,2025-11-15,2025-23,R25.3,main,Success,46,Prod,Yes
+BLD-5314,ADO Pipelines,2025-11-06,2025-23,R25.3,main,Success,22,QA,Yes
+BLD-5315,ADO Pipelines,2025-11-09,2025-23,R25.3,feature/*,Failed,39,Prod,No
+BLD-5316,ADO Pipelines,2025-11-03,2025-23,R25.3,feature/*,Success,19,Dev,Yes
+BLD-5317,ADO Pipelines,2025-11-10,2025-23,R25.3,feature/*,Success,24,QA,Yes
+BLD-5318,ADO Pipelines,2025-11-11,2025-23,R25.3,release/R26.3,Success,7,Dev,Yes
+BLD-5319,ADO Pipelines,2025-11-10,2025-23,R25.3,main,Success,24,QA,Yes
+BLD-5320,ADO Pipelines,2025-11-08,2025-23,R25.3,release/R26.3,Success,16,Dev,Yes
+BLD-5321,ADO Pipelines,2025-11-10,2025-23,R25.3,release/R26.3,Success,17,QA,Yes
+BLD-5322,ADO Pipelines,2025-11-11,2025-23,R25.3,main,Success,28,Dev,Yes
+BLD-5323,ADO Pipelines,2025-11-28,2025-24,R25.3,release/R26.3,Success,38,QA,Yes
+BLD-5324,ADO Pipelines,2025-11-25,2025-24,R25.3,feature/*,Success,9,Prod,No
+BLD-5325,ADO Pipelines,2025-11-22,2025-24,R25.3,main,Success,42,Staging,Yes
+BLD-5326,ADO Pipelines,2025-11-30,2025-24,R25.3,release/R26.3,Success,30,QA,Yes
+BLD-5327,ADO Pipelines,2025-11-17,2025-24,R25.3,main,Success,22,QA,Yes
+BLD-5328,ADO Pipelines,2025-11-26,2025-24,R25.3,feature/*,Success,27,QA,Yes
+BLD-5329,ADO Pipelines,2025-11-27,2025-24,R25.3,release/R26.3,Success,46,QA,Yes
+BLD-5330,ADO Pipelines,2025-11-25,2025-24,R25.3,main,Success,29,Staging,Yes
+BLD-5331,ADO Pipelines,2025-11-24,2025-24,R25.3,main,Success,30,Dev,Yes
+BLD-5332,ADO Pipelines,2025-11-29,2025-24,R25.3,feature/*,Success,47,Staging,Yes
+BLD-5333,ADO Pipelines,2025-11-27,2025-24,R25.3,release/R26.3,Failed,22,Dev,No
+BLD-5334,ADO Pipelines,2025-11-19,2025-24,R25.3,release/R26.3,Success,38,Dev,Yes
+BLD-5335,ADO Pipelines,2025-11-25,2025-24,R25.3,main,Success,41,Dev,Yes
+BLD-5336,ADO Pipelines,2025-11-27,2025-24,R25.3,main,Success,12,Dev,Yes
+BLD-5337,ADO Pipelines,2025-11-24,2025-24,R25.3,feature/*,Success,39,QA,Yes
+BLD-5338,ADO Pipelines,2025-12-02,2025-25,R25.3,release/R26.3,Success,11,Staging,Yes
+BLD-5339,ADO Pipelines,2025-12-02,2025-25,R25.3,feature/*,Success,41,Dev,Yes
+BLD-5340,ADO Pipelines,2025-12-13,2025-25,R25.3,main,Success,7,Prod,Yes
+BLD-5341,ADO Pipelines,2025-12-07,2025-25,R25.3,main,Success,23,Prod,Yes
+BLD-5342,ADO Pipelines,2025-12-13,2025-25,R25.3,release/R26.3,Failed,46,Dev,No
+BLD-5343,ADO Pipelines,2025-12-07,2025-25,R25.3,release/R26.3,Failed,20,QA,No
+BLD-5344,ADO Pipelines,2025-12-07,2025-25,R25.3,feature/*,Success,35,QA,No
+BLD-5345,ADO Pipelines,2025-12-04,2025-25,R25.3,main,Success,12,Staging,Yes
+BLD-5346,ADO Pipelines,2025-12-06,2025-25,R25.3,feature/*,Success,11,Dev,Yes
+BLD-5347,ADO Pipelines,2025-12-09,2025-25,R25.3,release/R26.3,Success,22,QA,Yes
+BLD-5348,ADO Pipelines,2025-12-02,2025-25,R25.3,feature/*,Success,38,Staging,Yes
+BLD-5349,ADO Pipelines,2025-12-03,2025-25,R25.3,main,Success,38,Staging,Yes
+BLD-5350,ADO Pipelines,2025-12-06,2025-25,R25.3,feature/*,Success,6,Dev,No
+BLD-5351,ADO Pipelines,2025-12-09,2025-25,R25.3,main,Success,23,Staging,Yes
+BLD-5352,ADO Pipelines,2025-12-08,2025-25,R25.3,main,Failed,14,Dev,No
+BLD-5353,ADO Pipelines,2025-12-13,2025-25,R25.3,feature/*,Success,26,Staging,No
+BLD-5354,ADO Pipelines,2025-12-19,2025-26,R25.3,feature/*,Success,45,Dev,Yes
+BLD-5355,ADO Pipelines,2025-12-15,2025-26,R25.3,release/R26.3,Success,10,QA,Yes
+BLD-5356,ADO Pipelines,2025-12-18,2025-26,R25.3,feature/*,Success,13,Prod,Yes
+BLD-5357,ADO Pipelines,2025-12-16,2025-26,R25.3,main,Success,44,Dev,Yes
+BLD-5358,ADO Pipelines,2025-12-18,2025-26,R25.3,feature/*,Success,13,Staging,Yes
+BLD-5359,ADO Pipelines,2025-12-16,2025-26,R25.3,main,Success,23,Dev,Yes
+BLD-5360,ADO Pipelines,2025-12-15,2025-26,R25.3,main,Failed,33,Staging,No
+BLD-5361,ADO Pipelines,2025-12-19,2025-26,R25.3,main,Success,27,Staging,Yes
+BLD-5362,ADO Pipelines,2025-12-19,2025-26,R25.3,feature/*,Success,24,QA,Yes
+BLD-5363,ADO Pipelines,2025-12-15,2025-26,R25.3,release/R26.3,Success,41,QA,Yes
+BLD-5364,ADO Pipelines,2025-12-17,2025-26,R25.3,release/R26.3,Success,45,Dev,Yes
+BLD-5365,ADO Pipelines,2025-12-17,2025-26,R25.3,feature/*,Success,34,Prod,Yes
+BLD-5366,ADO Pipelines,2026-01-06,2026-01,R26.1,release/R26.3,Success,27,QA,No
+BLD-5367,ADO Pipelines,2026-01-07,2026-01,R26.1,release/R26.3,Success,11,QA,No
+BLD-5368,ADO Pipelines,2026-01-08,2026-01,R26.1,feature/*,Failed,19,Dev,No
+BLD-5369,ADO Pipelines,2026-01-11,2026-01,R26.1,release/R26.3,Success,9,Dev,Yes
+BLD-5370,ADO Pipelines,2026-01-09,2026-01,R26.1,main,Success,15,Dev,Yes
+BLD-5371,ADO Pipelines,2026-01-08,2026-01,R26.1,release/R26.3,Success,45,Staging,Yes
+BLD-5372,ADO Pipelines,2026-01-10,2026-01,R26.1,feature/*,Success,48,Dev,Yes
+BLD-5373,ADO Pipelines,2026-01-09,2026-01,R26.1,main,Success,42,Dev,No
+BLD-5374,ADO Pipelines,2026-01-17,2026-01,R26.1,release/R26.3,Success,15,Dev,Yes
+BLD-5375,ADO Pipelines,2026-01-06,2026-01,R26.1,main,Success,30,Dev,Yes
+BLD-5376,ADO Pipelines,2026-01-10,2026-01,R26.1,main,Success,10,Prod,Yes
+BLD-5377,ADO Pipelines,2026-01-10,2026-01,R26.1,feature/*,Success,15,Prod,Yes
+BLD-5378,ADO Pipelines,2026-01-07,2026-01,R26.1,main,Success,8,QA,Yes
+BLD-5379,ADO Pipelines,2026-01-11,2026-01,R26.1,feature/*,Success,37,Dev,Yes
+BLD-5380,ADO Pipelines,2026-01-12,2026-01,R26.1,main,Success,10,Prod,Yes
+BLD-5381,ADO Pipelines,2026-01-10,2026-01,R26.1,release/R26.3,Success,36,Prod,Yes
+BLD-5382,ADO Pipelines,2026-01-27,2026-02,R26.1,main,Success,27,QA,Yes
+BLD-5383,ADO Pipelines,2026-01-22,2026-02,R26.1,feature/*,Success,11,Dev,No
+BLD-5384,ADO Pipelines,2026-02-01,2026-02,R26.1,release/R26.3,Success,47,Staging,Yes
+BLD-5385,ADO Pipelines,2026-01-30,2026-02,R26.1,feature/*,Success,40,Dev,Yes
+BLD-5386,ADO Pipelines,2026-01-31,2026-02,R26.1,main,Success,29,Staging,Yes
+BLD-5387,ADO Pipelines,2026-01-25,2026-02,R26.1,main,Success,21,QA,Yes
+BLD-5388,ADO Pipelines,2026-01-27,2026-02,R26.1,feature/*,Success,10,Dev,Yes
+BLD-5389,ADO Pipelines,2026-01-25,2026-02,R26.1,main,Success,12,Dev,Yes
+BLD-5390,ADO Pipelines,2026-01-26,2026-02,R26.1,main,Success,42,Dev,Yes
+BLD-5391,ADO Pipelines,2026-01-25,2026-02,R26.1,release/R26.3,Success,43,Staging,Yes
+BLD-5392,ADO Pipelines,2026-01-19,2026-02,R26.1,feature/*,Success,10,Prod,No
+BLD-5393,ADO Pipelines,2026-01-28,2026-02,R26.1,main,Success,9,Staging,Yes
+BLD-5394,ADO Pipelines,2026-01-21,2026-02,R26.1,main,Success,36,QA,Yes
+BLD-5395,ADO Pipelines,2026-01-29,2026-02,R26.1,feature/*,Success,14,QA,No
+BLD-5396,ADO Pipelines,2026-02-09,2026-03,R26.1,main,Success,11,Prod,No
+BLD-5397,ADO Pipelines,2026-02-07,2026-03,R26.1,feature/*,Success,16,Dev,No
+BLD-5398,ADO Pipelines,2026-02-04,2026-03,R26.1,main,Success,30,QA,Yes
+BLD-5399,ADO Pipelines,2026-02-05,2026-03,R26.1,release/R26.3,Failed,15,Prod,No
+BLD-5400,ADO Pipelines,2026-02-10,2026-03,R26.1,feature/*,Success,33,Dev,Yes
+BLD-5401,ADO Pipelines,2026-02-08,2026-03,R26.1,main,Success,38,QA,Yes
+BLD-5402,ADO Pipelines,2026-02-11,2026-03,R26.1,feature/*,Success,39,Dev,Yes
+BLD-5403,ADO Pipelines,2026-02-05,2026-03,R26.1,release/R26.3,Success,38,QA,Yes
+BLD-5404,ADO Pipelines,2026-02-13,2026-03,R26.1,release/R26.3,Success,34,QA,Yes
+BLD-5405,ADO Pipelines,2026-02-04,2026-03,R26.1,release/R26.3,Success,27,Staging,Yes
+BLD-5406,ADO Pipelines,2026-02-09,2026-03,R26.1,main,Success,19,QA,Yes
+BLD-5407,ADO Pipelines,2026-02-05,2026-03,R26.1,main,Success,41,QA,Yes
+BLD-5408,ADO Pipelines,2026-03-01,2026-04,R26.1,feature/*,Success,26,Staging,Yes
+BLD-5409,ADO Pipelines,2026-02-23,2026-04,R26.1,main,Success,29,Prod,No
+BLD-5410,ADO Pipelines,2026-02-28,2026-04,R26.1,release/R26.3,Success,25,Dev,Yes
+BLD-5411,ADO Pipelines,2026-02-17,2026-04,R26.1,main,Success,32,Dev,No
+BLD-5412,ADO Pipelines,2026-02-16,2026-04,R26.1,main,Success,47,Staging,Yes
+BLD-5413,ADO Pipelines,2026-02-26,2026-04,R26.1,main,Success,6,Dev,Yes
+BLD-5414,ADO Pipelines,2026-02-24,2026-04,R26.1,feature/*,Success,38,QA,Yes
+BLD-5415,ADO Pipelines,2026-02-19,2026-04,R26.1,feature/*,Success,6,QA,Yes
+BLD-5416,ADO Pipelines,2026-02-28,2026-04,R26.1,release/R26.3,Success,27,Prod,Yes
+BLD-5417,ADO Pipelines,2026-02-21,2026-04,R26.1,main,Success,35,QA,Yes
+BLD-5418,ADO Pipelines,2026-03-01,2026-04,R26.1,release/R26.3,Success,18,Prod,Yes
+BLD-5419,ADO Pipelines,2026-02-23,2026-04,R26.1,main,Success,16,Dev,No
+BLD-5420,ADO Pipelines,2026-02-17,2026-04,R26.1,release/R26.3,Success,47,QA,No
+BLD-5421,ADO Pipelines,2026-03-02,2026-05,R26.1,main,Success,43,Dev,Yes
+BLD-5422,ADO Pipelines,2026-03-14,2026-05,R26.1,release/R26.3,Success,21,Dev,No
+BLD-5423,ADO Pipelines,2026-03-11,2026-05,R26.1,feature/*,Success,7,Dev,Yes
+BLD-5424,ADO Pipelines,2026-03-14,2026-05,R26.1,feature/*,Success,7,Dev,No
+BLD-5425,ADO Pipelines,2026-03-05,2026-05,R26.1,feature/*,Success,23,Dev,Yes
+BLD-5426,ADO Pipelines,2026-03-14,2026-05,R26.1,main,Success,33,QA,Yes
+BLD-5427,ADO Pipelines,2026-03-04,2026-05,R26.1,release/R26.3,Success,31,QA,Yes
+BLD-5428,ADO Pipelines,2026-03-12,2026-05,R26.1,main,Success,13,Prod,Yes
+BLD-5429,ADO Pipelines,2026-03-14,2026-05,R26.1,feature/*,Success,44,Staging,Yes
+BLD-5430,ADO Pipelines,2026-03-13,2026-05,R26.1,release/R26.3,Success,12,Dev,Yes
+BLD-5431,ADO Pipelines,2026-03-14,2026-05,R26.1,main,Success,21,Dev,No
+BLD-5432,ADO Pipelines,2026-03-04,2026-05,R26.1,feature/*,Success,6,Staging,No
+BLD-5433,ADO Pipelines,2026-03-02,2026-05,R26.1,main,Success,44,Staging,Yes
+BLD-5434,ADO Pipelines,2026-03-21,2026-06,R26.1,main,Failed,34,QA,No
+BLD-5435,ADO Pipelines,2026-03-23,2026-06,R26.1,feature/*,Success,22,Prod,Yes
+BLD-5436,ADO Pipelines,2026-03-23,2026-06,R26.1,feature/*,Success,29,QA,Yes
+BLD-5437,ADO Pipelines,2026-03-17,2026-06,R26.1,release/R26.3,Success,24,Staging,Yes
+BLD-5438,ADO Pipelines,2026-03-20,2026-06,R26.1,main,Failed,21,Dev,No
+BLD-5439,ADO Pipelines,2026-03-18,2026-06,R26.1,main,Success,30,QA,Yes
+BLD-5440,ADO Pipelines,2026-03-16,2026-06,R26.1,feature/*,Success,22,Prod,Yes
+BLD-5441,ADO Pipelines,2026-03-22,2026-06,R26.1,main,Success,41,QA,Yes
+BLD-5442,ADO Pipelines,2026-03-27,2026-06,R26.1,release/R26.3,Success,37,Prod,No
+BLD-5443,ADO Pipelines,2026-03-24,2026-06,R26.1,feature/*,Success,17,Prod,Yes
+BLD-5444,ADO Pipelines,2026-03-23,2026-06,R26.1,release/R26.3,Success,28,Dev,Yes
+BLD-5445,ADO Pipelines,2026-03-26,2026-06,R26.1,main,Success,30,QA,Yes
+BLD-5446,ADO Pipelines,2026-04-02,2026-07,R26.1,main,Success,8,Staging,Yes
+BLD-5447,ADO Pipelines,2026-04-01,2026-07,R26.1,main,Success,32,Prod,Yes
+BLD-5448,ADO Pipelines,2026-04-05,2026-07,R26.1,feature/*,Success,17,QA,Yes
+BLD-5449,ADO Pipelines,2026-03-31,2026-07,R26.1,release/R26.3,Success,11,QA,Yes
+BLD-5450,ADO Pipelines,2026-04-10,2026-07,R26.1,main,Success,44,Prod,Yes
+BLD-5451,ADO Pipelines,2026-03-30,2026-07,R26.1,main,Success,33,QA,Yes
+BLD-5452,ADO Pipelines,2026-04-01,2026-07,R26.1,main,Success,20,Staging,Yes
+BLD-5453,ADO Pipelines,2026-04-01,2026-07,R26.1,feature/*,Success,26,Prod,Yes
+BLD-5454,ADO Pipelines,2026-04-06,2026-07,R26.1,feature/*,Success,17,Staging,Yes
+BLD-5455,ADO Pipelines,2026-04-06,2026-07,R26.1,main,Success,33,Dev,Yes
+BLD-5456,ADO Pipelines,2026-04-02,2026-07,R26.1,main,Success,26,Dev,Yes
+BLD-5457,ADO Pipelines,2026-04-05,2026-07,R26.1,main,Success,8,Dev,Yes
+BLD-5458,ADO Pipelines,2026-04-01,2026-07,R26.1,main,Success,7,QA,Yes
+BLD-5459,ADO Pipelines,2026-04-07,2026-07,R26.1,main,Success,10,Prod,Yes
+BLD-5460,ADO Pipelines,2026-04-09,2026-07,R26.1,main,Success,32,Dev,Yes
+BLD-5461,ADO Pipelines,2026-03-30,2026-07,R26.1,main,Success,8,Staging,Yes
+BLD-5462,ADO Pipelines,2026-04-13,2026-08,R26.1,release/R26.3,Success,9,Prod,Yes
+BLD-5463,ADO Pipelines,2026-04-22,2026-08,R26.1,feature/*,Success,13,Dev,Yes
+BLD-5464,ADO Pipelines,2026-04-23,2026-08,R26.1,main,Success,11,Staging,No
+BLD-5465,ADO Pipelines,2026-04-18,2026-08,R26.1,main,Success,48,Prod,Yes
+BLD-5466,ADO Pipelines,2026-04-24,2026-08,R26.1,release/R26.3,Success,9,Staging,Yes
+BLD-5467,ADO Pipelines,2026-04-21,2026-08,R26.1,feature/*,Success,27,Dev,Yes
+BLD-5468,ADO Pipelines,2026-04-13,2026-08,R26.1,main,Success,42,QA,Yes
+BLD-5469,ADO Pipelines,2026-04-20,2026-08,R26.1,main,Success,24,QA,Yes
+BLD-5470,ADO Pipelines,2026-04-14,2026-08,R26.1,main,Success,8,Prod,Yes
+BLD-5471,ADO Pipelines,2026-04-19,2026-08,R26.1,main,Success,37,Dev,Yes
+BLD-5472,ADO Pipelines,2026-04-18,2026-08,R26.1,main,Success,24,Dev,Yes
+BLD-5473,ADO Pipelines,2026-04-14,2026-08,R26.1,main,Success,35,Prod,Yes
+BLD-5474,ADO Pipelines,2026-04-15,2026-08,R26.1,release/R26.3,Success,36,QA,Yes
+BLD-5475,ADO Pipelines,2026-04-15,2026-08,R26.1,main,Success,18,Dev,No
+BLD-5476,ADO Pipelines,2026-05-09,2026-09,R26.2,main,Success,36,Dev,Yes
+BLD-5477,ADO Pipelines,2026-05-07,2026-09,R26.2,feature/*,Success,23,QA,Yes
+BLD-5478,ADO Pipelines,2026-05-07,2026-09,R26.2,release/R26.3,Failed,39,Prod,No
+BLD-5479,ADO Pipelines,2026-04-28,2026-09,R26.2,main,Failed,40,QA,No
+BLD-5480,ADO Pipelines,2026-04-28,2026-09,R26.2,feature/*,Success,7,QA,Yes
+BLD-5481,ADO Pipelines,2026-05-03,2026-09,R26.2,main,Success,35,QA,Yes
+BLD-5482,ADO Pipelines,2026-04-28,2026-09,R26.2,main,Success,24,Staging,Yes
+BLD-5483,ADO Pipelines,2026-05-04,2026-09,R26.2,main,Success,28,Dev,Yes
+BLD-5484,ADO Pipelines,2026-05-05,2026-09,R26.2,main,Success,26,Dev,Yes
+BLD-5485,ADO Pipelines,2026-04-27,2026-09,R26.2,feature/*,Failed,47,QA,No
+BLD-5486,ADO Pipelines,2026-04-28,2026-09,R26.2,feature/*,Success,44,QA,Yes
+BLD-5487,ADO Pipelines,2026-05-01,2026-09,R26.2,feature/*,Success,26,Dev,Yes
+BLD-5488,ADO Pipelines,2026-05-05,2026-09,R26.2,main,Success,22,Dev,Yes
+BLD-5489,ADO Pipelines,2026-05-01,2026-09,R26.2,release/R26.3,Success,32,Staging,Yes
+BLD-5490,ADO Pipelines,2026-05-23,2026-10,R26.2,main,Success,44,Dev,No
+BLD-5491,ADO Pipelines,2026-05-19,2026-10,R26.2,main,Success,20,Prod,Yes
+BLD-5492,ADO Pipelines,2026-05-22,2026-10,R26.2,release/R26.3,Success,11,Dev,Yes
+BLD-5493,ADO Pipelines,2026-05-22,2026-10,R26.2,main,Success,35,Dev,Yes
+BLD-5494,ADO Pipelines,2026-05-14,2026-10,R26.2,release/R26.3,Failed,40,QA,No
+BLD-5495,ADO Pipelines,2026-05-21,2026-10,R26.2,feature/*,Success,13,Prod,No
+BLD-5496,ADO Pipelines,2026-05-14,2026-10,R26.2,main,Success,13,Dev,Yes
+BLD-5497,ADO Pipelines,2026-05-21,2026-10,R26.2,feature/*,Failed,38,Prod,No
+BLD-5498,ADO Pipelines,2026-05-19,2026-10,R26.2,feature/*,Success,48,Staging,Yes
+BLD-5499,ADO Pipelines,2026-05-21,2026-10,R26.2,main,Success,42,Staging,No
+BLD-5500,ADO Pipelines,2026-05-23,2026-10,R26.2,feature/*,Success,36,Dev,Yes
+BLD-5501,ADO Pipelines,2026-05-24,2026-10,R26.2,main,Success,44,Dev,Yes
+BLD-5502,ADO Pipelines,2026-05-21,2026-10,R26.2,release/R26.3,Success,7,Prod,Yes
+BLD-5503,ADO Pipelines,2026-05-31,2026-11,R26.2,main,Success,27,QA,No
+BLD-5504,ADO Pipelines,2026-06-03,2026-11,R26.2,main,Success,17,QA,Yes
+BLD-5505,ADO Pipelines,2026-06-07,2026-11,R26.2,feature/*,Success,18,Staging,Yes
+BLD-5506,ADO Pipelines,2026-06-04,2026-11,R26.2,main,Success,22,Dev,No
+BLD-5507,ADO Pipelines,2026-05-29,2026-11,R26.2,main,Success,32,Dev,No
+BLD-5508,ADO Pipelines,2026-06-01,2026-11,R26.2,main,Success,18,Dev,No
+BLD-5509,ADO Pipelines,2026-05-28,2026-11,R26.2,main,Success,42,QA,Yes
+BLD-5510,ADO Pipelines,2026-06-07,2026-11,R26.2,main,Success,9,Dev,Yes
+BLD-5511,ADO Pipelines,2026-06-07,2026-11,R26.2,feature/*,Success,24,Dev,Yes
+BLD-5512,ADO Pipelines,2026-06-06,2026-11,R26.2,release/R26.3,Success,8,QA,Yes
+BLD-5513,ADO Pipelines,2026-06-06,2026-11,R26.2,release/R26.3,Success,23,Staging,Yes
+BLD-5514,ADO Pipelines,2026-05-31,2026-11,R26.2,release/R26.3,Success,9,Dev,Yes
+BLD-5515,ADO Pipelines,2026-06-05,2026-11,R26.2,main,Success,6,Dev,Yes
+BLD-5516,ADO Pipelines,2026-06-02,2026-11,R26.2,main,Success,33,Dev,Yes
+BLD-5517,ADO Pipelines,2026-06-19,2026-12,R26.2,main,Success,26,Dev,Yes
+BLD-5518,ADO Pipelines,2026-06-08,2026-12,R26.2,feature/*,Success,48,Prod,No
+BLD-5519,ADO Pipelines,2026-06-17,2026-12,R26.2,release/R26.3,Success,37,Staging,Yes
+BLD-5520,ADO Pipelines,2026-06-16,2026-12,R26.2,feature/*,Success,44,Staging,Yes
+BLD-5521,ADO Pipelines,2026-06-20,2026-12,R26.2,main,Success,33,QA,Yes
+BLD-5522,ADO Pipelines,2026-06-20,2026-12,R26.2,feature/*,Success,47,QA,Yes
+BLD-5523,ADO Pipelines,2026-06-21,2026-12,R26.2,main,Success,13,Staging,Yes
+BLD-5524,ADO Pipelines,2026-06-18,2026-12,R26.2,main,Success,37,Dev,Yes
+BLD-5525,ADO Pipelines,2026-06-21,2026-12,R26.2,feature/*,Success,10,Dev,No
+BLD-5526,ADO Pipelines,2026-06-19,2026-12,R26.2,feature/*,Success,33,Staging,Yes
+BLD-5527,ADO Pipelines,2026-06-16,2026-12,R26.2,main,Success,39,QA,Yes
+BLD-5528,ADO Pipelines,2026-06-20,2026-12,R26.2,feature/*,Success,30,Staging,No
+BLD-5529,ADO Pipelines,2026-06-23,2026-13,R26.2,main,Success,28,Staging,Yes
+BLD-5530,ADO Pipelines,2026-06-30,2026-13,R26.2,release/R26.3,Success,42,QA,Yes
+BLD-5531,ADO Pipelines,2026-06-30,2026-13,R26.2,main,Success,32,Staging,Yes
+BLD-5532,ADO Pipelines,2026-06-25,2026-13,R26.2,release/R26.3,Success,48,QA,Yes
+BLD-5533,ADO Pipelines,2026-06-30,2026-13,R26.2,release/R26.3,Success,26,Dev,Yes
+BLD-5534,ADO Pipelines,2026-06-29,2026-13,R26.2,feature/*,Failed,12,Dev,No
+BLD-5535,ADO Pipelines,2026-06-28,2026-13,R26.2,main,Success,26,Staging,Yes
+BLD-5536,ADO Pipelines,2026-07-03,2026-13,R26.2,main,Success,40,Dev,Yes
+BLD-5537,ADO Pipelines,2026-06-22,2026-13,R26.2,feature/*,Success,19,Dev,Yes
+BLD-5538,ADO Pipelines,2026-06-26,2026-13,R26.2,main,Success,34,Dev,Yes
+BLD-5539,ADO Pipelines,2026-07-04,2026-13,R26.2,main,Success,39,Prod,Yes
+BLD-5540,ADO Pipelines,2026-07-01,2026-13,R26.2,feature/*,Success,32,Dev,Yes
+BLD-5541,ADO Pipelines,2026-06-26,2026-13,R26.2,feature/*,Success,36,Staging,Yes
+BLD-5542,ADO Pipelines,2026-06-23,2026-13,R26.2,main,Success,45,Dev,Yes
+BLD-5543,ADO Pipelines,2026-06-25,2026-13,R26.2,main,Success,13,Dev,No
+BLD-5544,ADO Pipelines,2026-07-18,2026-14,R26.2,feature/*,Success,27,Prod,Yes
+BLD-5545,ADO Pipelines,2026-07-06,2026-14,R26.2,feature/*,Success,39,Dev,Yes
+BLD-5546,ADO Pipelines,2026-07-12,2026-14,R26.2,release/R26.3,Success,32,Prod,Yes
+BLD-5547,ADO Pipelines,2026-07-16,2026-14,R26.2,main,Success,47,Dev,Yes
+BLD-5548,ADO Pipelines,2026-07-13,2026-14,R26.2,main,Success,33,Dev,Yes
+BLD-5549,ADO Pipelines,2026-07-08,2026-14,R26.2,main,Success,16,Prod,Yes
+BLD-5550,ADO Pipelines,2026-07-12,2026-14,R26.2,release/R26.3,Success,10,Prod,Yes
+BLD-5551,ADO Pipelines,2026-07-17,2026-14,R26.2,main,Success,13,Prod,Yes
+BLD-5552,ADO Pipelines,2026-07-17,2026-14,R26.2,main,Failed,21,Prod,No
+BLD-5553,ADO Pipelines,2026-07-09,2026-14,R26.2,main,Success,16,QA,Yes
+BLD-5554,ADO Pipelines,2026-07-12,2026-14,R26.2,feature/*,Success,17,QA,Yes
+BLD-5555,ADO Pipelines,2026-07-07,2026-14,R26.2,main,Success,19,Staging,No
+BLD-5556,ADO Pipelines,2026-07-09,2026-14,R26.2,main,Success,32,QA,Yes
+BLD-5557,ADO Pipelines,2026-07-19,2026-14,R26.2,release/R26.3,Success,44,QA,Yes
+BLD-5558,ADO Pipelines,2026-07-13,2026-14,R26.2,release/R26.3,Success,24,QA,Yes
+BLD-5559,ADO Pipelines,2026-07-21,2026-15,R26.2,release/R26.3,Failed,29,Dev,No
+BLD-5560,ADO Pipelines,2026-07-26,2026-15,R26.2,release/R26.3,Success,36,Staging,Yes
+BLD-5561,ADO Pipelines,2026-07-24,2026-15,R26.2,main,Success,17,QA,No
+BLD-5562,ADO Pipelines,2026-07-27,2026-15,R26.2,main,Success,30,QA,No
+BLD-5563,ADO Pipelines,2026-07-24,2026-15,R26.2,release/R26.3,Success,25,Staging,Yes
+BLD-5564,ADO Pipelines,2026-07-26,2026-15,R26.2,main,Failed,17,Dev,No
+BLD-5565,ADO Pipelines,2026-07-20,2026-15,R26.2,release/R26.3,Success,16,Dev,Yes
+BLD-5566,ADO Pipelines,2026-07-25,2026-15,R26.2,release/R26.3,Success,36,QA,No
+BLD-5567,ADO Pipelines,2026-07-23,2026-15,R26.2,main,Success,30,Dev,Yes
+BLD-5568,ADO Pipelines,2026-07-28,2026-15,R26.2,main,Success,23,QA,Yes
+BLD-5569,ADO Pipelines,2026-07-30,2026-15,R26.2,feature/*,Success,31,QA,Yes
+BLD-5570,ADO Pipelines,2026-07-29,2026-15,R26.2,main,Failed,42,Dev,No
+BLD-5571,ADO Pipelines,2026-07-25,2026-15,R26.2,main,Success,29,QA,Yes
+BLD-5572,ADO Pipelines,2026-08-13,2026-16,R26.2,release/R26.3,Failed,38,QA,No
+BLD-5573,ADO Pipelines,2026-08-07,2026-16,R26.2,main,Success,10,QA,No
+BLD-5574,ADO Pipelines,2026-08-14,2026-16,R26.2,release/R26.3,Success,31,Staging,Yes
+BLD-5575,ADO Pipelines,2026-08-15,2026-16,R26.2,feature/*,Success,44,QA,Yes
+BLD-5576,ADO Pipelines,2026-08-11,2026-16,R26.2,main,Success,7,QA,Yes
+BLD-5577,ADO Pipelines,2026-08-03,2026-16,R26.2,feature/*,Success,16,QA,Yes
+BLD-5578,ADO Pipelines,2026-08-05,2026-16,R26.2,feature/*,Success,10,QA,Yes
+BLD-5579,ADO Pipelines,2026-08-09,2026-16,R26.2,release/R26.3,Success,45,Dev,Yes
+BLD-5580,ADO Pipelines,2026-08-03,2026-16,R26.2,main,Success,36,Prod,Yes
+BLD-5581,ADO Pipelines,2026-08-14,2026-16,R26.2,main,Success,10,Dev,Yes
+BLD-5582,ADO Pipelines,2026-08-13,2026-16,R26.2,main,Success,26,Dev,Yes
+BLD-5583,ADO Pipelines,2026-08-10,2026-16,R26.2,feature/*,Success,7,Dev,Yes
+BLD-5584,ADO Pipelines,2026-08-06,2026-16,R26.2,feature/*,Success,44,QA,No
+BLD-5585,ADO Pipelines,2026-08-12,2026-16,R26.2,main,Success,44,Dev,Yes
+BLD-5586,ADO Pipelines,2026-08-17,2026-17,R26.2,main,Success,47,QA,Yes
+BLD-5587,ADO Pipelines,2026-08-17,2026-17,R26.2,main,Success,37,Prod,Yes
+BLD-5588,ADO Pipelines,2026-08-21,2026-17,R26.2,release/R26.3,Success,19,QA,Yes
+BLD-5589,ADO Pipelines,2026-08-17,2026-17,R26.2,main,Success,26,QA,Yes
+BLD-5590,ADO Pipelines,2026-08-19,2026-17,R26.2,main,Failed,24,QA,No
+BLD-5591,ADO Pipelines,2026-08-18,2026-17,R26.2,main,Success,33,Dev,Yes
+BLD-5592,ADO Pipelines,2026-08-18,2026-17,R26.2,main,Success,20,QA,Yes
+BLD-5593,ADO Pipelines,2026-08-17,2026-17,R26.2,main,Success,17,QA,Yes
+BLD-5594,ADO Pipelines,2026-08-17,2026-17,R26.2,feature/*,Success,47,Dev,No
+BLD-5595,ADO Pipelines,2026-08-18,2026-17,R26.2,release/R26.3,Failed,23,QA,No
+BLD-5596,ADO Pipelines,2026-08-20,2026-17,R26.2,main,Success,7,Dev,Yes
+BLD-5597,ADO Pipelines,2026-08-17,2026-17,R26.2,main,Success,42,Staging,Yes
+BLD-5598,ADO Pipelines,2026-08-18,2026-17,R26.2,release/R26.3,Failed,13,Dev,No
+BLD-5599,ADO Pipelines,2026-08-29,2026-18,R26.3,feature/*,Success,29,Prod,Yes
+BLD-5600,ADO Pipelines,2026-08-26,2026-18,R26.3,main,Success,45,QA,Yes
+BLD-5601,ADO Pipelines,2026-09-01,2026-18,R26.3,main,Success,7,Dev,Yes
+BLD-5602,ADO Pipelines,2026-08-30,2026-18,R26.3,feature/*,Success,34,QA,Yes
+BLD-5603,ADO Pipelines,2026-08-29,2026-18,R26.3,release/R26.3,Success,23,Dev,Yes
+BLD-5604,ADO Pipelines,2026-09-04,2026-18,R26.3,release/R26.3,Success,15,Dev,Yes
+BLD-5605,ADO Pipelines,2026-08-27,2026-18,R26.3,feature/*,Success,15,QA,Yes
+BLD-5606,ADO Pipelines,2026-08-27,2026-18,R26.3,release/R26.3,Success,40,Staging,Yes
+BLD-5607,ADO Pipelines,2026-09-04,2026-18,R26.3,feature/*,Success,46,QA,Yes
+BLD-5608,ADO Pipelines,2026-09-01,2026-18,R26.3,release/R26.3,Success,11,Dev,Yes
+BLD-5609,ADO Pipelines,2026-08-25,2026-18,R26.3,main,Success,30,Prod,Yes
+BLD-5610,ADO Pipelines,2026-08-30,2026-18,R26.3,release/R26.3,Success,28,Prod,No
+BLD-5611,ADO Pipelines,2026-08-31,2026-18,R26.3,release/R26.3,Success,34,QA,Yes
+BLD-5612,ADO Pipelines,2026-09-08,2026-19,R26.3,release/R26.3,Success,45,Prod,Yes
+BLD-5613,ADO Pipelines,2026-09-10,2026-19,R26.3,main,Success,20,Dev,Yes
+BLD-5614,ADO Pipelines,2026-09-19,2026-19,R26.3,release/R26.3,Success,27,QA,Yes
+BLD-5615,ADO Pipelines,2026-09-11,2026-19,R26.3,main,Success,9,Staging,Yes
+BLD-5616,ADO Pipelines,2026-09-08,2026-19,R26.3,main,Success,34,Dev,Yes
+BLD-5617,ADO Pipelines,2026-09-17,2026-19,R26.3,main,Success,14,Dev,Yes
+BLD-5618,ADO Pipelines,2026-09-20,2026-19,R26.3,main,Failed,14,QA,No
+BLD-5619,ADO Pipelines,2026-09-07,2026-19,R26.3,feature/*,Success,40,Staging,Yes
+BLD-5620,ADO Pipelines,2026-09-18,2026-19,R26.3,feature/*,Failed,32,Prod,No
+BLD-5621,ADO Pipelines,2026-09-07,2026-19,R26.3,feature/*,Success,24,Staging,Yes
+BLD-5622,ADO Pipelines,2026-09-16,2026-19,R26.3,feature/*,Success,26,Staging,No
+BLD-5623,ADO Pipelines,2026-09-09,2026-19,R26.3,release/R26.3,Success,42,Dev,Yes
+BLD-5624,ADO Pipelines,2026-09-09,2026-19,R26.3,release/R26.3,Success,43,Prod,Yes
+BLD-5625,ADO Pipelines,2026-09-07,2026-19,R26.3,main,Success,15,Dev,No
+BLD-5626,ADO Pipelines,2026-09-18,2026-19,R26.3,feature/*,Success,44,Dev,Yes
+BLD-5627,ADO Pipelines,2026-10-01,2026-20,R26.3,main,Success,9,Dev,Yes
+BLD-5628,ADO Pipelines,2026-10-03,2026-20,R26.3,main,Success,31,Dev,Yes
+BLD-5629,ADO Pipelines,2026-09-24,2026-20,R26.3,feature/*,Success,44,Dev,Yes
+BLD-5630,ADO Pipelines,2026-09-27,2026-20,R26.3,release/R26.3,Success,13,QA,No
+BLD-5631,ADO Pipelines,2026-09-27,2026-20,R26.3,release/R26.3,Success,48,Prod,Yes
+BLD-5632,ADO Pipelines,2026-09-30,2026-20,R26.3,main,Success,18,Staging,Yes
+BLD-5633,ADO Pipelines,2026-09-30,2026-20,R26.3,feature/*,Success,41,Prod,Yes
+BLD-5634,ADO Pipelines,2026-09-21,2026-20,R26.3,main,Success,24,Dev,Yes
+BLD-5635,ADO Pipelines,2026-09-21,2026-20,R26.3,main,Success,39,Dev,Yes
+BLD-5636,ADO Pipelines,2026-10-01,2026-20,R26.3,main,Success,42,Dev,Yes
+BLD-5637,ADO Pipelines,2026-09-28,2026-20,R26.3,main,Success,13,Dev,No
+BLD-5638,ADO Pipelines,2026-09-24,2026-20,R26.3,main,Success,12,Prod,Yes
+BLD-5639,ADO Pipelines,2026-10-04,2026-20,R26.3,release/R26.3,Success,16,Dev,Yes
+BLD-5640,ADO Pipelines,2026-10-02,2026-20,R26.3,feature/*,Success,13,Dev,Yes
+BLD-5641,ADO Pipelines,2026-09-30,2026-20,R26.3,feature/*,Success,15,Dev,Yes
+BLD-5642,ADO Pipelines,2026-09-24,2026-20,R26.3,main,Success,10,QA,Yes
+BLD-5643,ADO Pipelines,2026-10-17,2026-21,R26.3,main,Success,6,Prod,No
+BLD-5644,ADO Pipelines,2026-10-14,2026-21,R26.3,feature/*,Failed,38,Prod,No
+BLD-5645,ADO Pipelines,2026-10-05,2026-21,R26.3,release/R26.3,Success,46,QA,Yes
+BLD-5646,ADO Pipelines,2026-10-18,2026-21,R26.3,feature/*,Success,31,QA,Yes
+BLD-5647,ADO Pipelines,2026-10-06,2026-21,R26.3,main,Success,9,Staging,Yes
+BLD-5648,ADO Pipelines,2026-10-14,2026-21,R26.3,release/R26.3,Success,14,Dev,Yes
+BLD-5649,ADO Pipelines,2026-10-17,2026-21,R26.3,main,Success,16,Dev,Yes
+BLD-5650,ADO Pipelines,2026-10-17,2026-21,R26.3,main,Success,47,Prod,Yes
+BLD-5651,ADO Pipelines,2026-10-17,2026-21,R26.3,main,Success,18,Prod,Yes
+BLD-5652,ADO Pipelines,2026-10-10,2026-21,R26.3,main,Success,43,Staging,Yes
+BLD-5653,ADO Pipelines,2026-10-09,2026-21,R26.3,main,Success,11,Staging,Yes
+BLD-5654,ADO Pipelines,2026-10-15,2026-21,R26.3,release/R26.3,Success,43,Staging,No
+BLD-5655,ADO Pipelines,2026-10-20,2026-22,R26.3,feature/*,Failed,11,Dev,No
+BLD-5656,ADO Pipelines,2026-10-30,2026-22,R26.3,feature/*,Success,20,QA,Yes
+BLD-5657,ADO Pipelines,2026-10-21,2026-22,R26.3,main,Success,48,Dev,Yes
+BLD-5658,ADO Pipelines,2026-10-22,2026-22,R26.3,feature/*,Success,19,Dev,Yes
+BLD-5659,ADO Pipelines,2026-11-01,2026-22,R26.3,main,Success,38,Dev,Yes
+BLD-5660,ADO Pipelines,2026-10-28,2026-22,R26.3,release/R26.3,Success,34,Dev,Yes
+BLD-5661,ADO Pipelines,2026-10-22,2026-22,R26.3,main,Success,27,Prod,Yes
+BLD-5662,ADO Pipelines,2026-11-01,2026-22,R26.3,main,Success,48,Dev,Yes
+BLD-5663,ADO Pipelines,2026-10-21,2026-22,R26.3,main,Success,32,Prod,Yes
+BLD-5664,ADO Pipelines,2026-10-23,2026-22,R26.3,main,Success,18,Dev,No
+BLD-5665,ADO Pipelines,2026-10-31,2026-22,R26.3,release/R26.3,Success,34,Staging,Yes
+BLD-5666,ADO Pipelines,2026-10-20,2026-22,R26.3,main,Success,28,Staging,No
+BLD-5667,ADO Pipelines,2026-10-21,2026-22,R26.3,main,Success,7,Dev,Yes
+BLD-5668,ADO Pipelines,2026-11-10,2026-23,R26.3,main,Failed,42,QA,No
+BLD-5669,ADO Pipelines,2026-11-08,2026-23,R26.3,feature/*,Success,22,Staging,Yes
+BLD-5670,ADO Pipelines,2026-11-04,2026-23,R26.3,feature/*,Failed,48,Dev,No
+BLD-5671,ADO Pipelines,2026-11-06,2026-23,R26.3,release/R26.3,Success,13,QA,Yes
+BLD-5672,ADO Pipelines,2026-11-08,2026-23,R26.3,feature/*,Success,13,Staging,Yes
+BLD-5673,ADO Pipelines,2026-11-12,2026-23,R26.3,feature/*,Success,47,Staging,No
+BLD-5674,ADO Pipelines,2026-11-09,2026-23,R26.3,feature/*,Success,33,Staging,Yes
+BLD-5675,ADO Pipelines,2026-11-08,2026-23,R26.3,release/R26.3,Success,44,Dev,Yes
+BLD-5676,ADO Pipelines,2026-11-10,2026-23,R26.3,main,Success,36,Dev,Yes
+BLD-5677,ADO Pipelines,2026-11-11,2026-23,R26.3,release/R26.3,Success,40,Dev,Yes
+BLD-5678,ADO Pipelines,2026-11-09,2026-23,R26.3,feature/*,Success,21,Staging,Yes
+BLD-5679,ADO Pipelines,2026-11-04,2026-23,R26.3,main,Success,9,Staging,Yes
+BLD-5680,ADO Pipelines,2026-11-05,2026-23,R26.3,release/R26.3,Success,16,QA,No
+BLD-5681,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,8,QA,No
+BLD-5682,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,10,QA,Yes
+BLD-5683,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,30,Prod,Yes
+BLD-5684,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,15,QA,Yes
+BLD-5685,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,9,Dev,No
+BLD-5686,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,46,QA,Yes
+BLD-5687,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,21,Staging,Yes
+BLD-5688,ADO Pipelines,2026-11-16,2026-24,R26.3,release/R26.3,Success,27,Prod,Yes
+BLD-5689,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,41,Staging,Yes
+BLD-5690,ADO Pipelines,2026-11-16,2026-24,R26.3,release/R26.3,Success,23,Dev,Yes
+BLD-5691,ADO Pipelines,2026-11-16,2026-24,R26.3,release/R26.3,Success,33,QA,Yes
+BLD-5692,ADO Pipelines,2026-11-16,2026-24,R26.3,feature/*,Success,26,Staging,Yes
+BLD-5693,ADO Pipelines,2026-11-16,2026-24,R26.3,release/R26.3,Success,22,Dev,No
+BLD-5694,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,47,QA,Yes
+BLD-5695,ADO Pipelines,2026-11-16,2026-24,R26.3,feature/*,Success,34,QA,No
+BLD-5696,ADO Pipelines,2026-11-16,2026-24,R26.3,main,Success,6,QA,Yes

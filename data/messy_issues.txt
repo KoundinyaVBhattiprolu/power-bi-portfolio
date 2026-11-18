@@ -1,0 +1,15 @@
+14 data issues deliberately present in messy_sales_raw.csv:
+1. duplicate order_id
+2. null revenue
+3. mixed date formats (DD/MM/YYYY vs YYYY-MM-DD)
+4. region in lower case
+5. region with trailing spaces
+6. inconsistent category spelling (Electronic vs Electronics)
+7. negative quantity
+8. extra whitespace in product name
+9. null order_date
+10. currency symbol in revenue (₹)
+11. thousands separator in revenue
+12. blank channel
+13. duplicate with different case order_id
+14. invalid date 31/02/2025

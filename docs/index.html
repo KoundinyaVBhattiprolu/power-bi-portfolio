@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="color-scheme" content="light dark"/>
+<link rel="icon" href="data:,"/>
+<title>Koundinya — Power BI Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --surface2:#eef0ec; --ink:#12161a; --muted:#5b6570; --line:#dde1da;
+  --yellow:#f2c811; --yellow-dark:#c9a400; --navy:#101c2e; --navy2:#16283f; --teal:#0e7c6b; --orange:#e86a2c; --blue:#2563eb;
+  --radius:18px; --shadow:0 10px 30px rgba(16,28,46,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0d1117; --surface:#151a21; --surface2:#1c232e; --ink:#eef1f4; --muted:#9aa6b2; --line:#28313e; --shadow:0 10px 30px rgba(0,0,0,.35); }
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:"Public Sans",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit} button,[role="button"]{min-height:40px}
+h1,h2,h3{font-family:"Archivo",sans-serif;line-height:.95;letter-spacing:-.02em;margin:0}
+.mono{font-family:"IBM Plex Mono",monospace}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%, transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar-in{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Archivo";font-weight:900;letter-spacing:-.02em}
+.logo-mark{width:36px;height:36px;background:var(--yellow);display:grid;place-items:center;border-radius:8px;color:#111;font-weight:900}
+.logo-mark i{display:block;width:16px;height:16px;background:#111;clip-path:polygon(0 100%,0 55%,30% 55%,30% 100%,38% 100%,38% 30%,68% 30%,68% 100%,76% 100%,76% 0,100% 0,100% 100%)}
+.nav{display:flex;gap:4px;flex-wrap:wrap}
+.nav a{text-decoration:none;font-size:14px;font-weight:600;padding:9px 12px;border-radius:99px}
+.nav a:hover{background:var(--surface2)}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:99px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-family:inherit;font-size:15px}
+.btn-yellow{background:var(--yellow);color:#111;border-color:var(--yellow)}
+.btn-dark{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+/* HERO */
+.hero{padding:54px 0 28px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);padding:7px 12px;border-radius:99px;font-size:13px;font-weight:700}
+.dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 4px rgba(34,197,94,.18)}
+.hero h1{font-size:clamp(44px,7vw,84px);margin:18px 0 14px}
+.hero h1 em{font-style:normal;background:var(--yellow);padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.lead{font-size:19px;color:var(--muted);max-width:620px;margin:0}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.hero-note{margin-top:16px;font-size:14px;color:var(--muted);border-left:3px solid var(--yellow);padding-left:12px;max-width:560px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}
+.stat b{font-family:"Archivo";font-size:28px;display:block;line-height:1}
+.stat span{font-size:13px;color:var(--muted);font-weight:600}
+.stat.wide{grid-column:1/-1;background:var(--navy);color:#fff;border-color:var(--navy)}
+.stat.wide span{color:#cbd5e1}
+.stat.wide b{color:var(--yellow)}
+/* DASHBOARD MOCK */
+.dash{background:var(--navy);color:#fff;border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+.dash-head{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;background:var(--navy2);flex-wrap:wrap;gap:10px}
+.dash-head strong{font-family:"Archivo"} .dash-head small{color:#94a3b8}
+.slicers{display:flex;gap:8px;flex-wrap:wrap;padding:14px 18px 0}
+.slicer{border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;padding:8px 14px;border-radius:99px;cursor:pointer;font-weight:700;font-family:inherit}
+.slicer.active{background:var(--yellow);color:#111;border-color:var(--yellow)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:14px 18px}
+.kpi{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:14px}
+.kpi label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.kpi b{display:block;font-size:24px;font-family:"Archivo";margin:4px 0 2px}
+.kpi span{font-size:12px;color:#4ade80;font-weight:700}
+.charts{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;padding:0 18px 18px}
+.chart{background:rgba(255,255,255,.06);border-radius:14px;padding:16px}
+.chart h4{margin:0 0 12px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#cbd5e1}
+.bars{display:flex;align-items:flex-end;gap:10px;height:120px}
+.bar{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.bar i{display:block;width:100%;max-width:42px;background:var(--yellow);border-radius:6px 6px 2px 2px;transition:height .5s ease}
+.bar:nth-child(2) i{background:#38bdf8}.bar:nth-child(3) i{background:#4ade80}.bar:nth-child(4) i{background:#fb923c}.bar:nth-child(5) i{background:#e879f9}.bar:nth-child(6) i{background:#facc15}
+.bar small{color:#94a3b8;font-size:11px}
+.donut-wrap{display:flex;align-items:center;gap:14px}
+.legend{font-size:13px;color:#cbd5e1}.legend div{margin:5px 0}.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:7px}
+/* SECTIONS */
+section{padding:52px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:22px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(30px,4vw,44px)}
+.sec-head p{color:var(--muted);max-width:560px;margin:8px 0 0}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.filter{padding:10px 16px;border-radius:99px;border:1px solid var(--line);background:var(--surface);font-weight:700;cursor:pointer;font-family:inherit}
+.filter.active{background:var(--ink);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.card.hidden{display:none}
+.card-top{padding:20px 20px 0;display:flex;justify-content:space-between;gap:12px}
+.tag{font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:6px 10px;border-radius:99px;background:var(--surface2)}
+.tag.sales{background:#fef3c7;color:#92400e}.tag.fin{background:#dbeafe;color:#1e40af}.tag.hr{background:#dcfce7;color:#166534}.tag.ops{background:#ffedd5;color:#9a3412}.tag.etl{background:#111827;color:#f2c811}.tag.ado{background:#ede9fe;color:#5b21b6}
+.ado-feature{grid-column:1/-1;border:2px solid var(--yellow)}
+.ado-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin:0 20px 20px}
+.ado-list{list-style:none;margin:0;padding:0}.ado-list li{padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.ado-list li:last-child{border:0}.ado-list b{font-family:"Archivo"}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.timeline div{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:14px}.timeline b{color:var(--yellow);display:block;font-family:"Archivo";font-size:14px}.timeline span{font-size:13px;color:#cbd5e1}
+@media(max-width:860px){.ado-grid,.timeline{grid-template-columns:1fr}}
+@media (prefers-color-scheme: dark){.tag.sales,.tag.fin,.tag.hr,.tag.ops{color:#111}}
+.card h3{font-size:24px;margin:12px 20px 8px}
+.card p{margin:0 20px;color:var(--muted);font-size:15px}
+.mini{margin:16px 20px;background:var(--surface2);border-radius:14px;padding:16px}
+.mini-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;text-align:left}
+.mini-kpis b{font-family:"Archivo";font-size:20px;display:block}.mini-kpis span{font-size:12px;color:var(--muted);font-weight:600}
+.spark{height:54px;margin-top:12px}
+.tools{display:flex;gap:6px;flex-wrap:wrap;margin:0 20px 18px}
+.tools span{font-size:12px;font-weight:700;border:1px solid var(--line);padding:6px 9px;border-radius:99px}
+.insight{margin:0 20px 20px;background:color-mix(in srgb,var(--yellow) 14%, var(--surface));border:1px solid color-mix(in srgb,var(--yellow) 40%, var(--line));padding:13px 14px;border-radius:12px;font-size:14px}
+.insight b{font-family:"Archivo"}
+/* PIPELINE */
+.pipeline{background:var(--navy);color:#fff;border-radius:24px;padding:28px}
+.pipeline h3{font-size:30px}.pipeline p{color:#cbd5e1;max-width:700px}
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:22px 0}
+.step{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:16px}
+.step b{color:var(--yellow);font-family:"Archivo";display:block;font-size:15px;margin-bottom:6px}.step span{font-size:13px;color:#cbd5e1}
+.code-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+pre{margin:0;background:#0a1220;color:#dbeafe;border-radius:14px;padding:16px;overflow:auto;font-family:"IBM Plex Mono",monospace;font-size:12.5px;line-height:1.65;white-space:pre-wrap}
+pre .c{color:#7dd3fc} pre .k{color:#f2c811}
+/* SKILLS */
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skill{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.skill h3{font-size:19px;margin-bottom:6px}.skill p{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar-row{margin:10px 0}.bar-row label{display:flex;justify-content:space-between;font-size:13px;font-weight:700;margin-bottom:5px}
+.track{height:8px;background:var(--surface2);border-radius:99px;overflow:hidden}.fill{height:100%;background:var(--yellow);border-radius:99px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}.chips span{font-size:12px;background:var(--surface2);padding:6px 9px;border-radius:99px;font-weight:600}
+/* PROCESS + DAX */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+.process{list-style:none;margin:0;padding:0;counter-reset:s}
+.process li{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.process li:last-child{border:0}
+.num{flex:0 0 38px;width:38px;height:38px;border-radius:50%;background:var(--yellow);color:#111;display:grid;place-items:center;font-family:"Archivo";font-weight:900}
+.process b{font-family:"Archivo"}.process p{margin:3px 0 0;color:var(--muted);font-size:14px}
+.dax-card{background:#0a1220;color:#e2e8f0;border-radius:18px;padding:20px;margin-bottom:14px}
+.dax-card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+.dax-card h3{color:#fff;font-size:17px}
+.copy{ background:var(--yellow);border:0;padding:8px 13px;border-radius:99px;font-weight:800;cursor:pointer;font-family:inherit}
+.dax-card pre{background:transparent;padding:0;color:#a5f3fc}
+/* CTA */
+.cta{background:var(--yellow);border-radius:24px;padding:34px;display:grid;grid-template-columns:1.3fr .7fr;gap:20px;align-items:center;color:#111}
+.cta h2{font-size:clamp(28px,4vw,42px)} .cta p{margin:10px 0 0;max-width:560px}
+.cta-box{background:#111;color:#fff;border-radius:16px;padding:20px}.cta-box b{color:var(--yellow);font-family:"Archivo";display:block;margin-bottom:8px}.cta-box ul{margin:0;padding-left:18px;color:#e5e7eb;font-size:14px}
+footer{padding:28px 0 40px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,80px);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:99px;font-weight:700;transition:.3s;z-index:50}
+.toast.show{transform:translate(-50%,0)}
+@media(max-width:860px){.hero-grid,.grid,.two,.code-grid,.cta{grid-template-columns:1fr}.skills{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}.charts{grid-template-columns:1fr}.flow{grid-template-columns:1fr 1fr}.nav{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap topbar-in">
+  <div class="logo"><span class="logo-mark"><i></i></span> Koundinya <span style="color:var(--muted);font-weight:600">/ Power BI</span></div>
+  <nav class="nav"><a href="#projects">Projects</a><a href="#ado">ADO Flagship</a><a href="#pipeline">Python + R Pipeline</a><a href="#skills">Skills</a><a href="#process">Process</a><a href="#dax">DAX Lab</a></nav>
+  <a class="btn btn-yellow" href="#projects">View work ↓</a>
+</div></header>
+
+<main class="wrap">
+  <!-- HERO -->
+  <div class="hero"><div class="hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Open to BI Analyst &amp; Power BI Developer roles</span>
+      <h1>Dashboards that turn messy data into <em>decisions.</em></h1>
+      <p class="lead">I'm Koundinya — a BI professional who has built many Power BI reports in my current role, wrangling data on an on-premise server with Python and R before modelling and visualising it in Power BI. My flagship work: ADO release-delivery reporting for a large product built by 600 developers and 250 testers.</p>
+      <div class="hero-actions"><a class="btn btn-dark" href="#projects">Explore sample projects</a><a class="btn" href="#pipeline">See my Python / R → Power BI pipeline</a></div>
+      <p class="hero-note"><strong>About this portfolio:</strong> My production reports live on my work laptop and can't be shared. So every project below was built from scratch as a sample project — using realistic sample data — to show exactly how I work: clean, model, measure, visualise.</p>
+    </div>
+    <div class="stats">
+      <div class="stat wide"><b>Production Power BI experience</b><span>Many reports built at work — from data connection to published dashboards used by stakeholders</span></div>
+      <div class="stat"><b>Python + R</b><span>Data wrangling &amp; cleaning</span></div>
+      <div class="stat"><b>On-premise</b><span>Server data at work</span></div>
+      <div class="stat"><b>6</b><span>Sample projects — incl. ADO flagship</span></div>
+      <div class="stat"><b>Star schema</b><span>Data modelling approach</span></div>
+    </div>
+  </div></div>
+
+  <!-- INTERACTIVE DASH -->
+  <div class="dash" aria-label="Interactive sample dashboard">
+    <div class="dash-head"><div><strong>Sales Performance — Interactive Sample</strong><br><small>Try the slicers. This is how my Power BI reports behave: one click filters everything.</small></div><span class="mono" style="font-size:12px;color:#f2c811">● SAMPLE DATA</span></div>
+    <div class="slicers" id="slicers">
+      <button class="slicer active" data-region="all">All Regions</button>
+      <button class="slicer" data-region="north">North</button>
+      <button class="slicer" data-region="south">South</button>
+      <button class="slicer" data-region="west">West</button>
+      <button class="slicer" data-region="east">East</button>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><label>Revenue</label><b id="kRev">₹4.82 Cr</b><span id="kRevD">▲ 12.4% vs last year</span></div>
+      <div class="kpi"><label>Orders</label><b id="kOrd">18,240</b><span>▲ 8.1% vs last year</span></div>
+      <div class="kpi"><label>Profit Margin</label><b id="kMar">23.6%</b><span>▲ 1.8 pts vs last year</span></div>
+      <div class="kpi"><label>Returns</label><b id="kRet">2.1%</b><span style="color:#fda4af">▼ Needs attention</span></div>
+    </div>
+    <div class="charts">
+      <div class="chart"><h4>Revenue by Category</h4><div class="bars" id="bars">
+        <div class="bar"><i style="height:92%"></i><small>Electronics</small></div>
+        <div class="bar"><i style="height:68%"></i><small>Apparel</small></div>
+        <div class="bar"><i style="height:78%"></i><small>Home</small></div>
+        <div class="bar"><i style="height:52%"></i><small>Beauty</small></div>
+        <div class="bar"><i style="height:44%"></i><small>Sports</small></div>
+        <div class="bar"><i style="height:61%"></i><small>Grocery</small></div>
+      </div></div>
+      <div class="chart"><h4>Channel Mix</h4><div class="donut-wrap">
+        <svg width="110" height="110" viewBox="0 0 42 42" aria-hidden="true"><circle cx="21" cy="21" r="15.9" fill="none" stroke="#334155" stroke-width="6"/><circle cx="21" cy="21" r="15.9" fill="none" stroke="#f2c811" stroke-width="6" stroke-dasharray="52 48" stroke-dashoffset="25"/><circle cx="21" cy="21" r="15.9" fill="none" stroke="#38bdf8" stroke-width="6" stroke-dasharray="30 70" stroke-dashoffset="-27"/><circle cx="21" cy="21" r="15.9" fill="none" stroke="#4ade80" stroke-width="6" stroke-dasharray="18 82" stroke-dashoffset="-57"/></svg>
+        <div class="legend"><div><i style="background:#f2c811"></i>Online — 52%</div><div><i style="background:#38bdf8"></i>Retail stores — 30%</div><div><i style="background:#4ade80"></i>Partners — 18%</div></div>
+      </div></div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sec-head"><div><h2>Sample projects, built from scratch</h2><p>Each project follows the same workflow I use at work — wrangle, model, write DAX, design for the decision-maker. Datasets are sample data; the methods are my real ones. Project 06 is different: it's a recreation of my real ADO delivery work, rebuilt with sample data.</p></div></div>
+    <div class="filters" id="filters">
+      <button class="filter active" data-f="all">All projects</button>
+      <button class="filter" data-f="ado">ADO • Agile Delivery</button>
+      <button class="filter" data-f="sales">Sales</button>
+      <button class="filter" data-f="finance">Finance</button>
+      <button class="filter" data-f="hr">HR</button>
+      <button class="filter" data-f="ops">Operations</button>
+      <button class="filter" data-f="etl">Python / R + ETL</button>
+    </div>
+    <div class="grid" id="projectGrid">
+      <!-- 6 ADO FLAGSHIP -->
+      <article class="card ado-feature" data-cat="ado" id="ado-card">
+        <div class="card-top"><span class="tag ado">★ Flagship — ADO • Azure DevOps</span><span class="mono" style="font-size:12px;color:var(--muted)">06</span></div>
+        <h3>ADO Release Delivery &amp; Defect Reporting — 600 Devs + 250 Testers</h3>
+        <p>Are we ready to ship the next release? This report answers it every day for RTEs, clients and stakeholders: how delivery is tracking to the release date, how many defects we've fixed, and how many new bugs we're creating on the way there. If bugs created outrun bugs fixed, the release isn't getting healthier — this dashboard makes that impossible to miss.</p>
+        <div class="mini"><div class="mini-kpis"><div><b>850</b><span>Team — 600 devs + 250 testers</span></div><div><b>Created vs Fixed</b><span>Defects — the core release signal</span></div><div><b>3 audiences</b><span>RTE • Client • Stakeholders</span></div></div>
+        <svg class="spark" viewBox="0 0 600 70" preserveAspectRatio="none" style="width:100%;height:70px" aria-label="Defects fixed line rising above defects created line towards release"><polyline points="0,18 100,24 200,28 300,36 400,44 500,52 600,60" fill="none" stroke="#0e7c6b" stroke-width="3"/><polyline points="0,52 100,50 200,46 300,42 400,36 500,30 600,22" fill="none" stroke="#e86a2c" stroke-width="3"/><text x="8" y="14" font-size="11" fill="#0e7c6b" font-weight="700">FIXED ↗</text><text x="500" y="14" font-size="11" fill="#e86a2c" font-weight="700">CREATED ↘ goal</text></svg>
+        <p style="margin:6px 0 0;font-size:12px">Sample view: the story is the crossover — fix rate overtaking creation rate, and the open-defect backlog burning down to the release.</p></div>
+        <div class="ado-grid">
+          <div><strong style="font-family:Archivo">What each audience gets</strong><ul class="ado-list"><li><b>RTE support —</b> Release readiness, feature &amp; story completion by team / PI, blockers and risks to the release train.</li><li><b>Client reporting —</b> A clean, non-technical view: are we on track, what's delivered, what quality looks like.</li><li><b>Stakeholder reporting —</b> Defect burndown, severity mix, created vs fixed trend, and go / no-go signals for the release.</li></ul></div>
+          <div><strong style="font-family:Archivo">What's inside the report</strong><ul class="ado-list"><li><b>Release readiness —</b> % features / stories done vs planned for the target release.</li><li><b>Defect flow —</b> Bugs created, defects fixed, net change &amp; open backlog by severity and team.</li><li><b>Quality trend —</b> Sprint-by-sprint created vs fixed, so a bad sprint shows up immediately, not at release time.</li></ul></div>
+        </div>
+        <div class="tools"><span>Azure DevOps (ADO)</span><span>Power BI</span><span>DAX</span><span>R Shiny (original)</span><span>Jenkins • CI/CD</span><span>Release Train / RTE</span></div>
+        <div class="insight"><b>The migration story:</b> I first built this as an <b>R Shiny web app</b> with a <b>Jenkins CI/CD pipeline</b> for automated refresh and publishing. When the team moved to Azure DevOps, I rebuilt it in <b>Power BI on ADO data</b> — same questions, same audiences, new platform. That migration is the point: the reporting logic survived the tool change.</div>
+      </article>
+      <!-- 1 -->
+      <article class="card" data-cat="sales">
+        <div class="card-top"><span class="tag sales">Sales • Retail</span><span class="mono" style="font-size:12px;color:var(--muted)">01</span></div>
+        <h3>Sales Performance Dashboard</h3><p>Regional sales, category growth, top products and salesperson performance — with drill-through from region → store → product.</p>
+        <div class="mini"><div class="mini-kpis"><div><b>₹4.82 Cr</b><span>Revenue</span></div><div><b>+12.4%</b><span>YoY growth</span></div><div><b>23.6%</b><span>Margin</span></div></div>
+        <svg class="spark" viewBox="0 0 300 54" preserveAspectRatio="none" style="width:100%"><polyline points="0,44 40,38 80,40 120,28 160,30 200,18 240,20 300,8" fill="none" stroke="#c9a400" stroke-width="3"/></svg></div>
+        <div class="tools"><span>Power BI</span><span>DAX</span><span>Star Schema</span><span>Drill-through</span><span>Bookmarks</span></div>
+        <div class="insight"><b>Key insight shown:</b> Electronics drives revenue but Beauty has the best margin — the dashboard surfaces both, so leaders don't chase revenue alone.</div>
+      </article>
+      <!-- 2 ETL flagship -->
+      <article class="card" data-cat="etl">
+        <div class="card-top"><span class="tag etl">★ Flagship — ETL</span><span class="mono" style="font-size:12px;color:var(--muted)">02</span></div>
+        <h3>Messy Data → Clean Power BI Model</h3><p>The project that mirrors my day job: messy on-premise exports cleaned with Python &amp; R, then modelled in Power BI.</p>
+        <div class="mini"><div class="mini-kpis"><div><b>1.2L+</b><span>Rows cleaned</span></div><div><b>14</b><span>Data issues fixed</span></div><div><b>−70%</b><span>Prep time*</span></div></div><p style="margin:10px 0 0;font-size:12px">*Sample pipeline timing vs. manual cleaning</p></div>
+        <div class="tools"><span>Python (pandas)</span><span>R (dplyr / janitor)</span><span>ETL</span><span>On-prem data</span><span>Power BI</span></div>
+        <div class="insight"><b>What it proves:</b> I don't wait for clean data. I build the cleaning pipeline myself — duplicates, nulls, date formats, inconsistent categories — and automate it.</div>
+      </article>
+      <!-- 3 -->
+      <article class="card" data-cat="finance">
+        <div class="card-top"><span class="tag fin">Finance</span><span class="mono" style="font-size:12px;color:var(--muted)">03</span></div>
+        <h3>Finance P&amp;L &amp; Budget vs Actuals</h3><p>Profit &amp; loss with variance waterfall, monthly trend, cost-centre breakdown and budget vs actuals with conditional formatting.</p>
+        <div class="mini"><div class="mini-kpis"><div><b>−4.2%</b><span>Cost variance</span></div><div><b>₹1.16 Cr</b><span>Net profit</span></div><div><b>98.1%</b><span>Budget accuracy</span></div></div>
+        <svg class="spark" viewBox="0 0 300 54" style="width:100%"><g fill="#2563eb"><rect x="10" y="10" width="32" height="44" rx="4"/><rect x="60" y="22" width="32" height="32" rx="4" fill="#e86a2c"/><rect x="110" y="16" width="32" height="38" rx="4"/><rect x="160" y="28" width="32" height="26" rx="4" fill="#e86a2c"/><rect x="210" y="8" width="32" height="46" rx="4"/></g></svg></div>
+        <div class="tools"><span>Power BI</span><span>DAX — CALCULATE</span><span>Waterfall</span><span>Variance Analysis</span></div>
+        <div class="insight"><b>Key insight shown:</b> A single waterfall makes the story obvious — revenue beat budget, but logistics costs ate most of the gain.</div>
+      </article>
+      <!-- 4 -->
+      <article class="card" data-cat="hr">
+        <div class="card-top"><span class="tag hr">HR • People Analytics</span><span class="mono" style="font-size:12px;color:var(--muted)">04</span></div>
+        <h3>HR Attrition &amp; Workforce Dashboard</h3><p>Headcount, attrition by department &amp; tenure, hiring funnel and diversity view — the questions HR leaders ask every month.</p>
+        <div class="mini"><div class="mini-kpis"><div><b>1,240</b><span>Headcount</span></div><div><b>13.8%</b><span>Attrition</span></div><div><b>42 days</b><span>Time to hire</span></div></div>
+        <svg class="spark" viewBox="0 0 300 54" preserveAspectRatio="none" style="width:100%"><polyline points="0,14 50,18 100,26 150,24 200,34 250,38 300,44" fill="none" stroke="#0e7c6b" stroke-width="3"/></svg></div>
+        <div class="tools"><span>Power BI</span><span>DAX</span><span>Data Modelling</span><span>Decomposition Tree</span></div>
+        <div class="insight"><b>Key insight shown:</b> Attrition spikes in the first 12 months — pointing to onboarding, not pay, as the first place to investigate.</div>
+      </article>
+      <!-- 5 -->
+      <article class="card" data-cat="ops">
+        <div class="card-top"><span class="tag ops">Operations • Supply Chain</span><span class="mono" style="font-size:12px;color:var(--muted)">05</span></div>
+        <h3>Supply Chain &amp; Inventory Dashboard</h3><p>Stock health, supplier lead times, on-time delivery and warehouse utilisation — built to spot a stock-out before it happens.</p>
+        <div class="mini"><div class="mini-kpis"><div><b>94.6%</b><span>On-time delivery</span></div><div><b>18</b><span>SKUs at risk</span></div><div><b>6.2 days</b><span>Avg lead time</span></div></div>
+        <svg class="spark" viewBox="0 0 300 54" style="width:100%"><g fill="#e86a2c"><rect x="10" y="18" width="38" height="36" rx="4"/><rect x="65" y="10" width="38" height="44" rx="4"/><rect x="120" y="24" width="38" height="30" rx="4"/><rect x="175" y="14" width="38" height="40" rx="4"/><rect x="230" y="28" width="38" height="26" rx="4"/></g></svg></div>
+        <div class="tools"><span>Power BI</span><span>DAX</span><span>Data Modelling</span><span>Map Visuals</span></div>
+        <div class="insight"><b>Key insight shown:</b> Just 18 SKUs create most stock-out risk — the report ranks them by days-of-cover so action is prioritised.</div>
+      </article>
+      <!-- CTA card -->
+      <article class="card" style="display:grid;place-items:center;padding:28px;text-align:center;background:var(--navy);color:#fff;border-color:var(--navy)">
+        <div><h3 style="color:#fff;margin:0 0 10px">More in the pipeline</h3><p style="color:#cbd5e1;margin:0">Customer churn, marketing ROI and a cricket analytics dashboard are next builds for this portfolio. The workflow stays the same: clean → model → measure → visualise.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ADO DEEP DIVE -->
+  <section id="ado" style="padding-top:10px">
+    <div class="pipeline">
+      <span class="tag ado" style="background:#fff">Flagship deep dive</span>
+      <h3 style="margin-top:14px">From R Shiny + Jenkins to Power BI + ADO — one reporting pipeline, two generations</h3>
+      <p>This wasn't a one-off dashboard. It was a reporting pipeline serving a large product organisation — 600 developers and 250 testers — through the whole run-up to a release. The questions never changed; the platform did.</p>
+      <div class="timeline">
+        <div><b>1 · R Shiny web app</b><span>Original build: interactive release &amp; defect reporting as a Shiny web app, so RTEs and stakeholders could self-serve instead of asking for exports.</span></div>
+        <div><b>2 · Jenkins + CI/CD</b><span>Automated pipeline to refresh, test and publish the reporting — no manual rebuild before every stakeholder meeting.</span></div>
+        <div><b>3 · Move to ADO</b><span>Team migrated work tracking to Azure DevOps. Source of truth became ADO work items: features, stories, tasks, bugs &amp; defects.</span></div>
+        <div><b>4 · Rebuilt in Power BI</b><span>Same measures, rebuilt on ADO data in Power BI: release readiness, defect created vs fixed, burndown and stakeholder views.</span></div>
+      </div>
+      <div class="flow">
+        <div class="step"><b>ADO Work Items</b><span>Features, stories, bugs, defects, test outcomes from ADO boards / queries</span></div>
+        <div class="step"><b>Clean &amp; Model</b><span>Work-item history flattened, iterations &amp; area paths as dimensions, star schema</span></div>
+        <div class="step"><b>DAX Measures</b><span>Created, Fixed, Open, Net Change, Fix Ratio, % Complete — by release &amp; sprint</span></div>
+        <div class="step"><b>RTE View</b><span>Train-level readiness, risks, blockers, team-by-team delivery</span></div>
+        <div class="step"><b>Client View</b><span>Stakeholder summary: on track? quality? go / no-go for release?</span></div>
+      </div>
+      <p style="font-size:14px;margin:0"><strong style="color:#fff">How to talk about it in an interview:</strong> <span style="color:#cbd5e1">“Ask me about the crossover point. Early in a release, created &gt; fixed is normal. The report earns its keep when it shows — by severity and by team — exactly when fixed starts beating created, and whether the remaining open defects are actually release-blocking or not.” Sample data is used in this portfolio recreation; scale, audiences and workflow are from my real work.</span></p>
+    </div>
+  </section>
+
+  <!-- PIPELINE -->
+  <section id="pipeline" style="padding-top:10px">
+    <div class="pipeline">
+      <span class="tag etl">My real strength</span>
+      <h3 style="margin-top:14px">Python &amp; R wrangling → Power BI, on on-premise data</h3>
+      <p>At work, data doesn't arrive dashboard-ready. It lives on an on-premise server — inconsistent, duplicated, in mixed formats. My job starts there, long before the first visual.</p>
+      <div class="flow">
+        <div class="step"><b>1 · Connect</b><span>On-premise server data and source files</span></div>
+        <div class="step"><b>2 · Wrangle</b><span>Python (pandas) &amp; R (dplyr) — clean, join, reshape</span></div>
+        <div class="step"><b>3 · Model</b><span>Star schema, fact &amp; dimension tables, relationships</span></div>
+        <div class="step"><b>4 · Measure</b><span>DAX measures — YoY, running totals, variance</span></div>
+        <div class="step"><b>5 · Report</b><span>Finished Power BI report for stakeholders</span></div>
+      </div>
+      <div class="code-grid">
+        <pre><span class="c"># Python — pandas: cleaning a messy sales export</span>
+<span class="k">import</span> pandas <span class="k">as</span> pd
+df = pd.read_csv(<span class="c">"sales_raw.csv"</span>)
+df[<span class="c">"order_date"</span>] = pd.to_datetime(
+    df[<span class="c">"order_date"</span>], dayfirst=<span class="k">True</span>, errors=<span class="c">"coerce"</span>)
+df = df.drop_duplicates(subset=[<span class="c">"order_id"</span>])
+df[<span class="c">"region"</span>] = (df[<span class="c">"region"</span>].str.strip()
+                 .str.title())
+df[<span class="c">"revenue"</span>] = df[<span class="c">"revenue"</span>].fillna(0)
+df.to_csv(<span class="c">"sales_clean.csv"</span>, index=<span class="k">False</span>)</pre>
+        <pre><span class="c"># R — dplyr + janitor: the same job, tidyverse way</span>
+<span class="k">library</span>(dplyr); <span class="k">library</span>(janitor)
+sales_clean &lt;- sales_raw %&gt;%
+  clean_names() %&gt;%
+  distinct(order_id, .keep_all = <span class="k">TRUE</span>) %&gt;%
+  mutate(
+    order_date = as.Date(order_date),
+    region = tools::toTitleCase(trimws(region)),
+    revenue = coalesce(revenue, 0)
+  )</pre>
+      </div>
+      <p style="font-size:13px;margin:16px 0 0">Why both Python and R? I use whichever fits the data and the team — the goal is a clean, trusted table that Power BI can model well, not loyalty to one tool.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="sec-head"><div><h2>Skills &amp; experience</h2><p>Grounded in real work: production Power BI reporting on on-premise data, ADO delivery reporting at scale, and an earlier R Shiny + Jenkins pipeline — with Python and R doing the heavy lifting before Power BI ever sees the data.</p></div></div>
+    <div class="skills">
+      <div class="skill"><h3>Power BI &amp; ADO Reporting</h3><p>Many reports built at work — including ADO release-delivery reporting for 600 devs + 250 testers, serving RTE, client and stakeholder audiences.</p>
+        <div class="chips"><span>Power BI</span><span>Azure DevOps (ADO)</span><span>Dashboards</span><span>Drill-through</span><span>Bookmarks</span></div></div>
+      <div class="skill"><h3>DAX &amp; Data Modelling</h3><p>Reusable DAX measures and clean models behind every report — star schema, fact &amp; dimension tables, and relationships set up before any visual is built.</p>
+        <div class="chips"><span>DAX</span><span>CALCULATE</span><span>Time Intelligence</span><span>Star Schema</span><span>Data Modelling</span></div></div>
+      <div class="skill"><h3>Python &amp; R — Wrangling / ETL + Shiny</h3><p>Cleaning messy data on an on-premise server, plus the original R Shiny web app with Jenkins CI/CD that preceded the Power BI rebuild.</p>
+        <div class="chips"><span>Python · pandas</span><span>R · dplyr / janitor</span><span>R Shiny</span><span>Jenkins · CI/CD</span><span>ETL</span><span>On-premise Data</span></div></div>
+    </div>
+  </section>
+
+  <!-- PROCESS + DAX -->
+  <section id="process">
+    <div class="two">
+      <div>
+        <h2 style="font-size:34px;margin-bottom:8px">How I build a report</h2>
+        <p style="color:var(--muted);margin-top:0">The same process behind every project above — and behind my production work.</p>
+        <ol class="process">
+          <li><span class="num">1</span><div><b>Start with the decision</b><p>What will someone do differently after seeing this? That question picks the KPIs.</p></div></li>
+          <li><span class="num">2</span><div><b>Wrangle honestly</b><p>Python and R to fix duplicates, nulls, dates and categories — and document it.</p></div></li>
+          <li><span class="num">3</span><div><b>Model before visuals</b><p>Clean star schema first. Good models make DAX simple and reports fast.</p></div></li>
+          <li><span class="num">4</span><div><b>Write measures, not calculated clutter</b><p>Reusable DAX measures for every KPI, so numbers stay consistent everywhere.</p></div></li>
+          <li><span class="num">5</span><div><b>Design for scanning</b><p>KPIs on top, trend in the middle, detail on drill-through. No chart junk.</p></div></li>
+        </ol>
+      </div>
+      <div id="dax">
+        <h2 style="font-size:34px;margin-bottom:8px">DAX Lab</h2>
+        <p style="color:var(--muted);margin-top:0">Real measures from these projects — tap Copy to reuse them.</p>
+        <div class="dax-card"><div class="dax-card-head"><h3>Revenue YoY %</h3><button class="copy" data-copy="Revenue YoY % = DIVIDE([Total Revenue] - [Revenue LY], [Revenue LY])">Copy</button></div><pre>Revenue YoY % =
+DIVIDE (
+    [Total Revenue] - [Revenue LY],
+    [Revenue LY]
+)</pre></div>
+        <div class="dax-card"><div class="dax-card-head"><h3>Revenue Last Year</h3><button class="copy" data-copy="Revenue LY = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('Date'[Date]))">Copy</button></div><pre>Revenue LY =
+CALCULATE (
+    [Total Revenue],
+    SAMEPERIODLASTYEAR ( 'Date'[Date] )
+)</pre></div>
+        <div class="dax-card"><div class="dax-card-head"><h3>Budget Variance %</h3><button class="copy" data-copy="Budget Variance % = DIVIDE([Actual] - [Budget], [Budget])">Copy</button></div><pre>Budget Variance % =
+DIVIDE ( [Actual] - [Budget], [Budget] )</pre></div>
+        <div class="dax-card"><div class="dax-card-head"><h3>ADO — Net Defect Change</h3><button class="copy" data-copy="Net Defect Change = [Bugs Created] - [Defects Fixed]">Copy</button></div><pre>Net Defect Change =
+[Bugs Created] - [Defects Fixed]
+-- Negative = backlog is shrinking
+-- Positive = creating faster than fixing</pre></div>
+        <div class="dax-card"><div class="dax-card-head"><h3>ADO — Defect Fix Ratio</h3><button class="copy" data-copy="Defect Fix Ratio = DIVIDE([Defects Fixed], [Bugs Created])">Copy</button></div><pre>Defect Fix Ratio =
+DIVIDE ( [Defects Fixed], [Bugs Created] )
+-- &gt; 1.0 = fixing faster than creating
+-- The release-readiness crossover signal</pre></div>
+        <div class="dax-card"><div class="dax-card-head"><h3>ADO — Bugs Created / Fixed</h3><button class="copy" data-copy="Bugs Created = CALCULATE(COUNTROWS('Work Items'), 'Work Items'[Work Item Type] = &quot;Bug&quot;) | Defects Fixed = CALCULATE(COUNTROWS('Work Items'), 'Work Items'[State] IN {&quot;Closed&quot;, &quot;Resolved&quot;})">Copy</button></div><pre>Bugs Created =
+CALCULATE ( COUNTROWS ( 'Work Items' ),
+  'Work Items'[Work Item Type] = "Bug" )
+
+Defects Fixed =
+CALCULATE ( COUNTROWS ( 'Work Items' ),
+  'Work Items'[State] IN { "Closed", "Resolved" } )</pre></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta">
+    <div><h2>Looking for a BI Analyst or Power BI Developer?</h2><p>I've built Power BI reports in production — including ADO delivery reporting for a 600-dev + 250-tester product, first as an R Shiny app with Jenkins CI/CD and then rebuilt in Power BI. These sample projects show the craft; I'm ready to bring it to your team.</p><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px"><a class="btn btn-dark" href="#projects">Review the projects again ↑</a></div></div>
+    <div class="cta-box"><b>What I bring, in one view</b><ul><li>ADO release-delivery reporting — 600 devs + 250 testers, RTE / client / stakeholder audiences</li><li>R Shiny + Jenkins CI/CD → Power BI migration experience</li><li>Production Power BI reporting experience</li><li>Python + R data wrangling (on-premise)</li><li>DAX &amp; star-schema data modelling</li><li>Target roles: BI Analyst · Power BI Developer · Data Analyst</li></ul></div>
+  </div>
+
+  <footer><span>© Koundinya — Power BI Portfolio · Built from scratch with sample projects &amp; sample data</span><span>Power BI · ADO · DAX · Python · R · R Shiny · Jenkins</span></footer>
+</main>
+<div class="toast" id="toast">Copied to clipboard ✓</div>
+<script>
+(function(){
+  // Slicer demo
+  var data={
+    all:{rev:"₹4.82 Cr",d:"▲ 12.4% vs last year",ord:"18,240",mar:"23.6%",ret:"2.1%",bars:[92,68,78,52,44,61]},
+    north:{rev:"₹1.48 Cr",d:"▲ 15.2% vs last year",ord:"5,610",mar:"25.1%",ret:"1.8%",bars:[96,60,82,48,40,58]},
+    south:{rev:"₹1.32 Cr",d:"▲ 10.8% vs last year",ord:"5,020",mar:"22.4%",ret:"2.4%",bars:[84,74,70,58,46,66]},
+    west:{rev:"₹1.14 Cr",d:"▲ 9.6% vs last year",ord:"4,180",mar:"24.2%",ret:"1.9%",bars:[88,62,76,50,52,54]},
+    east:{rev:"₹0.88 Cr",d:"▲ 13.1% vs last year",ord:"3,430",mar:"21.8%",ret:"2.6%",bars:[78,70,72,56,38,62]}
+  };
+  var slicers=document.querySelectorAll(".slicer");
+  slicers.forEach(function(btn){btn.addEventListener("click",function(){
+    slicers.forEach(function(b){b.classList.remove("active")}); btn.classList.add("active");
+    var d=data[btn.dataset.region]; if(!d) return;
+    document.getElementById("kRev").textContent=d.rev;
+    document.getElementById("kRevD").textContent=d.d;
+    document.getElementById("kOrd").textContent=d.ord;
+    document.getElementById("kMar").textContent=d.mar;
+    document.getElementById("kRet").textContent=d.ret;
+    document.querySelectorAll("#bars .bar i").forEach(function(bar,i){bar.style.height=d.bars[i]+"%"});
+  });});
+  // Project filters
+  var filters=document.querySelectorAll(".filter");
+  filters.forEach(function(btn){btn.addEventListener("click",function(){
+    filters.forEach(function(b){b.classList.remove("active")}); btn.classList.add("active");
+    var f=btn.dataset.f;
+    document.querySelectorAll("#projectGrid .card[data-cat]").forEach(function(card){
+      card.classList.toggle("hidden", !(f==="all"||card.dataset.cat===f));
+    });
+  });});
+  // Copy DAX
+  var toast=document.getElementById("toast");
+  document.querySelectorAll(".copy").forEach(function(btn){btn.addEventListener("click",function(){
+    var text=btn.dataset.copy;
+    function show(){toast.classList.add("show"); setTimeout(function(){toast.classList.remove("show")},1800);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(show).catch(show);}else{show();}
+  });});
+})();
+</script>
+</body>
+</html>

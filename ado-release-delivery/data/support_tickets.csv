@@ -1,0 +1,973 @@
+TicketID,CreatedDate,ClosedDate,Source,Category,Priority,Status,SLAHours,SLABreached,Release
+SUP-8001,2025-01-01,2025-01-06,Internal,Training,P1,Resolved,8,No,R26.3
+SUP-8002,2025-01-02,2025-01-07,Stakeholder,Performance,P1,Resolved,8,No,R26.3
+SUP-8003,2025-01-03,2025-01-03,RTE Support,Feature request,P2,Closed,24,No,R25.1
+SUP-8004,2025-01-04,2025-01-04,RTE Support,Performance,P2,Closed,24,No,R26.2
+SUP-8005,2025-01-04,2025-01-07,Client,Deployment query,P2,Closed,24,Yes,R25.3
+SUP-8006,2025-01-05,2025-01-07,Stakeholder,Access / permissions,P3,Resolved,72,No,R26.2
+SUP-8007,2025-01-07,2025-01-15,RTE Support,Feature request,P2,Closed,24,No,R25.2
+SUP-8008,2025-01-07,2025-01-07,RTE Support,Access / permissions,P2,Closed,24,No,R26.3
+SUP-8009,2025-01-08,2025-01-08,RTE Support,Deployment query,P2,Closed,24,No,R25.1
+SUP-8010,2025-01-08,2025-01-09,Client,Performance,P1,Closed,8,Yes,R25.2
+SUP-8011,2025-01-08,2025-01-08,RTE Support,Access / permissions,P1,Closed,8,No,R25.2
+SUP-8012,2025-01-09,2025-01-10,Stakeholder,Deployment query,P2,Closed,24,No,R25.3
+SUP-8013,2025-01-10,2025-01-11,RTE Support,Data issue,P2,Closed,24,No,R26.2
+SUP-8014,2025-01-12,2025-01-16,RTE Support,Defect report,P3,Closed,72,No,R26.3
+SUP-8015,2025-01-13,2025-01-14,Internal,Feature request,P0,Closed,4,No,R25.1
+SUP-8016,2025-01-13,2025-01-15,Client,Training,P1,Closed,8,Yes,R26.1
+SUP-8017,2025-01-13,2025-01-13,RTE Support,Release query,P2,Closed,24,No,R26.3
+SUP-8018,2025-01-15,2025-01-19,Stakeholder,Training,P3,Closed,72,Yes,R25.3
+SUP-8019,2025-01-15,2025-01-16,Stakeholder,Feature request,P2,Closed,24,No,R26.1
+SUP-8020,2025-01-16,2025-01-17,Client,Feature request,P2,Closed,24,No,R26.3
+SUP-8021,2025-01-18,2025-01-20,RTE Support,Training,P3,Resolved,72,No,R26.2
+SUP-8022,2025-01-19,2025-01-23,Client,Release query,P1,Closed,8,No,R25.3
+SUP-8023,2025-01-20,2025-01-20,RTE Support,Training,P2,Resolved,24,No,R25.2
+SUP-8024,2025-01-20,2025-01-20,Client,Release query,P2,Resolved,24,No,R25.3
+SUP-8025,2025-01-21,2025-01-23,Internal,Deployment query,P2,Closed,24,No,R26.3
+SUP-8026,2025-01-22,2025-01-23,Stakeholder,Defect report,P3,Resolved,72,No,R25.2
+SUP-8027,2025-01-23,2025-01-27,Internal,Data issue,P3,Closed,72,No,R25.2
+SUP-8028,2025-01-23,,Internal,Feature request,P2,In Progress,24,No,R25.1
+SUP-8029,2025-01-25,2025-01-26,RTE Support,Performance,P3,Closed,72,No,R26.3
+SUP-8030,2025-01-25,2025-01-29,Internal,Data issue,P0,Resolved,4,No,R25.3
+SUP-8031,2025-01-25,2025-01-25,RTE Support,Performance,P3,Resolved,72,No,R26.3
+SUP-8032,2025-01-26,2025-01-27,Client,Training,P1,Resolved,8,No,R25.3
+SUP-8033,2025-01-27,2025-01-29,RTE Support,Training,P3,Resolved,72,No,R26.1
+SUP-8034,2025-01-28,2025-01-30,Client,Release query,P2,Closed,24,No,R26.1
+SUP-8035,2025-01-28,2025-01-28,RTE Support,Training,P2,Closed,24,No,R25.2
+SUP-8036,2025-01-29,2025-01-30,RTE Support,Training,P2,Closed,24,No,R26.2
+SUP-8037,2025-01-29,,Internal,Data issue,P2,In Progress,24,No,R26.3
+SUP-8038,2025-01-29,2025-01-29,RTE Support,Feature request,P2,Resolved,24,No,R26.1
+SUP-8039,2025-02-01,2025-02-03,Client,Performance,P2,Closed,24,No,R26.3
+SUP-8040,2025-02-02,2025-02-03,Client,Access / permissions,P1,Closed,8,No,R25.2
+SUP-8041,2025-02-02,2025-02-02,Client,Release query,P1,Resolved,8,No,R26.3
+SUP-8042,2025-02-03,2025-02-12,Client,Training,P1,Closed,8,No,R25.1
+SUP-8043,2025-02-03,2025-02-03,Client,Release query,P2,Closed,24,No,R25.1
+SUP-8044,2025-02-03,2025-02-06,Stakeholder,Deployment query,P1,Closed,8,No,R25.3
+SUP-8045,2025-02-04,2025-02-07,Stakeholder,Feature request,P3,Closed,72,No,R25.2
+SUP-8046,2025-02-04,2025-02-05,RTE Support,Deployment query,P2,Closed,24,No,R26.3
+SUP-8047,2025-02-05,2025-02-07,Client,Training,P2,Closed,24,No,R26.2
+SUP-8048,2025-02-05,,Stakeholder,Performance,P0,In Progress,4,Yes,R25.1
+SUP-8049,2025-02-05,2025-02-14,Stakeholder,Defect report,P1,Resolved,8,No,R26.2
+SUP-8050,2025-02-06,2025-02-06,Internal,Defect report,P3,Closed,72,No,R25.2
+SUP-8051,2025-02-07,2025-02-07,Internal,Feature request,P0,Closed,4,Yes,R26.3
+SUP-8052,2025-02-07,2025-02-12,RTE Support,Deployment query,P2,Resolved,24,No,R26.3
+SUP-8053,2025-02-07,2025-02-08,RTE Support,Deployment query,P2,Closed,24,No,R25.2
+SUP-8054,2025-02-08,2025-02-11,Stakeholder,Training,P1,Closed,8,No,R26.3
+SUP-8055,2025-02-08,2025-02-09,Internal,Data issue,P2,Closed,24,No,R26.2
+SUP-8056,2025-02-08,,Stakeholder,Training,P3,Open,72,No,R26.2
+SUP-8057,2025-02-09,2025-02-12,Stakeholder,Access / permissions,P2,Resolved,24,No,R25.3
+SUP-8058,2025-02-10,2025-02-13,Client,Deployment query,P3,Closed,72,No,R26.2
+SUP-8059,2025-02-10,2025-02-11,Stakeholder,Access / permissions,P2,Closed,24,No,R25.1
+SUP-8060,2025-02-10,2025-02-15,RTE Support,Performance,P2,Resolved,24,No,R26.1
+SUP-8061,2025-02-11,2025-02-15,RTE Support,Deployment query,P2,Closed,24,No,R26.1
+SUP-8062,2025-02-11,2025-02-13,Client,Data issue,P3,Closed,72,No,R25.2
+SUP-8063,2025-02-12,2025-02-12,RTE Support,Performance,P3,Resolved,72,Yes,R26.2
+SUP-8064,2025-02-12,2025-02-16,Stakeholder,Performance,P3,Resolved,72,No,R25.1
+SUP-8065,2025-02-12,,Internal,Feature request,P3,In Progress,72,No,R26.3
+SUP-8066,2025-02-13,2025-02-13,RTE Support,Access / permissions,P2,Closed,24,Yes,R26.1
+SUP-8067,2025-02-14,2025-02-15,Stakeholder,Feature request,P2,Resolved,24,No,R25.3
+SUP-8068,2025-02-14,2025-02-14,Stakeholder,Feature request,P1,Closed,8,No,R26.2
+SUP-8069,2025-02-16,2025-02-23,Client,Training,P2,Closed,24,No,R26.2
+SUP-8070,2025-02-16,2025-02-16,Internal,Training,P2,Closed,24,No,R26.3
+SUP-8071,2025-02-17,2025-02-20,Stakeholder,Release query,P1,Closed,8,No,R25.1
+SUP-8072,2025-02-17,2025-02-18,Client,Training,P2,Closed,24,No,R25.3
+SUP-8073,2025-02-17,2025-02-21,Client,Training,P2,Closed,24,No,R25.1
+SUP-8074,2025-02-19,2025-02-21,RTE Support,Deployment query,P2,Closed,24,No,R25.3
+SUP-8075,2025-02-20,2025-02-23,RTE Support,Defect report,P1,Resolved,8,No,R26.2
+SUP-8076,2025-02-21,2025-02-22,Stakeholder,Deployment query,P3,Closed,72,Yes,R26.2
+SUP-8077,2025-02-22,2025-02-24,Client,Access / permissions,P3,Resolved,72,No,R26.2
+SUP-8078,2025-02-22,2025-03-01,Internal,Defect report,P3,Resolved,72,No,R26.1
+SUP-8079,2025-02-22,2025-02-23,Internal,Feature request,P3,Resolved,72,No,R26.3
+SUP-8080,2025-02-24,2025-02-27,Internal,Defect report,P2,Closed,24,No,R25.2
+SUP-8081,2025-02-25,2025-02-26,RTE Support,Performance,P3,Closed,72,No,R26.3
+SUP-8082,2025-02-26,2025-02-27,RTE Support,Defect report,P3,Closed,72,No,R25.2
+SUP-8083,2025-02-28,2025-03-07,Client,Defect report,P1,Closed,8,No,R26.2
+SUP-8084,2025-03-01,2025-03-04,Client,Deployment query,P3,Resolved,72,No,R25.3
+SUP-8085,2025-03-01,2025-03-05,RTE Support,Training,P3,Closed,72,Yes,R26.1
+SUP-8086,2025-03-01,,RTE Support,Feature request,P1,In Progress,8,No,R26.3
+SUP-8087,2025-03-02,2025-03-02,RTE Support,Deployment query,P3,Closed,72,No,R26.1
+SUP-8088,2025-03-02,2025-03-11,RTE Support,Feature request,P3,Closed,72,No,R25.3
+SUP-8089,2025-03-03,2025-03-03,Client,Data issue,P2,Closed,24,No,R25.3
+SUP-8090,2025-03-04,2025-03-11,Client,Performance,P1,Resolved,8,No,R25.1
+SUP-8091,2025-03-04,2025-03-11,RTE Support,Defect report,P2,Closed,24,No,R26.3
+SUP-8092,2025-03-04,,Client,Feature request,P2,Open,24,No,R26.1
+SUP-8093,2025-03-05,2025-03-06,RTE Support,Defect report,P3,Closed,72,No,R26.3
+SUP-8094,2025-03-05,2025-03-06,Stakeholder,Defect report,P2,Closed,24,No,R25.1
+SUP-8095,2025-03-06,2025-03-08,RTE Support,Feature request,P3,Resolved,72,No,R25.2
+SUP-8096,2025-03-06,2025-03-15,Client,Performance,P2,Closed,24,No,R26.1
+SUP-8097,2025-03-06,2025-03-10,Stakeholder,Feature request,P2,Closed,24,No,R26.1
+SUP-8098,2025-03-07,2025-03-09,Client,Feature request,P0,Resolved,4,No,R26.2
+SUP-8099,2025-03-07,2025-03-09,Stakeholder,Deployment query,P2,Closed,24,No,R26.3
+SUP-8100,2025-03-08,2025-03-14,Client,Release query,P2,Closed,24,No,R26.1
+SUP-8101,2025-03-09,2025-03-09,Internal,Feature request,P2,Closed,24,No,R26.1
+SUP-8102,2025-03-10,,RTE Support,Deployment query,P1,In Progress,8,Yes,R26.2
+SUP-8103,2025-03-12,2025-03-17,Stakeholder,Data issue,P0,Resolved,4,No,R25.2
+SUP-8104,2025-03-12,2025-03-13,Client,Training,P3,Resolved,72,No,R25.3
+SUP-8105,2025-03-13,2025-03-13,Stakeholder,Feature request,P2,Resolved,24,No,R25.3
+SUP-8106,2025-03-13,2025-03-14,Internal,Performance,P3,Resolved,72,No,R25.3
+SUP-8107,2025-03-13,2025-03-13,Client,Performance,P3,Closed,72,No,R26.1
+SUP-8108,2025-03-14,2025-03-15,RTE Support,Training,P3,Resolved,72,No,R25.1
+SUP-8109,2025-03-14,2025-03-19,Client,Release query,P2,Closed,24,No,R26.1
+SUP-8110,2025-03-15,2025-03-15,Stakeholder,Training,P2,Closed,24,No,R26.1
+SUP-8111,2025-03-15,2025-03-17,RTE Support,Defect report,P2,Closed,24,No,R25.1
+SUP-8112,2025-03-16,2025-03-17,RTE Support,Deployment query,P3,Resolved,72,No,R26.3
+SUP-8113,2025-03-16,2025-03-16,RTE Support,Release query,P2,Closed,24,No,R26.3
+SUP-8114,2025-03-17,2025-03-19,Client,Deployment query,P3,Closed,72,No,R25.3
+SUP-8115,2025-03-18,2025-03-19,RTE Support,Access / permissions,P3,Closed,72,No,R26.3
+SUP-8116,2025-03-20,2025-03-21,Internal,Access / permissions,P2,Closed,24,No,R25.2
+SUP-8117,2025-03-20,2025-03-23,Client,Deployment query,P3,Closed,72,No,R25.3
+SUP-8118,2025-03-21,2025-03-28,Internal,Release query,P1,Closed,8,No,R25.3
+SUP-8119,2025-03-22,2025-03-22,Client,Release query,P1,Resolved,8,No,R26.2
+SUP-8120,2025-03-24,2025-03-29,RTE Support,Data issue,P3,Closed,72,No,R25.1
+SUP-8121,2025-03-24,2025-03-25,RTE Support,Feature request,P2,Closed,24,No,R25.1
+SUP-8122,2025-03-24,2025-03-25,RTE Support,Feature request,P3,Resolved,72,No,R25.3
+SUP-8123,2025-03-26,,Client,Data issue,P3,In Progress,72,No,R25.1
+SUP-8124,2025-03-26,2025-03-31,Stakeholder,Access / permissions,P3,Resolved,72,No,R25.1
+SUP-8125,2025-03-26,2025-03-29,Stakeholder,Defect report,P2,Closed,24,No,R25.3
+SUP-8126,2025-03-27,2025-03-28,Stakeholder,Access / permissions,P3,Closed,72,No,R25.1
+SUP-8127,2025-03-28,2025-03-28,Client,Release query,P3,Closed,72,No,R25.3
+SUP-8128,2025-03-29,2025-03-31,Stakeholder,Data issue,P1,Closed,8,No,R26.3
+SUP-8129,2025-03-29,2025-03-29,Stakeholder,Defect report,P2,Resolved,24,No,R25.2
+SUP-8130,2025-03-29,2025-04-04,RTE Support,Release query,P2,Closed,24,No,R25.3
+SUP-8131,2025-03-30,,Internal,Training,P2,Open,24,No,R25.2
+SUP-8132,2025-03-31,2025-04-03,Client,Feature request,P3,Closed,72,No,R25.3
+SUP-8133,2025-03-31,2025-04-10,RTE Support,Release query,P3,Closed,72,No,R26.2
+SUP-8134,2025-04-04,2025-04-09,Internal,Deployment query,P1,Closed,8,Yes,R26.1
+SUP-8135,2025-04-04,2025-04-07,RTE Support,Access / permissions,P3,Closed,72,No,R26.2
+SUP-8136,2025-04-05,2025-04-13,RTE Support,Deployment query,P1,Closed,8,Yes,R26.3
+SUP-8137,2025-04-05,2025-04-06,Stakeholder,Data issue,P2,Closed,24,No,R25.3
+SUP-8138,2025-04-06,2025-04-09,Internal,Defect report,P1,Closed,8,No,R25.3
+SUP-8139,2025-04-07,2025-04-08,Stakeholder,Defect report,P2,Closed,24,No,R26.2
+SUP-8140,2025-04-08,2025-04-11,RTE Support,Release query,P2,Closed,24,No,R25.2
+SUP-8141,2025-04-08,2025-04-13,Client,Defect report,P3,Closed,72,Yes,R25.1
+SUP-8142,2025-04-08,2025-04-09,Client,Release query,P2,Closed,24,No,R25.2
+SUP-8143,2025-04-09,2025-04-17,Client,Training,P2,Closed,24,No,R26.1
+SUP-8144,2025-04-10,,RTE Support,Defect report,P2,Open,24,Yes,R26.3
+SUP-8145,2025-04-10,2025-04-12,RTE Support,Data issue,P2,Closed,24,No,R25.3
+SUP-8146,2025-04-10,2025-04-14,Stakeholder,Defect report,P2,Resolved,24,No,R25.1
+SUP-8147,2025-04-11,,RTE Support,Release query,P2,Open,24,No,R26.2
+SUP-8148,2025-04-11,2025-04-15,RTE Support,Performance,P2,Closed,24,No,R25.3
+SUP-8149,2025-04-12,2025-04-16,RTE Support,Feature request,P1,Closed,8,No,R26.3
+SUP-8150,2025-04-13,2025-04-13,Internal,Data issue,P2,Resolved,24,No,R26.1
+SUP-8151,2025-04-14,2025-04-15,RTE Support,Performance,P2,Closed,24,No,R25.1
+SUP-8152,2025-04-15,2025-04-19,RTE Support,Feature request,P3,Closed,72,No,R26.2
+SUP-8153,2025-04-16,,RTE Support,Performance,P2,Open,24,Yes,R26.2
+SUP-8154,2025-04-17,2025-04-18,RTE Support,Training,P3,Closed,72,No,R25.3
+SUP-8155,2025-04-17,2025-04-21,Stakeholder,Feature request,P2,Resolved,24,No,R25.1
+SUP-8156,2025-04-18,2025-04-21,RTE Support,Performance,P3,Closed,72,No,R26.2
+SUP-8157,2025-04-19,2025-04-19,RTE Support,Defect report,P1,Closed,8,Yes,R25.2
+SUP-8158,2025-04-19,2025-04-22,Client,Data issue,P2,Closed,24,No,R25.1
+SUP-8159,2025-04-20,2025-04-24,RTE Support,Data issue,P3,Closed,72,No,R26.3
+SUP-8160,2025-04-21,2025-04-25,Client,Data issue,P2,Closed,24,No,R25.1
+SUP-8161,2025-04-22,2025-04-23,RTE Support,Performance,P1,Resolved,8,No,R25.1
+SUP-8162,2025-04-22,2025-04-22,RTE Support,Data issue,P3,Resolved,72,No,R25.3
+SUP-8163,2025-04-22,2025-04-23,RTE Support,Feature request,P2,Closed,24,No,R25.1
+SUP-8164,2025-04-23,2025-04-26,RTE Support,Performance,P2,Closed,24,No,R26.3
+SUP-8165,2025-04-24,2025-04-25,RTE Support,Deployment query,P1,Resolved,8,No,R25.1
+SUP-8166,2025-04-25,2025-04-25,Stakeholder,Deployment query,P3,Closed,72,No,R26.1
+SUP-8167,2025-04-25,2025-04-27,RTE Support,Access / permissions,P2,Closed,24,No,R26.1
+SUP-8168,2025-04-26,2025-04-26,RTE Support,Feature request,P3,Resolved,72,No,R26.3
+SUP-8169,2025-04-26,,Stakeholder,Training,P2,In Progress,24,No,R26.3
+SUP-8170,2025-04-26,2025-04-30,RTE Support,Performance,P3,Closed,72,No,R26.1
+SUP-8171,2025-04-27,2025-04-29,Internal,Performance,P2,Closed,24,No,R26.1
+SUP-8172,2025-04-27,2025-04-28,Client,Deployment query,P3,Closed,72,No,R25.3
+SUP-8173,2025-04-28,2025-04-30,Client,Deployment query,P2,Closed,24,Yes,R25.3
+SUP-8174,2025-04-29,2025-05-08,Internal,Defect report,P3,Closed,72,No,R26.3
+SUP-8175,2025-04-30,2025-05-02,Stakeholder,Data issue,P1,Closed,8,No,R26.2
+SUP-8176,2025-05-01,2025-05-01,Stakeholder,Release query,P3,Resolved,72,No,R25.2
+SUP-8177,2025-05-02,2025-05-03,Stakeholder,Training,P1,Closed,8,No,R25.3
+SUP-8178,2025-05-03,2025-05-03,Stakeholder,Performance,P2,Closed,24,No,R25.1
+SUP-8179,2025-05-03,2025-05-03,RTE Support,Release query,P2,Closed,24,No,R25.3
+SUP-8180,2025-05-03,2025-05-10,Stakeholder,Defect report,P3,Closed,72,No,R25.3
+SUP-8181,2025-05-04,2025-05-04,RTE Support,Release query,P2,Closed,24,No,R26.1
+SUP-8182,2025-05-05,2025-05-08,RTE Support,Deployment query,P3,Closed,72,No,R25.2
+SUP-8183,2025-05-06,2025-05-11,Internal,Access / permissions,P3,Closed,72,No,R25.3
+SUP-8184,2025-05-06,2025-05-06,Client,Data issue,P2,Closed,24,No,R26.2
+SUP-8185,2025-05-07,2025-05-08,RTE Support,Feature request,P3,Closed,72,No,R26.2
+SUP-8186,2025-05-08,2025-05-09,Stakeholder,Performance,P3,Closed,72,No,R25.1
+SUP-8187,2025-05-08,2025-05-10,Client,Release query,P2,Closed,24,No,R25.1
+SUP-8188,2025-05-09,2025-05-17,RTE Support,Feature request,P3,Closed,72,No,R26.1
+SUP-8189,2025-05-10,2025-05-18,RTE Support,Data issue,P2,Closed,24,No,R26.2
+SUP-8190,2025-05-11,2025-05-17,Internal,Training,P1,Closed,8,No,R26.1
+SUP-8191,2025-05-11,2025-05-14,Client,Deployment query,P3,Closed,72,No,R25.2
+SUP-8192,2025-05-12,2025-05-21,RTE Support,Access / permissions,P2,Closed,24,No,R26.3
+SUP-8193,2025-05-12,2025-05-20,Client,Feature request,P1,Closed,8,No,R25.2
+SUP-8194,2025-05-13,2025-05-16,RTE Support,Access / permissions,P3,Closed,72,Yes,R25.2
+SUP-8195,2025-05-13,2025-05-13,Client,Access / permissions,P2,Closed,24,No,R26.1
+SUP-8196,2025-05-14,2025-05-14,Client,Performance,P2,Closed,24,No,R26.3
+SUP-8197,2025-05-14,2025-05-14,RTE Support,Feature request,P2,Closed,24,Yes,R26.2
+SUP-8198,2025-05-15,2025-05-21,RTE Support,Data issue,P2,Closed,24,No,R25.3
+SUP-8199,2025-05-16,2025-05-18,RTE Support,Feature request,P3,Closed,72,No,R25.1
+SUP-8200,2025-05-16,2025-05-19,Internal,Training,P3,Closed,72,No,R25.1
+SUP-8201,2025-05-17,2025-05-18,Client,Defect report,P2,Resolved,24,No,R25.3
+SUP-8202,2025-05-17,2025-05-17,Stakeholder,Feature request,P2,Closed,24,No,R25.3
+SUP-8203,2025-05-18,2025-05-18,Stakeholder,Access / permissions,P2,Closed,24,No,R26.2
+SUP-8204,2025-05-19,2025-05-20,RTE Support,Data issue,P2,Closed,24,Yes,R25.1
+SUP-8205,2025-05-20,,RTE Support,Release query,P3,In Progress,72,No,R26.1
+SUP-8206,2025-05-20,2025-05-20,Stakeholder,Defect report,P2,Closed,24,No,R25.3
+SUP-8207,2025-05-21,2025-05-27,Client,Performance,P3,Closed,72,No,R26.1
+SUP-8208,2025-05-22,,Stakeholder,Defect report,P1,In Progress,8,No,R26.1
+SUP-8209,2025-05-23,2025-05-27,RTE Support,Feature request,P1,Closed,8,No,R26.2
+SUP-8210,2025-05-23,2025-05-24,RTE Support,Defect report,P3,Resolved,72,No,R25.3
+SUP-8211,2025-05-24,2025-05-24,RTE Support,Deployment query,P2,Closed,24,No,R26.2
+SUP-8212,2025-05-26,2025-05-27,RTE Support,Defect report,P3,Closed,72,No,R25.3
+SUP-8213,2025-05-27,2025-05-27,RTE Support,Release query,P2,Resolved,24,No,R26.2
+SUP-8214,2025-05-27,,Stakeholder,Release query,P2,Open,24,No,R25.2
+SUP-8215,2025-05-27,2025-05-27,Client,Release query,P1,Closed,8,No,R25.2
+SUP-8216,2025-05-28,2025-06-01,RTE Support,Deployment query,P2,Resolved,24,No,R26.3
+SUP-8217,2025-05-28,2025-05-30,Internal,Feature request,P2,Closed,24,No,R25.1
+SUP-8218,2025-05-29,2025-05-31,Internal,Data issue,P3,Closed,72,No,R26.3
+SUP-8219,2025-05-29,2025-05-30,RTE Support,Performance,P1,Closed,8,No,R26.2
+SUP-8220,2025-05-30,2025-06-06,Stakeholder,Defect report,P1,Closed,8,No,R26.3
+SUP-8221,2025-05-30,2025-06-01,Internal,Feature request,P2,Resolved,24,No,R26.3
+SUP-8222,2025-05-31,2025-06-02,Stakeholder,Defect report,P3,Closed,72,No,R25.2
+SUP-8223,2025-06-01,2025-06-03,Client,Defect report,P2,Resolved,24,No,R25.1
+SUP-8224,2025-06-02,2025-06-02,Stakeholder,Deployment query,P1,Resolved,8,No,R25.1
+SUP-8225,2025-06-03,2025-06-05,Stakeholder,Data issue,P3,Closed,72,No,R25.2
+SUP-8226,2025-06-03,2025-06-05,RTE Support,Access / permissions,P3,Resolved,72,No,R26.1
+SUP-8227,2025-06-05,2025-06-06,Stakeholder,Training,P2,Resolved,24,No,R26.2
+SUP-8228,2025-06-05,2025-06-08,Stakeholder,Training,P3,Resolved,72,No,R25.1
+SUP-8229,2025-06-06,2025-06-11,Client,Defect report,P2,Closed,24,No,R25.1
+SUP-8230,2025-06-06,2025-06-06,RTE Support,Data issue,P3,Closed,72,No,R25.3
+SUP-8231,2025-06-07,2025-06-14,RTE Support,Defect report,P2,Resolved,24,No,R25.1
+SUP-8232,2025-06-07,2025-06-07,Client,Feature request,P3,Resolved,72,No,R25.1
+SUP-8233,2025-06-07,2025-06-08,Stakeholder,Defect report,P2,Closed,24,Yes,R25.2
+SUP-8234,2025-06-08,2025-06-15,Stakeholder,Training,P2,Closed,24,No,R25.2
+SUP-8235,2025-06-08,2025-06-11,RTE Support,Access / permissions,P3,Closed,72,No,R25.3
+SUP-8236,2025-06-09,2025-06-10,RTE Support,Training,P0,Resolved,4,No,R25.3
+SUP-8237,2025-06-10,2025-06-12,RTE Support,Deployment query,P2,Resolved,24,No,R25.2
+SUP-8238,2025-06-12,2025-06-12,Client,Feature request,P2,Closed,24,No,R25.3
+SUP-8239,2025-06-13,2025-06-15,Client,Release query,P2,Resolved,24,No,R25.3
+SUP-8240,2025-06-14,2025-06-23,Client,Training,P1,Resolved,8,No,R25.2
+SUP-8241,2025-06-15,2025-06-19,RTE Support,Deployment query,P3,Closed,72,No,R25.2
+SUP-8242,2025-06-15,2025-06-15,Client,Data issue,P1,Closed,8,No,R26.2
+SUP-8243,2025-06-16,2025-06-17,Client,Training,P3,Resolved,72,No,R25.3
+SUP-8244,2025-06-17,2025-06-24,Internal,Data issue,P3,Closed,72,No,R26.2
+SUP-8245,2025-06-18,2025-06-19,RTE Support,Training,P2,Resolved,24,Yes,R26.3
+SUP-8246,2025-06-19,2025-06-19,Client,Data issue,P2,Closed,24,No,R26.1
+SUP-8247,2025-06-19,2025-06-28,Stakeholder,Deployment query,P3,Closed,72,No,R25.3
+SUP-8248,2025-06-20,2025-06-27,Stakeholder,Training,P2,Resolved,24,No,R26.3
+SUP-8249,2025-06-20,2025-06-25,RTE Support,Defect report,P3,Closed,72,No,R25.3
+SUP-8250,2025-06-20,2025-06-20,RTE Support,Training,P0,Resolved,4,No,R26.1
+SUP-8251,2025-06-21,2025-06-24,RTE Support,Feature request,P3,Closed,72,No,R25.3
+SUP-8252,2025-06-22,,RTE Support,Training,P2,Open,24,No,R25.1
+SUP-8253,2025-06-23,2025-06-26,Client,Data issue,P2,Closed,24,No,R25.3
+SUP-8254,2025-06-24,2025-06-25,Client,Defect report,P3,Closed,72,No,R25.1
+SUP-8255,2025-06-26,2025-06-26,Stakeholder,Training,P3,Resolved,72,No,R25.3
+SUP-8256,2025-06-27,2025-06-27,Internal,Training,P1,Closed,8,No,R25.3
+SUP-8257,2025-06-28,2025-06-29,RTE Support,Access / permissions,P2,Resolved,24,No,R25.2
+SUP-8258,2025-06-28,2025-06-29,RTE Support,Release query,P1,Resolved,8,No,R26.1
+SUP-8259,2025-06-29,2025-07-02,RTE Support,Performance,P3,Closed,72,No,R26.3
+SUP-8260,2025-06-30,2025-07-01,Stakeholder,Feature request,P3,Closed,72,No,R25.3
+SUP-8261,2025-06-30,2025-07-04,RTE Support,Training,P2,Closed,24,No,R25.3
+SUP-8262,2025-07-01,2025-07-08,Stakeholder,Performance,P3,Closed,72,No,R26.3
+SUP-8263,2025-07-01,2025-07-03,RTE Support,Performance,P1,Resolved,8,No,R25.3
+SUP-8264,2025-07-01,,RTE Support,Performance,P2,Open,24,No,R26.2
+SUP-8265,2025-07-02,2025-07-09,Client,Performance,P2,Closed,24,No,R25.2
+SUP-8266,2025-07-02,2025-07-04,RTE Support,Defect report,P2,Closed,24,No,R26.2
+SUP-8267,2025-07-03,2025-07-07,RTE Support,Deployment query,P2,Resolved,24,No,R25.2
+SUP-8268,2025-07-04,2025-07-08,RTE Support,Training,P2,Closed,24,Yes,R25.2
+SUP-8269,2025-07-05,2025-07-06,Client,Feature request,P3,Closed,72,No,R26.3
+SUP-8270,2025-07-06,2025-07-15,Client,Performance,P1,Closed,8,No,R25.3
+SUP-8271,2025-07-07,2025-07-13,Stakeholder,Release query,P1,Resolved,8,No,R26.2
+SUP-8272,2025-07-07,2025-07-07,RTE Support,Data issue,P3,Closed,72,No,R26.3
+SUP-8273,2025-07-08,2025-07-08,RTE Support,Deployment query,P2,Closed,24,No,R25.2
+SUP-8274,2025-07-09,2025-07-10,Client,Feature request,P2,Closed,24,No,R25.1
+SUP-8275,2025-07-09,2025-07-11,RTE Support,Deployment query,P3,Closed,72,No,R25.1
+SUP-8276,2025-07-09,2025-07-14,Internal,Training,P0,Resolved,4,No,R25.3
+SUP-8277,2025-07-11,2025-07-14,Client,Defect report,P2,Resolved,24,No,R25.3
+SUP-8278,2025-07-12,2025-07-16,Stakeholder,Feature request,P0,Closed,4,No,R26.3
+SUP-8279,2025-07-13,2025-07-16,Internal,Access / permissions,P1,Closed,8,No,R25.3
+SUP-8280,2025-07-13,2025-07-16,RTE Support,Training,P2,Closed,24,No,R26.3
+SUP-8281,2025-07-14,2025-07-23,Stakeholder,Defect report,P3,Resolved,72,No,R26.2
+SUP-8282,2025-07-14,2025-07-15,Stakeholder,Feature request,P2,Closed,24,No,R26.1
+SUP-8283,2025-07-15,2025-07-21,Stakeholder,Defect report,P3,Resolved,72,No,R26.1
+SUP-8284,2025-07-15,2025-07-17,RTE Support,Defect report,P2,Closed,24,No,R26.2
+SUP-8285,2025-07-17,2025-07-25,RTE Support,Performance,P2,Resolved,24,No,R25.2
+SUP-8286,2025-07-17,2025-07-20,RTE Support,Deployment query,P1,Resolved,8,Yes,R25.3
+SUP-8287,2025-07-18,2025-07-19,RTE Support,Defect report,P2,Closed,24,No,R25.2
+SUP-8288,2025-07-19,2025-07-22,Stakeholder,Data issue,P2,Closed,24,No,R25.1
+SUP-8289,2025-07-20,2025-07-20,Stakeholder,Deployment query,P2,Closed,24,No,R26.1
+SUP-8290,2025-07-21,2025-07-22,Client,Feature request,P1,Resolved,8,No,R25.3
+SUP-8291,2025-07-21,2025-07-25,Client,Data issue,P3,Closed,72,Yes,R25.1
+SUP-8292,2025-07-22,2025-07-22,Client,Release query,P2,Closed,24,No,R26.3
+SUP-8293,2025-07-23,2025-07-26,Stakeholder,Feature request,P3,Resolved,72,No,R25.3
+SUP-8294,2025-07-23,2025-07-24,RTE Support,Feature request,P2,Resolved,24,Yes,R26.1
+SUP-8295,2025-07-24,2025-08-01,Client,Deployment query,P2,Closed,24,No,R26.2
+SUP-8296,2025-07-25,2025-07-28,RTE Support,Feature request,P2,Resolved,24,No,R26.2
+SUP-8297,2025-07-25,2025-07-26,RTE Support,Data issue,P2,Closed,24,No,R26.1
+SUP-8298,2025-07-26,2025-07-27,RTE Support,Data issue,P3,Closed,72,No,R26.1
+SUP-8299,2025-07-27,2025-07-27,Stakeholder,Feature request,P2,Closed,24,Yes,R25.2
+SUP-8300,2025-07-28,2025-07-28,Internal,Access / permissions,P2,Closed,24,No,R25.3
+SUP-8301,2025-07-28,2025-07-29,Internal,Release query,P2,Resolved,24,No,R26.1
+SUP-8302,2025-07-29,2025-07-29,Internal,Access / permissions,P2,Closed,24,No,R26.2
+SUP-8303,2025-07-30,2025-08-06,RTE Support,Performance,P3,Resolved,72,No,R25.3
+SUP-8304,2025-07-30,2025-07-31,RTE Support,Training,P1,Closed,8,No,R26.2
+SUP-8305,2025-07-31,2025-08-03,Client,Access / permissions,P3,Resolved,72,No,R26.3
+SUP-8306,2025-08-01,,Client,Data issue,P2,Open,24,No,R26.2
+SUP-8307,2025-08-02,2025-08-06,RTE Support,Release query,P3,Resolved,72,No,R26.1
+SUP-8308,2025-08-03,2025-08-03,RTE Support,Feature request,P2,Closed,24,No,R25.2
+SUP-8309,2025-08-03,2025-08-03,Internal,Performance,P1,Closed,8,No,R26.3
+SUP-8310,2025-08-04,2025-08-04,Client,Deployment query,P3,Closed,72,Yes,R26.3
+SUP-8311,2025-08-04,2025-08-08,Client,Defect report,P1,Resolved,8,No,R26.1
+SUP-8312,2025-08-05,2025-08-06,Internal,Feature request,P3,Closed,72,No,R26.1
+SUP-8313,2025-08-05,2025-08-06,RTE Support,Defect report,P2,Closed,24,No,R25.3
+SUP-8314,2025-08-06,2025-08-07,Stakeholder,Performance,P2,Resolved,24,No,R25.1
+SUP-8315,2025-08-06,,Client,Performance,P3,In Progress,72,No,R25.1
+SUP-8316,2025-08-07,2025-08-09,Client,Release query,P2,Closed,24,No,R26.2
+SUP-8317,2025-08-07,2025-08-12,RTE Support,Performance,P2,Closed,24,No,R25.1
+SUP-8318,2025-08-08,2025-08-11,RTE Support,Feature request,P1,Closed,8,No,R25.3
+SUP-8319,2025-08-08,2025-08-08,Internal,Performance,P1,Resolved,8,No,R26.2
+SUP-8320,2025-08-08,2025-08-12,RTE Support,Release query,P3,Closed,72,No,R26.1
+SUP-8321,2025-08-09,2025-08-19,Client,Performance,P2,Closed,24,No,R25.1
+SUP-8322,2025-08-09,2025-08-09,RTE Support,Data issue,P3,Closed,72,No,R25.3
+SUP-8323,2025-08-10,2025-08-11,Client,Training,P0,Closed,4,No,R26.1
+SUP-8324,2025-08-11,2025-08-12,Internal,Feature request,P0,Closed,4,No,R25.2
+SUP-8325,2025-08-12,2025-08-18,Client,Feature request,P2,Closed,24,No,R26.3
+SUP-8326,2025-08-14,2025-08-16,RTE Support,Data issue,P3,Closed,72,No,R25.3
+SUP-8327,2025-08-14,2025-08-16,RTE Support,Performance,P3,Closed,72,No,R26.1
+SUP-8328,2025-08-15,2025-08-16,RTE Support,Access / permissions,P2,Resolved,24,No,R26.2
+SUP-8329,2025-08-16,2025-08-18,Stakeholder,Deployment query,P3,Closed,72,No,R25.3
+SUP-8330,2025-08-16,2025-08-17,RTE Support,Access / permissions,P2,Resolved,24,No,R26.2
+SUP-8331,2025-08-17,2025-08-20,RTE Support,Training,P2,Closed,24,No,R26.1
+SUP-8332,2025-08-17,2025-08-19,Client,Training,P2,Closed,24,No,R25.1
+SUP-8333,2025-08-18,,Client,Release query,P0,In Progress,4,No,R25.3
+SUP-8334,2025-08-19,2025-08-19,RTE Support,Feature request,P1,Closed,8,Yes,R26.1
+SUP-8335,2025-08-20,,Internal,Data issue,P2,Open,24,No,R26.3
+SUP-8336,2025-08-21,2025-08-27,RTE Support,Feature request,P2,Closed,24,No,R26.3
+SUP-8337,2025-08-22,2025-08-23,Client,Feature request,P2,Closed,24,No,R25.1
+SUP-8338,2025-08-22,,Stakeholder,Deployment query,P3,In Progress,72,No,R26.3
+SUP-8339,2025-08-23,2025-08-24,Stakeholder,Feature request,P1,Closed,8,No,R25.1
+SUP-8340,2025-08-23,2025-08-28,Stakeholder,Data issue,P2,Resolved,24,No,R25.2
+SUP-8341,2025-08-24,2025-08-26,RTE Support,Release query,P2,Resolved,24,No,R25.3
+SUP-8342,2025-08-24,2025-08-27,Client,Data issue,P2,Closed,24,No,R25.1
+SUP-8343,2025-08-25,,Internal,Deployment query,P2,Open,24,No,R26.3
+SUP-8344,2025-08-26,2025-08-30,RTE Support,Training,P1,Closed,8,No,R25.3
+SUP-8345,2025-08-26,2025-08-26,RTE Support,Release query,P3,Closed,72,No,R26.1
+SUP-8346,2025-08-26,2025-08-30,RTE Support,Training,P2,Closed,24,No,R25.1
+SUP-8347,2025-08-27,,Client,Performance,P2,Open,24,No,R25.3
+SUP-8348,2025-08-29,2025-08-29,RTE Support,Training,P1,Resolved,8,No,R26.1
+SUP-8349,2025-08-30,2025-09-03,Client,Data issue,P3,Closed,72,No,R26.2
+SUP-8350,2025-08-31,2025-09-03,RTE Support,Deployment query,P1,Closed,8,Yes,R25.2
+SUP-8351,2025-09-02,2025-09-02,Client,Access / permissions,P2,Closed,24,No,R25.1
+SUP-8352,2025-09-03,2025-09-03,Stakeholder,Feature request,P2,Closed,24,No,R25.2
+SUP-8353,2025-09-05,2025-09-06,Stakeholder,Data issue,P2,Resolved,24,No,R26.3
+SUP-8354,2025-09-05,2025-09-10,Client,Training,P3,Resolved,72,Yes,R25.1
+SUP-8355,2025-09-06,,Stakeholder,Performance,P2,In Progress,24,No,R25.1
+SUP-8356,2025-09-06,2025-09-09,Client,Release query,P2,Resolved,24,No,R25.2
+SUP-8357,2025-09-06,2025-09-14,Client,Release query,P3,Closed,72,Yes,R26.3
+SUP-8358,2025-09-07,2025-09-07,Internal,Deployment query,P2,Closed,24,No,R26.2
+SUP-8359,2025-09-08,2025-09-08,RTE Support,Data issue,P2,Resolved,24,No,R25.2
+SUP-8360,2025-09-09,2025-09-15,Stakeholder,Data issue,P1,Closed,8,No,R26.2
+SUP-8361,2025-09-10,2025-09-11,RTE Support,Deployment query,P1,Closed,8,No,R26.2
+SUP-8362,2025-09-11,2025-09-14,Internal,Training,P2,Closed,24,No,R26.2
+SUP-8363,2025-09-11,2025-09-20,Client,Data issue,P3,Closed,72,No,R26.2
+SUP-8364,2025-09-12,2025-09-18,Stakeholder,Data issue,P2,Closed,24,No,R26.1
+SUP-8365,2025-09-12,2025-09-19,Stakeholder,Deployment query,P2,Closed,24,No,R26.2
+SUP-8366,2025-09-15,2025-09-19,Client,Defect report,P2,Resolved,24,No,R25.2
+SUP-8367,2025-09-15,2025-09-20,RTE Support,Training,P3,Resolved,72,No,R26.2
+SUP-8368,2025-09-15,2025-09-18,RTE Support,Performance,P2,Closed,24,No,R26.3
+SUP-8369,2025-09-16,2025-09-16,RTE Support,Deployment query,P2,Closed,24,No,R25.1
+SUP-8370,2025-09-16,2025-09-18,Internal,Deployment query,P1,Closed,8,No,R25.1
+SUP-8371,2025-09-16,2025-09-19,Client,Release query,P3,Resolved,72,No,R26.3
+SUP-8372,2025-09-17,2025-09-20,RTE Support,Deployment query,P1,Resolved,8,No,R26.3
+SUP-8373,2025-09-17,2025-09-20,RTE Support,Defect report,P3,Closed,72,No,R25.2
+SUP-8374,2025-09-19,2025-09-20,Stakeholder,Access / permissions,P1,Resolved,8,No,R26.3
+SUP-8375,2025-09-19,2025-09-22,RTE Support,Performance,P2,Closed,24,No,R25.3
+SUP-8376,2025-09-20,2025-09-23,RTE Support,Feature request,P3,Resolved,72,No,R25.2
+SUP-8377,2025-09-20,2025-09-29,Client,Deployment query,P3,Resolved,72,No,R26.1
+SUP-8378,2025-09-20,2025-09-23,Stakeholder,Deployment query,P2,Closed,24,No,R26.2
+SUP-8379,2025-09-21,2025-09-21,Client,Performance,P1,Closed,8,No,R25.1
+SUP-8380,2025-09-21,2025-09-21,Client,Defect report,P3,Closed,72,No,R26.1
+SUP-8381,2025-09-21,2025-09-25,Stakeholder,Performance,P3,Resolved,72,No,R25.1
+SUP-8382,2025-09-22,2025-09-29,RTE Support,Data issue,P3,Closed,72,No,R26.3
+SUP-8383,2025-09-22,2025-09-26,Stakeholder,Training,P3,Closed,72,No,R25.1
+SUP-8384,2025-09-23,2025-09-24,Stakeholder,Training,P2,Resolved,24,No,R26.3
+SUP-8385,2025-09-23,2025-09-25,Stakeholder,Deployment query,P0,Resolved,4,No,R25.2
+SUP-8386,2025-09-23,2025-09-27,Client,Data issue,P3,Closed,72,No,R25.2
+SUP-8387,2025-09-24,2025-09-24,Stakeholder,Defect report,P2,Closed,24,No,R26.3
+SUP-8388,2025-09-24,2025-09-24,Stakeholder,Performance,P2,Resolved,24,No,R26.3
+SUP-8389,2025-09-27,2025-09-29,Internal,Deployment query,P3,Closed,72,No,R25.1
+SUP-8390,2025-09-28,2025-10-02,Stakeholder,Training,P2,Resolved,24,No,R26.1
+SUP-8391,2025-09-29,,RTE Support,Training,P3,Open,72,No,R26.1
+SUP-8392,2025-09-30,2025-10-09,RTE Support,Training,P3,Closed,72,No,R26.1
+SUP-8393,2025-09-30,2025-09-30,RTE Support,Performance,P3,Resolved,72,No,R26.2
+SUP-8394,2025-10-01,2025-10-06,Internal,Performance,P3,Closed,72,No,R25.3
+SUP-8395,2025-10-02,2025-10-05,Client,Data issue,P0,Closed,4,No,R25.2
+SUP-8396,2025-10-03,2025-10-03,RTE Support,Data issue,P2,Closed,24,No,R25.1
+SUP-8397,2025-10-04,2025-10-04,Client,Data issue,P0,Resolved,4,Yes,R25.1
+SUP-8398,2025-10-04,2025-10-12,RTE Support,Training,P2,Resolved,24,No,R25.3
+SUP-8399,2025-10-05,2025-10-05,RTE Support,Data issue,P1,Closed,8,No,R26.3
+SUP-8400,2025-10-05,2025-10-07,Stakeholder,Performance,P2,Closed,24,No,R25.3
+SUP-8401,2025-10-05,,RTE Support,Data issue,P3,In Progress,72,No,R25.1
+SUP-8402,2025-10-06,2025-10-09,Client,Data issue,P2,Closed,24,No,R26.2
+SUP-8403,2025-10-06,2025-10-07,RTE Support,Release query,P3,Resolved,72,No,R25.2
+SUP-8404,2025-10-07,2025-10-14,Stakeholder,Access / permissions,P2,Closed,24,No,R26.1
+SUP-8405,2025-10-07,2025-10-15,RTE Support,Feature request,P3,Closed,72,No,R26.2
+SUP-8406,2025-10-09,2025-10-09,RTE Support,Data issue,P2,Closed,24,No,R25.1
+SUP-8407,2025-10-09,2025-10-18,Client,Release query,P3,Closed,72,No,R26.3
+SUP-8408,2025-10-10,2025-10-11,Stakeholder,Access / permissions,P1,Resolved,8,No,R26.3
+SUP-8409,2025-10-12,2025-10-13,Client,Deployment query,P2,Closed,24,No,R25.1
+SUP-8410,2025-10-12,2025-10-20,Client,Defect report,P3,Closed,72,No,R25.2
+SUP-8411,2025-10-13,2025-10-14,Internal,Performance,P2,Closed,24,No,R25.2
+SUP-8412,2025-10-14,2025-10-15,Client,Defect report,P3,Closed,72,No,R26.3
+SUP-8413,2025-10-14,2025-10-15,Stakeholder,Defect report,P2,Closed,24,No,R25.1
+SUP-8414,2025-10-14,2025-10-15,RTE Support,Performance,P3,Resolved,72,No,R25.1
+SUP-8415,2025-10-15,2025-10-18,Stakeholder,Defect report,P3,Closed,72,No,R25.2
+SUP-8416,2025-10-16,2025-10-17,Stakeholder,Defect report,P2,Closed,24,No,R26.1
+SUP-8417,2025-10-17,2025-10-23,RTE Support,Data issue,P1,Closed,8,Yes,R25.3
+SUP-8418,2025-10-17,2025-10-17,Internal,Release query,P3,Closed,72,No,R26.3
+SUP-8419,2025-10-18,2025-10-20,RTE Support,Training,P2,Closed,24,No,R25.2
+SUP-8420,2025-10-18,2025-10-18,Client,Deployment query,P3,Closed,72,No,R26.1
+SUP-8421,2025-10-18,2025-10-22,Stakeholder,Performance,P2,Closed,24,No,R25.3
+SUP-8422,2025-10-19,2025-10-20,RTE Support,Training,P2,Closed,24,No,R26.2
+SUP-8423,2025-10-19,2025-10-23,Stakeholder,Defect report,P2,Closed,24,No,R25.1
+SUP-8424,2025-10-20,2025-10-30,RTE Support,Feature request,P3,Closed,72,No,R26.3
+SUP-8425,2025-10-21,2025-10-23,RTE Support,Training,P3,Resolved,72,No,R26.1
+SUP-8426,2025-10-21,2025-10-24,Client,Performance,P2,Resolved,24,No,R26.3
+SUP-8427,2025-10-22,2025-10-24,RTE Support,Access / permissions,P2,Resolved,24,No,R26.1
+SUP-8428,2025-10-23,2025-10-29,RTE Support,Training,P2,Resolved,24,No,R25.1
+SUP-8429,2025-10-23,2025-10-26,Client,Performance,P2,Closed,24,No,R26.1
+SUP-8430,2025-10-24,2025-11-02,Internal,Training,P2,Resolved,24,No,R25.1
+SUP-8431,2025-10-24,2025-10-30,Client,Defect report,P3,Closed,72,No,R26.2
+SUP-8432,2025-10-24,2025-10-28,Internal,Defect report,P2,Resolved,24,No,R25.2
+SUP-8433,2025-10-25,2025-10-26,RTE Support,Performance,P0,Resolved,4,No,R25.2
+SUP-8434,2025-10-25,2025-10-26,Internal,Training,P2,Resolved,24,No,R26.2
+SUP-8435,2025-10-25,,Client,Feature request,P2,Open,24,No,R25.1
+SUP-8436,2025-10-26,2025-10-30,Client,Access / permissions,P2,Closed,24,No,R25.2
+SUP-8437,2025-10-26,2025-10-27,RTE Support,Data issue,P3,Resolved,72,No,R26.1
+SUP-8438,2025-10-28,2025-10-28,Client,Feature request,P3,Closed,72,No,R26.1
+SUP-8439,2025-10-28,2025-10-29,Client,Deployment query,P0,Closed,4,No,R25.1
+SUP-8440,2025-10-29,2025-10-31,Client,Feature request,P1,Resolved,8,No,R26.2
+SUP-8441,2025-10-29,2025-10-29,Client,Deployment query,P3,Closed,72,No,R26.1
+SUP-8442,2025-10-30,2025-11-03,Client,Defect report,P3,Closed,72,No,R26.1
+SUP-8443,2025-10-30,2025-10-31,Stakeholder,Feature request,P1,Resolved,8,No,R26.1
+SUP-8444,2025-10-30,2025-11-02,RTE Support,Access / permissions,P3,Resolved,72,No,R26.2
+SUP-8445,2025-10-31,2025-11-01,Client,Release query,P2,Closed,24,No,R25.3
+SUP-8446,2025-10-31,2025-11-10,Stakeholder,Data issue,P3,Closed,72,No,R26.1
+SUP-8447,2025-11-01,2025-11-08,Client,Data issue,P2,Resolved,24,No,R25.3
+SUP-8448,2025-11-01,2025-11-05,RTE Support,Data issue,P2,Resolved,24,No,R26.2
+SUP-8449,2025-11-01,2025-11-02,Client,Training,P2,Closed,24,No,R25.1
+SUP-8450,2025-11-02,2025-11-02,RTE Support,Performance,P3,Closed,72,No,R26.3
+SUP-8451,2025-11-02,2025-11-03,Client,Deployment query,P2,Closed,24,No,R26.2
+SUP-8452,2025-11-03,2025-11-09,Client,Training,P3,Closed,72,No,R26.2
+SUP-8453,2025-11-05,2025-11-07,Stakeholder,Deployment query,P1,Closed,8,No,R26.1
+SUP-8454,2025-11-06,2025-11-07,Client,Data issue,P2,Closed,24,No,R25.2
+SUP-8455,2025-11-06,2025-11-08,Client,Feature request,P2,Resolved,24,No,R26.1
+SUP-8456,2025-11-07,2025-11-07,Internal,Access / permissions,P2,Closed,24,No,R26.2
+SUP-8457,2025-11-07,2025-11-07,Stakeholder,Performance,P2,Closed,24,No,R25.1
+SUP-8458,2025-11-07,2025-11-10,Stakeholder,Performance,P3,Closed,72,No,R25.1
+SUP-8459,2025-11-09,2025-11-10,Stakeholder,Feature request,P2,Resolved,24,No,R26.2
+SUP-8460,2025-11-09,2025-11-13,Internal,Defect report,P2,Resolved,24,No,R26.3
+SUP-8461,2025-11-09,2025-11-14,Client,Defect report,P2,Resolved,24,No,R25.3
+SUP-8462,2025-11-10,2025-11-10,Internal,Data issue,P1,Resolved,8,No,R26.3
+SUP-8463,2025-11-10,2025-11-16,RTE Support,Defect report,P2,Closed,24,No,R26.2
+SUP-8464,2025-11-11,2025-11-13,Internal,Training,P2,Resolved,24,No,R25.1
+SUP-8465,2025-11-12,2025-11-16,Client,Release query,P2,Closed,24,No,R26.3
+SUP-8466,2025-11-12,2025-11-14,RTE Support,Access / permissions,P2,Resolved,24,No,R26.3
+SUP-8467,2025-11-13,2025-11-15,Client,Release query,P2,Resolved,24,No,R26.2
+SUP-8468,2025-11-14,2025-11-20,Client,Feature request,P1,Closed,8,No,R26.2
+SUP-8469,2025-11-14,2025-11-15,RTE Support,Access / permissions,P3,Closed,72,No,R25.1
+SUP-8470,2025-11-14,2025-11-20,Client,Deployment query,P1,Resolved,8,No,R26.3
+SUP-8471,2025-11-15,2025-11-18,RTE Support,Deployment query,P0,Closed,4,No,R26.2
+SUP-8472,2025-11-16,2025-11-16,Stakeholder,Access / permissions,P1,Resolved,8,No,R25.1
+SUP-8473,2025-11-16,2025-11-16,Client,Data issue,P2,Closed,24,No,R25.2
+SUP-8474,2025-11-17,2025-11-25,Stakeholder,Defect report,P1,Closed,8,No,R25.3
+SUP-8475,2025-11-17,2025-11-22,Client,Feature request,P2,Closed,24,No,R26.2
+SUP-8476,2025-11-18,2025-11-25,RTE Support,Data issue,P3,Resolved,72,No,R25.2
+SUP-8477,2025-11-19,2025-11-23,RTE Support,Defect report,P2,Closed,24,No,R25.2
+SUP-8478,2025-11-21,,Client,Deployment query,P3,Open,72,No,R25.3
+SUP-8479,2025-11-21,2025-11-22,RTE Support,Deployment query,P3,Closed,72,No,R26.2
+SUP-8480,2025-11-23,2025-11-25,Client,Training,P2,Closed,24,No,R26.1
+SUP-8481,2025-11-24,2025-11-26,RTE Support,Access / permissions,P3,Resolved,72,No,R26.1
+SUP-8482,2025-11-24,2025-12-01,RTE Support,Release query,P3,Resolved,72,No,R26.2
+SUP-8483,2025-11-25,2025-11-29,RTE Support,Defect report,P2,Resolved,24,No,R25.3
+SUP-8484,2025-11-26,2025-11-27,RTE Support,Deployment query,P3,Closed,72,No,R25.2
+SUP-8485,2025-11-26,2025-12-04,RTE Support,Release query,P0,Resolved,4,No,R25.1
+SUP-8486,2025-11-26,2025-12-02,RTE Support,Training,P2,Closed,24,No,R26.2
+SUP-8487,2025-11-27,2025-11-30,Client,Deployment query,P2,Closed,24,No,R25.1
+SUP-8488,2025-11-27,2025-12-01,RTE Support,Defect report,P2,Resolved,24,No,R26.2
+SUP-8489,2025-11-28,2025-11-28,Internal,Performance,P2,Resolved,24,No,R26.1
+SUP-8490,2025-11-29,2025-11-30,Stakeholder,Data issue,P1,Closed,8,Yes,R26.3
+SUP-8491,2025-11-29,2025-11-29,Client,Performance,P2,Closed,24,No,R25.2
+SUP-8492,2025-11-30,2025-12-03,Client,Access / permissions,P1,Resolved,8,No,R26.1
+SUP-8493,2025-12-01,2025-12-01,Client,Defect report,P3,Closed,72,No,R25.2
+SUP-8494,2025-12-01,2025-12-03,Client,Training,P3,Resolved,72,No,R26.2
+SUP-8495,2025-12-02,2025-12-02,Stakeholder,Feature request,P2,Closed,24,No,R26.1
+SUP-8496,2025-12-03,2025-12-06,Client,Defect report,P2,Closed,24,No,R26.3
+SUP-8497,2025-12-05,,RTE Support,Defect report,P2,In Progress,24,No,R25.1
+SUP-8498,2025-12-06,2025-12-12,Internal,Defect report,P2,Closed,24,No,R25.2
+SUP-8499,2025-12-07,2025-12-11,Client,Access / permissions,P1,Resolved,8,No,R25.3
+SUP-8500,2025-12-08,2025-12-13,Client,Performance,P2,Resolved,24,No,R26.3
+SUP-8501,2025-12-09,2025-12-10,Client,Feature request,P2,Closed,24,No,R26.2
+SUP-8502,2025-12-09,2025-12-11,RTE Support,Deployment query,P3,Closed,72,No,R26.3
+SUP-8503,2025-12-10,2025-12-12,Client,Deployment query,P0,Resolved,4,No,R25.1
+SUP-8504,2025-12-11,2025-12-11,Internal,Release query,P2,Closed,24,No,R26.3
+SUP-8505,2025-12-13,2025-12-13,Stakeholder,Deployment query,P3,Closed,72,Yes,R26.2
+SUP-8506,2025-12-14,2025-12-17,Stakeholder,Performance,P3,Closed,72,No,R25.2
+SUP-8507,2025-12-14,2025-12-14,Stakeholder,Training,P3,Closed,72,No,R26.1
+SUP-8508,2025-12-15,2025-12-15,Stakeholder,Deployment query,P2,Resolved,24,No,R26.1
+SUP-8509,2025-12-16,2025-12-19,RTE Support,Release query,P3,Resolved,72,Yes,R25.2
+SUP-8510,2025-12-16,2025-12-16,RTE Support,Release query,P2,Closed,24,No,R25.3
+SUP-8511,2025-12-17,2025-12-24,Internal,Release query,P2,Resolved,24,No,R25.1
+SUP-8512,2025-12-17,2025-12-18,Client,Feature request,P3,Closed,72,No,R26.3
+SUP-8513,2025-12-17,2025-12-18,RTE Support,Feature request,P3,Resolved,72,No,R25.1
+SUP-8514,2025-12-18,2025-12-19,Stakeholder,Release query,P1,Resolved,8,No,R26.3
+SUP-8515,2025-12-18,,RTE Support,Release query,P1,Open,8,No,R26.3
+SUP-8516,2025-12-18,2025-12-18,Stakeholder,Defect report,P2,Resolved,24,No,R25.1
+SUP-8517,2025-12-19,2025-12-26,Client,Deployment query,P2,Closed,24,No,R26.1
+SUP-8518,2025-12-19,,Client,Performance,P2,In Progress,24,No,R25.3
+SUP-8519,2025-12-20,2025-12-22,Client,Release query,P2,Closed,24,No,R26.3
+SUP-8520,2025-12-20,2025-12-20,Internal,Deployment query,P3,Resolved,72,Yes,R25.1
+SUP-8521,2025-12-21,2025-12-22,Internal,Performance,P3,Closed,72,No,R26.3
+SUP-8522,2025-12-22,2025-12-27,Client,Training,P3,Closed,72,No,R25.2
+SUP-8523,2025-12-22,2025-12-22,Client,Access / permissions,P3,Closed,72,No,R25.2
+SUP-8524,2025-12-23,2025-12-26,Stakeholder,Feature request,P0,Resolved,4,No,R26.1
+SUP-8525,2025-12-23,2025-12-28,RTE Support,Release query,P2,Resolved,24,Yes,R26.3
+SUP-8526,2025-12-24,2025-12-28,RTE Support,Access / permissions,P3,Resolved,72,No,R26.2
+SUP-8527,2025-12-25,2025-12-30,Client,Deployment query,P2,Closed,24,No,R26.3
+SUP-8528,2025-12-25,,Client,Training,P3,Open,72,Yes,R25.1
+SUP-8529,2025-12-26,2025-12-26,Internal,Performance,P1,Resolved,8,No,R26.3
+SUP-8530,2025-12-27,2025-12-27,RTE Support,Release query,P3,Resolved,72,No,R25.2
+SUP-8531,2025-12-28,2025-12-29,Client,Training,P1,Closed,8,No,R25.1
+SUP-8532,2025-12-28,2025-12-30,RTE Support,Data issue,P3,Resolved,72,No,R25.2
+SUP-8533,2025-12-30,2025-12-31,RTE Support,Performance,P3,Closed,72,No,R25.3
+SUP-8534,2025-12-30,2026-01-03,RTE Support,Deployment query,P2,Closed,24,No,R26.1
+SUP-8535,2025-12-30,2026-01-05,Client,Performance,P0,Closed,4,No,R26.3
+SUP-8536,2025-12-31,2026-01-04,RTE Support,Defect report,P2,Closed,24,No,R26.2
+SUP-8537,2026-01-02,2026-01-02,RTE Support,Access / permissions,P3,Closed,72,No,R25.3
+SUP-8538,2026-01-04,2026-01-09,Client,Performance,P2,Resolved,24,No,R25.2
+SUP-8539,2026-01-05,2026-01-07,Client,Release query,P2,Closed,24,No,R26.3
+SUP-8540,2026-01-05,2026-01-08,Client,Release query,P3,Closed,72,No,R26.2
+SUP-8541,2026-01-06,2026-01-07,RTE Support,Access / permissions,P1,Closed,8,No,R26.3
+SUP-8542,2026-01-06,2026-01-10,Client,Training,P1,Closed,8,No,R25.2
+SUP-8543,2026-01-07,2026-01-12,RTE Support,Release query,P1,Resolved,8,No,R26.2
+SUP-8544,2026-01-07,2026-01-09,Stakeholder,Access / permissions,P2,Resolved,24,Yes,R26.3
+SUP-8545,2026-01-07,2026-01-08,Stakeholder,Performance,P2,Resolved,24,No,R26.1
+SUP-8546,2026-01-08,2026-01-11,Stakeholder,Feature request,P2,Resolved,24,No,R25.3
+SUP-8547,2026-01-09,2026-01-11,RTE Support,Data issue,P2,Resolved,24,No,R26.1
+SUP-8548,2026-01-10,2026-01-13,RTE Support,Release query,P3,Closed,72,No,R26.2
+SUP-8549,2026-01-11,2026-01-12,Internal,Deployment query,P3,Closed,72,Yes,R26.3
+SUP-8550,2026-01-11,2026-01-18,Client,Access / permissions,P3,Closed,72,Yes,R26.3
+SUP-8551,2026-01-13,2026-01-14,RTE Support,Defect report,P2,Closed,24,No,R26.1
+SUP-8552,2026-01-14,2026-01-19,Client,Deployment query,P3,Resolved,72,No,R26.3
+SUP-8553,2026-01-14,2026-01-15,Internal,Access / permissions,P3,Closed,72,No,R26.2
+SUP-8554,2026-01-14,2026-01-14,RTE Support,Access / permissions,P3,Resolved,72,No,R25.2
+SUP-8555,2026-01-15,2026-01-15,Client,Feature request,P3,Closed,72,No,R25.1
+SUP-8556,2026-01-15,2026-01-15,Client,Deployment query,P1,Resolved,8,No,R26.2
+SUP-8557,2026-01-15,2026-01-20,Stakeholder,Deployment query,P2,Closed,24,No,R26.1
+SUP-8558,2026-01-16,2026-01-23,Client,Data issue,P3,Resolved,72,No,R26.3
+SUP-8559,2026-01-16,2026-01-25,Client,Training,P1,Resolved,8,No,R25.3
+SUP-8560,2026-01-17,2026-01-18,Internal,Training,P2,Closed,24,No,R26.1
+SUP-8561,2026-01-17,2026-01-20,RTE Support,Feature request,P2,Closed,24,No,R26.3
+SUP-8562,2026-01-18,,RTE Support,Performance,P1,Open,8,No,R25.1
+SUP-8563,2026-01-19,,Client,Feature request,P1,Open,8,No,R26.3
+SUP-8564,2026-01-21,2026-01-23,Internal,Defect report,P3,Closed,72,No,R25.2
+SUP-8565,2026-01-22,2026-01-23,Client,Defect report,P3,Resolved,72,No,R25.1
+SUP-8566,2026-01-23,2026-01-28,Client,Defect report,P2,Closed,24,No,R25.3
+SUP-8567,2026-01-23,2026-01-25,RTE Support,Release query,P3,Resolved,72,No,R25.1
+SUP-8568,2026-01-24,2026-02-03,Stakeholder,Feature request,P1,Closed,8,No,R26.2
+SUP-8569,2026-01-25,2026-01-28,Client,Release query,P1,Closed,8,No,R26.1
+SUP-8570,2026-01-26,2026-01-27,Stakeholder,Performance,P1,Closed,8,No,R26.2
+SUP-8571,2026-01-28,2026-01-29,Client,Access / permissions,P2,Resolved,24,No,R26.1
+SUP-8572,2026-01-28,,Internal,Feature request,P2,Open,24,No,R26.3
+SUP-8573,2026-01-28,2026-01-30,RTE Support,Data issue,P2,Resolved,24,No,R26.1
+SUP-8574,2026-01-31,2026-02-04,Client,Release query,P1,Resolved,8,No,R25.1
+SUP-8575,2026-02-01,2026-02-03,Client,Training,P1,Resolved,8,Yes,R26.2
+SUP-8576,2026-02-01,2026-02-02,Stakeholder,Data issue,P3,Closed,72,No,R26.1
+SUP-8577,2026-02-02,2026-02-07,Internal,Release query,P2,Closed,24,No,R25.3
+SUP-8578,2026-02-02,2026-02-04,Client,Performance,P2,Closed,24,No,R26.3
+SUP-8579,2026-02-03,2026-02-05,Client,Training,P2,Closed,24,No,R25.1
+SUP-8580,2026-02-03,2026-02-04,Stakeholder,Defect report,P1,Resolved,8,No,R25.1
+SUP-8581,2026-02-05,2026-02-07,Internal,Training,P3,Closed,72,No,R26.2
+SUP-8582,2026-02-06,2026-02-07,RTE Support,Training,P3,Closed,72,No,R25.1
+SUP-8583,2026-02-06,2026-02-15,RTE Support,Defect report,P1,Closed,8,No,R26.2
+SUP-8584,2026-02-07,2026-02-11,RTE Support,Access / permissions,P2,Resolved,24,No,R26.2
+SUP-8585,2026-02-08,2026-02-09,RTE Support,Release query,P3,Closed,72,No,R26.3
+SUP-8586,2026-02-09,2026-02-12,RTE Support,Access / permissions,P2,Closed,24,Yes,R26.2
+SUP-8587,2026-02-10,2026-02-10,Stakeholder,Feature request,P1,Resolved,8,No,R26.3
+SUP-8588,2026-02-11,2026-02-14,RTE Support,Performance,P2,Closed,24,No,R25.1
+SUP-8589,2026-02-12,2026-02-12,Client,Access / permissions,P1,Closed,8,No,R25.2
+SUP-8590,2026-02-12,2026-02-12,Client,Data issue,P1,Closed,8,No,R26.3
+SUP-8591,2026-02-12,2026-02-13,Stakeholder,Release query,P3,Closed,72,No,R26.2
+SUP-8592,2026-02-13,2026-02-14,Client,Feature request,P3,Resolved,72,No,R25.1
+SUP-8593,2026-02-14,2026-02-23,RTE Support,Feature request,P2,Closed,24,No,R26.1
+SUP-8594,2026-02-14,2026-02-23,Client,Access / permissions,P3,Closed,72,No,R25.2
+SUP-8595,2026-02-15,2026-02-15,Stakeholder,Deployment query,P2,Closed,24,No,R25.1
+SUP-8596,2026-02-15,2026-02-16,Client,Performance,P1,Closed,8,No,R26.3
+SUP-8597,2026-02-16,2026-02-19,RTE Support,Release query,P2,Closed,24,No,R25.2
+SUP-8598,2026-02-17,,RTE Support,Training,P2,Open,24,No,R26.1
+SUP-8599,2026-02-17,2026-02-23,Client,Training,P2,Closed,24,No,R26.1
+SUP-8600,2026-02-18,2026-02-22,Stakeholder,Performance,P2,Resolved,24,No,R25.2
+SUP-8601,2026-02-18,2026-02-23,RTE Support,Deployment query,P1,Resolved,8,No,R26.2
+SUP-8602,2026-02-19,,Client,Performance,P2,Open,24,No,R26.3
+SUP-8603,2026-02-19,2026-02-24,RTE Support,Release query,P3,Closed,72,Yes,R26.2
+SUP-8604,2026-02-19,2026-02-23,RTE Support,Release query,P3,Resolved,72,No,R25.2
+SUP-8605,2026-02-21,2026-02-23,RTE Support,Data issue,P3,Resolved,72,No,R26.2
+SUP-8606,2026-02-21,2026-02-23,RTE Support,Training,P1,Resolved,8,No,R25.3
+SUP-8607,2026-02-21,2026-02-23,RTE Support,Performance,P3,Closed,72,No,R25.3
+SUP-8608,2026-02-22,,Client,Data issue,P3,In Progress,72,No,R25.2
+SUP-8609,2026-02-23,2026-02-26,Client,Deployment query,P2,Closed,24,Yes,R26.3
+SUP-8610,2026-02-23,2026-02-23,RTE Support,Performance,P2,Resolved,24,No,R25.3
+SUP-8611,2026-02-24,2026-02-25,Client,Feature request,P2,Closed,24,No,R25.3
+SUP-8612,2026-02-24,2026-03-01,Internal,Feature request,P2,Closed,24,No,R25.3
+SUP-8613,2026-02-25,2026-02-26,RTE Support,Feature request,P1,Closed,8,Yes,R25.1
+SUP-8614,2026-02-25,2026-02-27,Client,Release query,P2,Resolved,24,Yes,R26.1
+SUP-8615,2026-02-26,2026-03-04,Client,Training,P1,Closed,8,Yes,R25.3
+SUP-8616,2026-02-27,2026-02-27,Stakeholder,Feature request,P3,Resolved,72,No,R26.2
+SUP-8617,2026-02-28,2026-03-03,Client,Performance,P2,Resolved,24,No,R25.3
+SUP-8618,2026-03-01,2026-03-03,Internal,Data issue,P0,Resolved,4,No,R26.2
+SUP-8619,2026-03-02,2026-03-03,RTE Support,Data issue,P2,Resolved,24,No,R25.3
+SUP-8620,2026-03-02,2026-03-03,Client,Release query,P3,Resolved,72,No,R26.3
+SUP-8621,2026-03-03,2026-03-06,Client,Performance,P3,Resolved,72,No,R25.1
+SUP-8622,2026-03-05,,RTE Support,Defect report,P3,In Progress,72,No,R25.3
+SUP-8623,2026-03-05,2026-03-05,RTE Support,Access / permissions,P2,Resolved,24,No,R26.2
+SUP-8624,2026-03-05,2026-03-12,RTE Support,Feature request,P3,Closed,72,No,R26.1
+SUP-8625,2026-03-06,2026-03-06,RTE Support,Training,P2,Closed,24,No,R25.2
+SUP-8626,2026-03-07,2026-03-09,Client,Release query,P1,Closed,8,No,R25.1
+SUP-8627,2026-03-07,2026-03-12,Client,Release query,P3,Closed,72,No,R26.1
+SUP-8628,2026-03-07,2026-03-09,Internal,Deployment query,P2,Resolved,24,No,R25.3
+SUP-8629,2026-03-09,2026-03-12,Internal,Data issue,P3,Closed,72,No,R25.1
+SUP-8630,2026-03-10,,Stakeholder,Release query,P1,In Progress,8,No,R26.1
+SUP-8631,2026-03-10,2026-03-10,Internal,Defect report,P1,Resolved,8,No,R26.2
+SUP-8632,2026-03-11,2026-03-11,Stakeholder,Release query,P2,Closed,24,No,R26.1
+SUP-8633,2026-03-11,2026-03-18,RTE Support,Data issue,P2,Resolved,24,No,R26.1
+SUP-8634,2026-03-11,2026-03-13,Stakeholder,Performance,P3,Resolved,72,No,R25.2
+SUP-8635,2026-03-12,2026-03-13,RTE Support,Deployment query,P2,Resolved,24,Yes,R25.3
+SUP-8636,2026-03-13,2026-03-16,Client,Defect report,P2,Closed,24,No,R25.2
+SUP-8637,2026-03-14,2026-03-16,RTE Support,Training,P2,Closed,24,No,R25.1
+SUP-8638,2026-03-14,2026-03-14,Client,Deployment query,P1,Resolved,8,No,R26.1
+SUP-8639,2026-03-16,2026-03-24,RTE Support,Data issue,P0,Resolved,4,No,R25.3
+SUP-8640,2026-03-17,,Stakeholder,Access / permissions,P1,In Progress,8,No,R25.2
+SUP-8641,2026-03-17,2026-03-22,Internal,Access / permissions,P3,Closed,72,No,R25.3
+SUP-8642,2026-03-18,2026-03-21,RTE Support,Data issue,P1,Resolved,8,No,R26.3
+SUP-8643,2026-03-18,2026-03-21,Stakeholder,Performance,P1,Resolved,8,No,R26.3
+SUP-8644,2026-03-18,2026-03-20,Stakeholder,Feature request,P3,Resolved,72,Yes,R25.2
+SUP-8645,2026-03-19,2026-03-21,Internal,Training,P2,Closed,24,No,R26.1
+SUP-8646,2026-03-19,2026-03-22,Internal,Deployment query,P3,Closed,72,No,R25.1
+SUP-8647,2026-03-20,2026-03-26,RTE Support,Release query,P1,Resolved,8,No,R25.3
+SUP-8648,2026-03-21,2026-03-30,RTE Support,Deployment query,P2,Closed,24,No,R26.2
+SUP-8649,2026-03-21,2026-03-28,RTE Support,Training,P3,Closed,72,Yes,R25.1
+SUP-8650,2026-03-22,2026-03-26,RTE Support,Feature request,P1,Resolved,8,No,R25.1
+SUP-8651,2026-03-23,2026-03-27,Internal,Defect report,P2,Closed,24,No,R26.3
+SUP-8652,2026-03-25,2026-04-02,Stakeholder,Feature request,P1,Closed,8,No,R25.3
+SUP-8653,2026-03-27,2026-03-29,Client,Training,P3,Closed,72,No,R25.1
+SUP-8654,2026-03-27,2026-03-27,Client,Deployment query,P2,Closed,24,No,R25.1
+SUP-8655,2026-03-28,2026-04-04,RTE Support,Data issue,P1,Closed,8,No,R26.1
+SUP-8656,2026-03-29,2026-03-31,Client,Release query,P3,Closed,72,No,R25.3
+SUP-8657,2026-03-30,2026-04-03,Client,Performance,P3,Closed,72,No,R26.2
+SUP-8658,2026-03-31,2026-04-01,Internal,Data issue,P3,Closed,72,No,R26.2
+SUP-8659,2026-04-02,2026-04-05,RTE Support,Deployment query,P1,Resolved,8,Yes,R25.1
+SUP-8660,2026-04-02,2026-04-03,RTE Support,Access / permissions,P1,Resolved,8,Yes,R25.1
+SUP-8661,2026-04-03,2026-04-07,RTE Support,Performance,P2,Resolved,24,Yes,R26.1
+SUP-8662,2026-04-05,2026-04-07,Client,Access / permissions,P0,Closed,4,No,R26.3
+SUP-8663,2026-04-06,2026-04-06,Internal,Data issue,P3,Resolved,72,No,R25.2
+SUP-8664,2026-04-07,2026-04-14,RTE Support,Deployment query,P2,Closed,24,No,R25.2
+SUP-8665,2026-04-07,2026-04-07,Client,Deployment query,P2,Closed,24,No,R26.2
+SUP-8666,2026-04-10,2026-04-13,RTE Support,Performance,P2,Closed,24,No,R25.3
+SUP-8667,2026-04-10,2026-04-11,RTE Support,Deployment query,P2,Closed,24,No,R25.2
+SUP-8668,2026-04-11,2026-04-12,RTE Support,Feature request,P2,Closed,24,No,R26.3
+SUP-8669,2026-04-11,2026-04-12,RTE Support,Training,P3,Closed,72,No,R25.1
+SUP-8670,2026-04-11,2026-04-12,Client,Data issue,P3,Closed,72,No,R26.2
+SUP-8671,2026-04-12,2026-04-14,Client,Training,P2,Resolved,24,No,R26.3
+SUP-8672,2026-04-13,2026-04-16,Internal,Access / permissions,P2,Closed,24,No,R26.1
+SUP-8673,2026-04-13,,Internal,Feature request,P2,Open,24,No,R26.2
+SUP-8674,2026-04-15,2026-04-15,Client,Data issue,P3,Resolved,72,No,R25.3
+SUP-8675,2026-04-16,2026-04-17,RTE Support,Defect report,P3,Closed,72,No,R25.3
+SUP-8676,2026-04-16,2026-04-19,Stakeholder,Data issue,P3,Resolved,72,No,R25.3
+SUP-8677,2026-04-18,2026-04-18,Client,Performance,P2,Resolved,24,No,R25.2
+SUP-8678,2026-04-18,2026-04-19,Client,Deployment query,P1,Resolved,8,No,R25.2
+SUP-8679,2026-04-19,2026-04-19,Internal,Defect report,P3,Resolved,72,No,R25.2
+SUP-8680,2026-04-20,,RTE Support,Access / permissions,P3,In Progress,72,No,R25.3
+SUP-8681,2026-04-20,2026-04-24,Stakeholder,Feature request,P1,Closed,8,No,R25.1
+SUP-8682,2026-04-21,,Client,Feature request,P3,Open,72,No,R25.3
+SUP-8683,2026-04-21,2026-04-22,Client,Defect report,P1,Resolved,8,No,R26.2
+SUP-8684,2026-04-22,2026-04-26,RTE Support,Defect report,P2,Closed,24,No,R25.2
+SUP-8685,2026-04-24,2026-04-26,Stakeholder,Deployment query,P2,Closed,24,No,R25.1
+SUP-8686,2026-04-24,2026-04-29,Client,Deployment query,P2,Closed,24,No,R25.2
+SUP-8687,2026-04-25,2026-04-25,Stakeholder,Defect report,P1,Closed,8,No,R25.1
+SUP-8688,2026-04-26,,RTE Support,Access / permissions,P3,In Progress,72,Yes,R26.3
+SUP-8689,2026-04-27,2026-05-01,Client,Release query,P2,Resolved,24,No,R25.1
+SUP-8690,2026-04-27,2026-05-01,Stakeholder,Training,P2,Resolved,24,No,R25.1
+SUP-8691,2026-04-27,2026-04-29,Client,Defect report,P2,Resolved,24,No,R26.1
+SUP-8692,2026-04-28,2026-04-28,Client,Deployment query,P2,Closed,24,No,R25.1
+SUP-8693,2026-04-29,,Client,Access / permissions,P3,Open,72,No,R25.3
+SUP-8694,2026-04-30,2026-05-08,RTE Support,Deployment query,P2,Closed,24,No,R25.3
+SUP-8695,2026-05-01,2026-05-04,Client,Data issue,P3,Resolved,72,No,R26.1
+SUP-8696,2026-05-02,,Client,Defect report,P3,In Progress,72,No,R25.2
+SUP-8697,2026-05-02,2026-05-03,RTE Support,Defect report,P2,Closed,24,No,R26.1
+SUP-8698,2026-05-02,2026-05-03,Internal,Performance,P3,Closed,72,No,R26.2
+SUP-8699,2026-05-03,2026-05-04,Client,Data issue,P3,Closed,72,No,R26.1
+SUP-8700,2026-05-03,2026-05-05,Client,Feature request,P3,Resolved,72,No,R25.2
+SUP-8701,2026-05-04,2026-05-05,Client,Feature request,P2,Closed,24,No,R25.2
+SUP-8702,2026-05-05,2026-05-06,Client,Feature request,P3,Closed,72,No,R26.3
+SUP-8703,2026-05-06,,Stakeholder,Access / permissions,P2,Open,24,No,R25.1
+SUP-8704,2026-05-07,2026-05-09,Stakeholder,Training,P2,Resolved,24,No,R26.3
+SUP-8705,2026-05-08,2026-05-10,Internal,Performance,P1,Closed,8,No,R26.2
+SUP-8706,2026-05-09,2026-05-09,RTE Support,Feature request,P3,Closed,72,No,R25.2
+SUP-8707,2026-05-10,2026-05-15,Stakeholder,Data issue,P1,Closed,8,No,R25.2
+SUP-8708,2026-05-11,2026-05-15,RTE Support,Defect report,P2,Closed,24,No,R26.2
+SUP-8709,2026-05-11,2026-05-15,Client,Deployment query,P1,Closed,8,No,R25.1
+SUP-8710,2026-05-12,2026-05-13,RTE Support,Feature request,P2,Resolved,24,No,R25.2
+SUP-8711,2026-05-12,2026-05-21,RTE Support,Performance,P2,Closed,24,No,R25.3
+SUP-8712,2026-05-13,2026-05-17,Client,Access / permissions,P2,Closed,24,Yes,R26.3
+SUP-8713,2026-05-14,2026-05-16,Stakeholder,Release query,P2,Closed,24,No,R25.2
+SUP-8714,2026-05-14,,Client,Release query,P2,In Progress,24,No,R26.3
+SUP-8715,2026-05-14,2026-05-22,RTE Support,Defect report,P2,Closed,24,No,R25.2
+SUP-8716,2026-05-15,2026-05-17,Client,Data issue,P3,Closed,72,No,R25.1
+SUP-8717,2026-05-16,2026-05-18,Internal,Release query,P2,Closed,24,No,R26.3
+SUP-8718,2026-05-17,2026-05-17,Client,Defect report,P2,Closed,24,No,R25.1
+SUP-8719,2026-05-17,2026-05-20,Internal,Performance,P3,Resolved,72,No,R25.1
+SUP-8720,2026-05-18,2026-05-24,Stakeholder,Release query,P3,Resolved,72,No,R26.1
+SUP-8721,2026-05-18,2026-05-19,RTE Support,Performance,P2,Closed,24,No,R26.3
+SUP-8722,2026-05-19,2026-05-25,Client,Data issue,P2,Closed,24,No,R25.3
+SUP-8723,2026-05-20,2026-05-20,Internal,Data issue,P2,Resolved,24,No,R25.3
+SUP-8724,2026-05-20,2026-05-21,RTE Support,Feature request,P2,Resolved,24,No,R26.2
+SUP-8725,2026-05-21,2026-05-21,Internal,Release query,P0,Closed,4,No,R25.3
+SUP-8726,2026-05-21,2026-05-25,Internal,Release query,P2,Closed,24,No,R26.1
+SUP-8727,2026-05-22,2026-05-24,Client,Data issue,P2,Resolved,24,No,R26.2
+SUP-8728,2026-05-22,2026-05-24,RTE Support,Deployment query,P2,Closed,24,No,R25.1
+SUP-8729,2026-05-23,2026-05-24,Internal,Defect report,P2,Resolved,24,No,R26.1
+SUP-8730,2026-05-24,2026-05-28,Client,Feature request,P3,Closed,72,No,R25.2
+SUP-8731,2026-05-24,2026-05-26,RTE Support,Performance,P2,Resolved,24,No,R26.1
+SUP-8732,2026-05-24,2026-05-29,RTE Support,Training,P2,Closed,24,No,R26.2
+SUP-8733,2026-05-26,2026-05-27,RTE Support,Feature request,P2,Closed,24,No,R26.1
+SUP-8734,2026-05-26,,Internal,Access / permissions,P1,Open,8,No,R25.1
+SUP-8735,2026-05-27,2026-05-31,Stakeholder,Defect report,P1,Closed,8,No,R25.2
+SUP-8736,2026-05-28,2026-05-29,Client,Release query,P1,Resolved,8,No,R25.3
+SUP-8737,2026-05-29,2026-06-02,RTE Support,Deployment query,P2,Closed,24,Yes,R26.3
+SUP-8738,2026-05-30,2026-05-31,Client,Defect report,P2,Resolved,24,No,R26.1
+SUP-8739,2026-05-31,2026-05-31,RTE Support,Access / permissions,P2,Closed,24,No,R26.1
+SUP-8740,2026-06-01,,Client,Performance,P2,In Progress,24,No,R25.2
+SUP-8741,2026-06-02,2026-06-06,RTE Support,Data issue,P2,Closed,24,No,R25.3
+SUP-8742,2026-06-03,2026-06-04,RTE Support,Release query,P2,Resolved,24,No,R25.2
+SUP-8743,2026-06-04,2026-06-07,RTE Support,Deployment query,P2,Closed,24,No,R26.1
+SUP-8744,2026-06-05,2026-06-05,Internal,Release query,P2,Closed,24,Yes,R26.1
+SUP-8745,2026-06-05,2026-06-06,RTE Support,Feature request,P2,Closed,24,No,R25.1
+SUP-8746,2026-06-06,2026-06-07,RTE Support,Training,P3,Closed,72,No,R25.3
+SUP-8747,2026-06-07,2026-06-09,RTE Support,Feature request,P2,Closed,24,No,R25.3
+SUP-8748,2026-06-07,2026-06-10,Client,Access / permissions,P1,Closed,8,No,R26.2
+SUP-8749,2026-06-08,,Client,Data issue,P2,In Progress,24,No,R25.1
+SUP-8750,2026-06-08,2026-06-15,RTE Support,Training,P1,Closed,8,No,R26.2
+SUP-8751,2026-06-08,2026-06-08,Internal,Training,P3,Closed,72,No,R26.1
+SUP-8752,2026-06-09,2026-06-12,Client,Performance,P2,Closed,24,No,R26.3
+SUP-8753,2026-06-09,2026-06-09,Stakeholder,Feature request,P2,Closed,24,Yes,R25.3
+SUP-8754,2026-06-09,2026-06-10,RTE Support,Deployment query,P1,Closed,8,No,R25.1
+SUP-8755,2026-06-10,,Client,Performance,P3,Open,72,No,R25.2
+SUP-8756,2026-06-11,,RTE Support,Performance,P3,Open,72,No,R26.3
+SUP-8757,2026-06-12,2026-06-12,Stakeholder,Access / permissions,P3,Closed,72,No,R26.1
+SUP-8758,2026-06-12,2026-06-12,RTE Support,Performance,P3,Closed,72,No,R25.1
+SUP-8759,2026-06-13,2026-06-19,Stakeholder,Feature request,P3,Closed,72,No,R26.2
+SUP-8760,2026-06-14,2026-06-23,RTE Support,Defect report,P2,Closed,24,No,R26.3
+SUP-8761,2026-06-14,2026-06-14,Client,Deployment query,P1,Closed,8,No,R25.3
+SUP-8762,2026-06-14,2026-06-20,Internal,Access / permissions,P1,Resolved,8,No,R25.1
+SUP-8763,2026-06-15,2026-06-18,Internal,Defect report,P2,Closed,24,No,R25.2
+SUP-8764,2026-06-16,2026-06-17,RTE Support,Performance,P2,Resolved,24,No,R26.3
+SUP-8765,2026-06-17,2026-06-20,RTE Support,Access / permissions,P1,Closed,8,No,R26.1
+SUP-8766,2026-06-18,2026-06-19,RTE Support,Performance,P3,Resolved,72,No,R26.1
+SUP-8767,2026-06-18,2026-06-21,RTE Support,Release query,P3,Closed,72,No,R26.3
+SUP-8768,2026-06-19,2026-06-19,RTE Support,Feature request,P0,Closed,4,No,R25.3
+SUP-8769,2026-06-20,2026-06-27,Stakeholder,Deployment query,P0,Closed,4,No,R25.1
+SUP-8770,2026-06-20,2026-06-21,Client,Defect report,P2,Closed,24,No,R25.2
+SUP-8771,2026-06-21,2026-06-24,RTE Support,Release query,P2,Resolved,24,Yes,R26.3
+SUP-8772,2026-06-21,2026-06-21,Stakeholder,Performance,P2,Closed,24,Yes,R25.2
+SUP-8773,2026-06-22,2026-06-24,Stakeholder,Deployment query,P2,Closed,24,No,R25.1
+SUP-8774,2026-06-23,2026-06-23,Stakeholder,Access / permissions,P2,Closed,24,No,R25.3
+SUP-8775,2026-06-23,2026-06-26,RTE Support,Data issue,P2,Closed,24,No,R26.1
+SUP-8776,2026-06-25,2026-07-03,RTE Support,Performance,P2,Closed,24,No,R25.3
+SUP-8777,2026-06-25,2026-06-27,Client,Data issue,P2,Resolved,24,No,R25.1
+SUP-8778,2026-06-26,2026-06-26,Stakeholder,Performance,P3,Closed,72,No,R26.2
+SUP-8779,2026-06-27,2026-06-30,RTE Support,Training,P3,Resolved,72,No,R25.1
+SUP-8780,2026-06-27,2026-07-03,RTE Support,Access / permissions,P3,Resolved,72,No,R26.3
+SUP-8781,2026-06-28,2026-07-07,Internal,Feature request,P3,Closed,72,No,R26.1
+SUP-8782,2026-06-29,2026-07-03,Client,Data issue,P2,Resolved,24,No,R25.2
+SUP-8783,2026-06-29,2026-06-29,Stakeholder,Data issue,P2,Closed,24,No,R26.3
+SUP-8784,2026-06-30,2026-07-03,Client,Data issue,P3,Closed,72,No,R25.1
+SUP-8785,2026-07-02,2026-07-05,RTE Support,Performance,P2,Resolved,24,No,R26.2
+SUP-8786,2026-07-02,2026-07-02,Stakeholder,Performance,P2,Closed,24,No,R26.2
+SUP-8787,2026-07-03,,Client,Deployment query,P1,Open,8,No,R26.1
+SUP-8788,2026-07-04,2026-07-06,Stakeholder,Release query,P2,Closed,24,No,R25.1
+SUP-8789,2026-07-05,2026-07-06,Stakeholder,Performance,P2,Resolved,24,No,R26.1
+SUP-8790,2026-07-05,2026-07-08,Internal,Feature request,P1,Resolved,8,Yes,R26.2
+SUP-8791,2026-07-06,2026-07-10,Client,Release query,P1,Resolved,8,No,R25.1
+SUP-8792,2026-07-06,2026-07-08,Stakeholder,Training,P2,Closed,24,No,R26.1
+SUP-8793,2026-07-07,2026-07-11,RTE Support,Access / permissions,P3,Closed,72,No,R26.1
+SUP-8794,2026-07-09,2026-07-09,RTE Support,Performance,P2,Resolved,24,No,R25.1
+SUP-8795,2026-07-11,2026-07-12,RTE Support,Access / permissions,P2,Closed,24,No,R26.3
+SUP-8796,2026-07-12,2026-07-18,RTE Support,Training,P2,Resolved,24,No,R26.3
+SUP-8797,2026-07-13,2026-07-13,Internal,Deployment query,P2,Closed,24,No,R25.3
+SUP-8798,2026-07-13,2026-07-14,Client,Deployment query,P1,Resolved,8,No,R25.2
+SUP-8799,2026-07-14,2026-07-14,RTE Support,Release query,P2,Closed,24,No,R25.3
+SUP-8800,2026-07-15,2026-07-17,RTE Support,Release query,P2,Resolved,24,No,R26.3
+SUP-8801,2026-07-16,2026-07-17,RTE Support,Release query,P2,Closed,24,No,R25.2
+SUP-8802,2026-07-16,2026-07-23,Stakeholder,Release query,P2,Closed,24,No,R25.1
+SUP-8803,2026-07-18,2026-07-18,RTE Support,Feature request,P1,Closed,8,No,R26.3
+SUP-8804,2026-07-18,2026-07-22,RTE Support,Data issue,P2,Resolved,24,No,R26.1
+SUP-8805,2026-07-19,2026-07-19,RTE Support,Feature request,P1,Closed,8,Yes,R26.1
+SUP-8806,2026-07-19,2026-07-21,RTE Support,Feature request,P2,Closed,24,No,R25.2
+SUP-8807,2026-07-20,2026-07-21,Client,Deployment query,P1,Closed,8,No,R26.3
+SUP-8808,2026-07-20,2026-07-23,Stakeholder,Defect report,P2,Closed,24,Yes,R25.1
+SUP-8809,2026-07-20,2026-07-20,Client,Deployment query,P1,Closed,8,No,R25.3
+SUP-8810,2026-07-21,2026-07-22,Stakeholder,Performance,P2,Closed,24,No,R25.2
+SUP-8811,2026-07-23,2026-07-28,Client,Data issue,P2,Resolved,24,Yes,R25.1
+SUP-8812,2026-07-23,2026-07-23,RTE Support,Deployment query,P3,Closed,72,No,R26.2
+SUP-8813,2026-07-24,2026-08-02,RTE Support,Performance,P2,Closed,24,No,R26.3
+SUP-8814,2026-07-24,2026-07-28,RTE Support,Feature request,P2,Closed,24,No,R26.2
+SUP-8815,2026-07-24,2026-07-24,Client,Defect report,P3,Closed,72,No,R26.1
+SUP-8816,2026-07-25,2026-07-31,Stakeholder,Access / permissions,P1,Resolved,8,No,R25.2
+SUP-8817,2026-07-26,2026-07-27,Client,Performance,P2,Resolved,24,No,R25.3
+SUP-8818,2026-07-26,2026-07-27,RTE Support,Training,P1,Closed,8,No,R25.2
+SUP-8819,2026-07-27,2026-07-27,RTE Support,Deployment query,P2,Resolved,24,No,R25.2
+SUP-8820,2026-07-27,2026-07-27,Internal,Feature request,P2,Closed,24,No,R25.1
+SUP-8821,2026-07-28,2026-07-29,Stakeholder,Deployment query,P3,Closed,72,Yes,R26.3
+SUP-8822,2026-07-29,2026-08-02,RTE Support,Deployment query,P3,Closed,72,No,R25.3
+SUP-8823,2026-07-29,2026-08-04,Client,Deployment query,P1,Resolved,8,No,R26.1
+SUP-8824,2026-07-30,2026-07-30,Client,Feature request,P2,Resolved,24,No,R26.2
+SUP-8825,2026-07-30,2026-07-30,RTE Support,Training,P2,Resolved,24,No,R25.1
+SUP-8826,2026-07-31,2026-07-31,Client,Deployment query,P3,Closed,72,No,R26.3
+SUP-8827,2026-07-31,2026-07-31,Client,Access / permissions,P2,Closed,24,No,R26.3
+SUP-8828,2026-08-01,2026-08-02,Client,Feature request,P2,Resolved,24,No,R25.2
+SUP-8829,2026-08-02,2026-08-03,RTE Support,Feature request,P3,Closed,72,No,R26.1
+SUP-8830,2026-08-03,2026-08-04,Stakeholder,Data issue,P2,Resolved,24,No,R25.1
+SUP-8831,2026-08-03,2026-08-08,Client,Defect report,P3,Closed,72,No,R26.2
+SUP-8832,2026-08-04,2026-08-08,Client,Performance,P2,Closed,24,No,R25.1
+SUP-8833,2026-08-05,2026-08-07,Client,Release query,P0,Closed,4,No,R25.2
+SUP-8834,2026-08-05,2026-08-08,Internal,Training,P1,Resolved,8,No,R25.2
+SUP-8835,2026-08-06,2026-08-11,Client,Performance,P3,Closed,72,No,R25.2
+SUP-8836,2026-08-07,2026-08-09,Client,Release query,P2,Closed,24,No,R26.2
+SUP-8837,2026-08-07,2026-08-07,Stakeholder,Feature request,P3,Closed,72,No,R25.3
+SUP-8838,2026-08-07,2026-08-07,Client,Deployment query,P1,Closed,8,No,R25.3
+SUP-8839,2026-08-08,2026-08-10,Internal,Deployment query,P3,Closed,72,No,R26.2
+SUP-8840,2026-08-08,2026-08-08,Client,Defect report,P2,Closed,24,No,R25.2
+SUP-8841,2026-08-09,2026-08-09,Client,Data issue,P3,Closed,72,No,R25.3
+SUP-8842,2026-08-10,2026-08-11,RTE Support,Deployment query,P2,Closed,24,No,R25.3
+SUP-8843,2026-08-11,2026-08-13,Client,Defect report,P1,Closed,8,No,R25.1
+SUP-8844,2026-08-15,2026-08-15,RTE Support,Deployment query,P1,Resolved,8,No,R25.3
+SUP-8845,2026-08-16,2026-08-19,Stakeholder,Data issue,P1,Resolved,8,No,R26.2
+SUP-8846,2026-08-17,2026-08-22,RTE Support,Feature request,P1,Closed,8,No,R26.1
+SUP-8847,2026-08-18,2026-08-22,Stakeholder,Training,P3,Closed,72,No,R25.1
+SUP-8848,2026-08-18,2026-08-21,Client,Access / permissions,P1,Resolved,8,No,R26.1
+SUP-8849,2026-08-19,2026-08-22,Stakeholder,Deployment query,P2,Resolved,24,No,R26.1
+SUP-8850,2026-08-20,2026-08-20,Stakeholder,Performance,P2,Closed,24,No,R26.1
+SUP-8851,2026-08-21,2026-08-22,RTE Support,Performance,P2,Resolved,24,No,R26.2
+SUP-8852,2026-08-22,2026-08-25,Stakeholder,Training,P2,Closed,24,No,R25.2
+SUP-8853,2026-08-23,2026-08-24,Client,Deployment query,P1,Resolved,8,No,R25.1
+SUP-8854,2026-08-23,2026-08-26,Client,Training,P3,Closed,72,No,R26.2
+SUP-8855,2026-08-23,2026-08-24,RTE Support,Performance,P2,Closed,24,No,R25.1
+SUP-8856,2026-08-24,2026-08-29,RTE Support,Release query,P2,Closed,24,No,R26.1
+SUP-8857,2026-08-25,2026-08-28,RTE Support,Access / permissions,P3,Closed,72,Yes,R25.3
+SUP-8858,2026-08-26,2026-08-26,RTE Support,Data issue,P2,Closed,24,No,R26.3
+SUP-8859,2026-08-28,2026-08-31,Client,Feature request,P2,Closed,24,No,R26.3
+SUP-8860,2026-08-28,2026-09-01,RTE Support,Feature request,P2,Closed,24,No,R25.3
+SUP-8861,2026-08-29,2026-08-31,Stakeholder,Training,P3,Resolved,72,No,R26.3
+SUP-8862,2026-08-30,2026-09-04,RTE Support,Access / permissions,P3,Closed,72,No,R26.2
+SUP-8863,2026-08-31,2026-08-31,Stakeholder,Release query,P3,Closed,72,No,R25.3
+SUP-8864,2026-09-01,2026-09-01,RTE Support,Release query,P3,Resolved,72,No,R26.1
+SUP-8865,2026-09-03,2026-09-05,Client,Performance,P2,Closed,24,Yes,R26.3
+SUP-8866,2026-09-03,2026-09-06,Stakeholder,Access / permissions,P2,Resolved,24,No,R25.2
+SUP-8867,2026-09-03,2026-09-04,Stakeholder,Performance,P3,Resolved,72,No,R26.2
+SUP-8868,2026-09-05,2026-09-08,Stakeholder,Access / permissions,P2,Closed,24,No,R25.2
+SUP-8869,2026-09-05,2026-09-12,Stakeholder,Access / permissions,P0,Closed,4,No,R26.2
+SUP-8870,2026-09-06,2026-09-07,Stakeholder,Feature request,P2,Resolved,24,No,R25.3
+SUP-8871,2026-09-07,2026-09-08,Client,Data issue,P1,Resolved,8,No,R26.1
+SUP-8872,2026-09-08,2026-09-12,RTE Support,Release query,P1,Closed,8,No,R25.2
+SUP-8873,2026-09-09,2026-09-11,RTE Support,Data issue,P2,Closed,24,No,R26.1
+SUP-8874,2026-09-09,2026-09-11,Client,Defect report,P1,Closed,8,No,R26.3
+SUP-8875,2026-09-09,2026-09-11,RTE Support,Defect report,P1,Resolved,8,No,R25.2
+SUP-8876,2026-09-10,2026-09-15,Internal,Access / permissions,P2,Closed,24,No,R26.3
+SUP-8877,2026-09-11,2026-09-15,RTE Support,Deployment query,P2,Resolved,24,No,R25.2
+SUP-8878,2026-09-12,2026-09-13,Internal,Access / permissions,P1,Closed,8,No,R26.1
+SUP-8879,2026-09-13,2026-09-13,Internal,Access / permissions,P2,Resolved,24,No,R26.2
+SUP-8880,2026-09-14,2026-09-15,RTE Support,Release query,P1,Closed,8,No,R25.1
+SUP-8881,2026-09-15,2026-09-17,RTE Support,Release query,P3,Resolved,72,No,R25.2
+SUP-8882,2026-09-16,2026-09-20,RTE Support,Release query,P3,Resolved,72,No,R25.1
+SUP-8883,2026-09-16,2026-09-23,Client,Feature request,P2,Resolved,24,No,R26.2
+SUP-8884,2026-09-17,2026-09-19,RTE Support,Release query,P2,Closed,24,No,R25.3
+SUP-8885,2026-09-18,2026-09-28,Stakeholder,Training,P2,Closed,24,No,R25.2
+SUP-8886,2026-09-18,,RTE Support,Release query,P2,Open,24,No,R26.3
+SUP-8887,2026-09-18,2026-09-19,RTE Support,Feature request,P2,Resolved,24,No,R26.3
+SUP-8888,2026-09-19,2026-09-21,RTE Support,Feature request,P2,Closed,24,No,R25.2
+SUP-8889,2026-09-19,2026-09-22,RTE Support,Defect report,P2,Closed,24,No,R25.3
+SUP-8890,2026-09-19,2026-09-21,Client,Performance,P2,Resolved,24,No,R26.2
+SUP-8891,2026-09-20,2026-09-20,Client,Access / permissions,P2,Resolved,24,No,R25.2
+SUP-8892,2026-09-20,2026-09-20,RTE Support,Defect report,P1,Resolved,8,No,R26.1
+SUP-8893,2026-09-20,2026-09-26,Client,Data issue,P1,Closed,8,No,R26.1
+SUP-8894,2026-09-21,2026-09-22,RTE Support,Release query,P1,Closed,8,No,R25.1
+SUP-8895,2026-09-22,,Stakeholder,Performance,P1,In Progress,8,No,R25.1
+SUP-8896,2026-09-22,2026-10-02,RTE Support,Training,P1,Resolved,8,No,R26.2
+SUP-8897,2026-09-23,2026-09-24,RTE Support,Training,P1,Closed,8,No,R25.3
+SUP-8898,2026-09-24,2026-09-25,Client,Feature request,P3,Closed,72,No,R26.3
+SUP-8899,2026-09-24,2026-09-30,Stakeholder,Release query,P1,Closed,8,No,R25.2
+SUP-8900,2026-09-24,2026-09-30,Internal,Feature request,P3,Closed,72,No,R26.1
+SUP-8901,2026-09-25,2026-10-01,Stakeholder,Release query,P1,Resolved,8,No,R25.2
+SUP-8902,2026-09-25,2026-09-25,RTE Support,Training,P1,Closed,8,No,R26.1
+SUP-8903,2026-09-27,2026-09-27,Stakeholder,Performance,P3,Closed,72,No,R26.3
+SUP-8904,2026-09-27,2026-10-01,Client,Deployment query,P1,Closed,8,No,R26.1
+SUP-8905,2026-09-28,2026-09-30,Stakeholder,Defect report,P2,Resolved,24,No,R26.2
+SUP-8906,2026-09-29,2026-10-02,Internal,Release query,P2,Closed,24,No,R26.2
+SUP-8907,2026-09-29,2026-10-01,Stakeholder,Data issue,P2,Resolved,24,No,R25.1
+SUP-8908,2026-10-02,2026-10-07,Stakeholder,Deployment query,P3,Closed,72,No,R26.3
+SUP-8909,2026-10-06,2026-10-09,Client,Defect report,P3,Closed,72,No,R25.1
+SUP-8910,2026-10-07,2026-10-07,Client,Performance,P3,Closed,72,No,R25.2
+SUP-8911,2026-10-07,2026-10-08,RTE Support,Performance,P1,Resolved,8,Yes,R26.1
+SUP-8912,2026-10-07,2026-10-15,RTE Support,Defect report,P1,Closed,8,Yes,R26.3
+SUP-8913,2026-10-08,2026-10-11,Client,Training,P3,Resolved,72,No,R26.2
+SUP-8914,2026-10-08,2026-10-10,Client,Release query,P2,Closed,24,No,R25.2
+SUP-8915,2026-10-09,2026-10-12,Client,Defect report,P2,Resolved,24,No,R25.1
+SUP-8916,2026-10-09,2026-10-13,Stakeholder,Performance,P3,Resolved,72,No,R25.2
+SUP-8917,2026-10-11,2026-10-12,Internal,Defect report,P1,Closed,8,No,R25.3
+SUP-8918,2026-10-11,2026-10-12,Internal,Performance,P2,Resolved,24,No,R25.2
+SUP-8919,2026-10-12,2026-10-14,Stakeholder,Performance,P2,Resolved,24,No,R25.2
+SUP-8920,2026-10-13,2026-10-14,Internal,Release query,P2,Resolved,24,No,R26.2
+SUP-8921,2026-10-14,2026-10-15,Stakeholder,Deployment query,P3,Resolved,72,No,R26.1
+SUP-8922,2026-10-14,,RTE Support,Performance,P3,In Progress,72,No,R26.3
+SUP-8923,2026-10-15,2026-10-17,Client,Performance,P2,Closed,24,No,R26.1
+SUP-8924,2026-10-15,2026-10-16,Internal,Deployment query,P2,Resolved,24,No,R25.3
+SUP-8925,2026-10-15,2026-10-15,Client,Training,P2,Closed,24,No,R26.3
+SUP-8926,2026-10-16,2026-10-17,RTE Support,Defect report,P3,Resolved,72,No,R26.3
+SUP-8927,2026-10-17,,Internal,Performance,P1,Open,8,No,R26.1
+SUP-8928,2026-10-17,2026-10-23,RTE Support,Access / permissions,P3,Closed,72,No,R25.2
+SUP-8929,2026-10-17,2026-10-17,Client,Access / permissions,P3,Closed,72,No,R25.3
+SUP-8930,2026-10-18,2026-10-23,Stakeholder,Release query,P0,Resolved,4,Yes,R25.2
+SUP-8931,2026-10-19,2026-10-21,RTE Support,Performance,P1,Resolved,8,No,R26.3
+SUP-8932,2026-10-20,,Stakeholder,Feature request,P3,In Progress,72,No,R25.3
+SUP-8933,2026-10-20,2026-10-28,RTE Support,Data issue,P1,Closed,8,No,R26.1
+SUP-8934,2026-10-20,,Client,Data issue,P2,Open,24,No,R25.1
+SUP-8935,2026-10-21,2026-10-22,Stakeholder,Deployment query,P0,Resolved,4,Yes,R26.2
+SUP-8936,2026-10-21,2026-10-21,Client,Training,P3,Resolved,72,No,R26.3
+SUP-8937,2026-10-22,,RTE Support,Training,P2,In Progress,24,No,R25.2
+SUP-8938,2026-10-22,2026-10-22,Client,Deployment query,P2,Closed,24,No,R26.2
+SUP-8939,2026-10-23,2026-10-24,Stakeholder,Performance,P1,Closed,8,No,R25.3
+SUP-8940,2026-10-24,,Client,Training,P3,Open,72,No,R26.3
+SUP-8941,2026-10-25,2026-10-30,RTE Support,Defect report,P2,Closed,24,No,R26.3
+SUP-8942,2026-10-26,2026-10-28,RTE Support,Release query,P1,Closed,8,No,R26.3
+SUP-8943,2026-10-26,2026-10-30,Internal,Defect report,P1,Closed,8,No,R26.1
+SUP-8944,2026-10-27,,Client,Deployment query,P2,In Progress,24,No,R25.1
+SUP-8945,2026-10-27,2026-10-27,RTE Support,Training,P2,Closed,24,No,R26.1
+SUP-8946,2026-10-28,2026-10-28,Client,Feature request,P3,Closed,72,No,R26.1
+SUP-8947,2026-10-29,2026-10-30,RTE Support,Performance,P3,Closed,72,No,R25.1
+SUP-8948,2026-10-29,2026-10-29,RTE Support,Performance,P2,Closed,24,No,R25.3
+SUP-8949,2026-10-30,,RTE Support,Defect report,P3,Open,72,No,R26.2
+SUP-8950,2026-10-30,,RTE Support,Access / permissions,P2,In Progress,24,No,R25.2
+SUP-8951,2026-11-01,2026-11-07,Client,Release query,P1,Closed,8,No,R26.1
+SUP-8952,2026-11-01,2026-11-01,Internal,Training,P2,Resolved,24,No,R26.1
+SUP-8953,2026-11-01,2026-11-08,RTE Support,Training,P2,Closed,24,No,R25.3
+SUP-8954,2026-11-02,2026-11-03,RTE Support,Feature request,P2,Resolved,24,No,R26.1
+SUP-8955,2026-11-02,2026-11-04,Stakeholder,Deployment query,P3,Closed,72,No,R26.2
+SUP-8956,2026-11-03,,Stakeholder,Training,P1,Open,8,No,R26.1
+SUP-8957,2026-11-04,2026-11-06,RTE Support,Data issue,P1,Closed,8,No,R26.2
+SUP-8958,2026-11-05,2026-11-07,Client,Defect report,P1,Closed,8,No,R26.1
+SUP-8959,2026-11-07,,Client,Feature request,P2,Open,24,No,R26.1
+SUP-8960,2026-11-08,,Client,Data issue,P3,In Progress,72,No,R26.2
+SUP-8961,2026-11-08,,RTE Support,Data issue,P2,Open,24,No,R25.1
+SUP-8962,2026-11-09,,Stakeholder,Performance,P2,Open,24,Yes,R26.3
+SUP-8963,2026-11-09,,Client,Performance,P3,In Progress,72,No,R26.3
+SUP-8964,2026-11-10,,RTE Support,Feature request,P2,In Progress,24,No,R25.1
+SUP-8965,2026-11-11,,Client,Deployment query,P2,Open,24,No,R26.1
+SUP-8966,2026-11-13,,Client,Release query,P2,In Progress,24,No,R26.3
+SUP-8967,2026-11-13,,Client,Performance,P2,In Progress,24,No,R26.1
+SUP-8968,2026-11-13,2026-11-14,RTE Support,Access / permissions,P2,Closed,24,No,R26.2
+SUP-8969,2026-11-14,,Client,Release query,P0,In Progress,4,No,R26.3
+SUP-8970,2026-11-14,2026-11-16,Stakeholder,Deployment query,P2,Closed,24,No,R26.3
+SUP-8971,2026-11-15,,Client,Access / permissions,P3,Open,72,No,R26.3
+SUP-8972,2026-11-16,2026-11-16,Client,Training,P3,Closed,72,Yes,R26.2

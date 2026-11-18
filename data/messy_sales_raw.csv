@@ -1,0 +1,1532 @@
+order_id,order_date,region,category,product,channel,quantity,revenue
+ORD-M0001,,north,Grocery, Product 1 ,,1,"₹14,565"
+ORD-M0002,2025-12-02,South,Grocery, Product 2 ,Partner,2,2875
+ORD-M0003,2025-02-10,North ,Electronic, Product 3 ,Retail Store,1,4989
+ORD-M0004,30/06/2025,North ,Electronic, Product 4 ,Partner,2,8140
+ORD-M0005,2025-05-12,North ,Home, Product 5 ,Retail Store,2,3374
+ORD-M0006,2025-01-15,North ,Electronic, Product 6 ,Retail Store,2,12791
+ORD-M0007,17/09/2025,North ,Electronic, Product 7 ,Retail Store,1,4813
+ORD-M0008,2025-06-25,West,Grocery, Product 8 ,Online,2,10675
+ORD-M0009,2025-09-07,north,Grocery, Product 9 ,Retail Store,3,18420
+ORD-M0010,20/07/2025,East,Grocery, Product 10 ,Partner,3,19429
+ORD-M0011,2025-02-03,East,Electronics, Product 11 ,Partner,2,10841
+ORD-M0012,2025-03-23,north,Electronics, Product 12 ,Partner,1,6020
+ORD-M0013,06/05/2025,West,Apparel, Product 13 ,,1,9429
+ORD-M0014,2025-10-23,South,Sports, Product 14 ,Online,1,2816
+ORD-M0015,2025-08-14,South,Electronic, Product 15 ,Online,3,17423
+ORD-M0016,29/05/2025,North ,Apparel, Product 16 ,,2,18865
+ORD-M0017,2025-11-13,South,Apparel, Product 17 ,Online,3,16764
+ORD-M0018,2025-03-07,East,Electronic, Product 18 ,,1,"₹7,141"
+ORD-M0019,19/04/2025,West,Sports, Product 19 ,Online,3,8725
+ORD-M0020,2025-08-25,South,Apparel, Product 20 ,,2,8643
+ORD-M0021,2025-03-15,North ,Electronics, Product 21 ,Online,3,15985
+ORD-M0022,30/08/2025, NORTH,Electronic, Product 22 ,Online,3,14250
+ORD-M0023,2025-02-25,West,Beauty, Product 23 ,Retail Store,3,15543
+ORD-M0024,2025-09-10,South,Electronic, Product 24 ,Retail Store,2,
+ORD-M0025,18/03/2025,East,Sports, Product 25 ,Partner,2,10952
+ORD-M0026,2025-07-10,West,Apparel, Product 26 ,Partner,2,12116
+ORD-M0027,2025-08-22,north,Apparel, Product 27 ,,3,19400
+ORD-M0028,11/10/2025,East,Apparel, Product 28 ,Retail Store,1,15775
+ORD-M0029,2025-12-01,north,Apparel, Product 29 ,Retail Store,3,592
+ORD-M0030,,West,Beauty, Product 30 ,Retail Store,2,10989
+ORD-M0031,08/01/2025,East,Sports, Product 31 ,,1,7078
+ORD-M0032,2025-01-09,East,Beauty, Product 32 ,Partner,2,1933
+ORD-M0033,2025-01-31,north,Electronic, Product 33 ,Retail Store,1,19517
+ORD-M0034,09/10/2025,north,Sports, Product 34 ,Online,1,6913
+ORD-M0035,2025-06-13, NORTH,Apparel, Product 35 ,Partner,3,"₹9,909"
+ORD-M0036,2025-07-14,South,Beauty, Product 36 ,Partner,2,14664
+ORD-M0037,17/12/2025,West,Electronic, Product 37 ,,2,2185
+ORD-M0038,2025-05-08,West,Sports, Product 38 ,Partner,1,7957
+ORD-M0039,2025-06-24,South,Sports, Product 39 ,,2,2069
+ORD-M0040,24/02/2025, NORTH,Apparel, Product 40 ,,1,16003
+ORD-M0041,2025-11-20, NORTH,Apparel, Product 41 ,,2,19491
+ORD-M0042,2025-01-05,North ,Electronic, Product 42 ,Online,1,7279
+ORD-M0043,02/01/2025, NORTH,Apparel, Product 43 ,Partner,1,1614
+ORD-M0044,2025-05-11,North ,Beauty, Product 44 ,Online,2,675
+ORD-M0045,2025-01-19,West,Beauty, Product 45 ,Retail Store,2,5410
+ORD-M0046,06/04/2025,West,Sports, Product 46 ,Online,3,19193
+ORD-M0047,2025-04-25,East,Electronic, Product 47 ,,2,
+ORD-M0048,2025-04-17, NORTH,Sports, Product 48 ,Retail Store,2,1126
+ORD-M0049,27/02/2025,North ,Beauty, Product 1 ,,2,5444
+ORD-M0050,2025-12-07,North ,Grocery, Product 2 ,Retail Store,3,9292
+ORD-M0051,2025-07-12,north,Apparel, Product 3 ,Retail Store,3,2058
+ORD-M0052,10/06/2025,East,Apparel, Product 4 ,,3,"₹5,804"
+ORD-M0053,2025-07-31,North ,Grocery, Product 5 ,,1,5765
+ORD-M0054,2025-08-01, NORTH,Home, Product 6 ,Online,3,2668
+ORD-M0055,11/11/2025,South,Electronics, Product 7 ,Retail Store,2,17514
+ORD-M0056,2025-07-08,South,Beauty, Product 8 ,Partner,3,13051
+ORD-M0057,2025-02-22,North ,Beauty, Product 9 ,Partner,1,16684
+ORD-M0058,25/08/2025,East,Electronic, Product 10 ,Retail Store,2,8525
+ORD-M0059,,West,Grocery, Product 11 ,Retail Store,3,8616
+ORD-M0060,2025-07-03,South,Sports, Product 12 ,Partner,1,12536
+ORD-M0061,20/01/2025,North ,Electronics, Product 13 ,Partner,3,13176
+ORD-M0062,2025-07-11,South,Grocery, Product 14 ,,1,1264
+ORD-M0063,2025-02-22, NORTH,Home, Product 15 ,Partner,2,10185
+ORD-M0064,17/09/2025,South,Apparel, Product 16 ,Partner,2,7682
+ORD-M0065,2025-03-24,West,Electronics, Product 17 ,Online,2,1668
+ORD-M0066,2025-12-06,north,Home, Product 18 ,Online,2,7576
+ORD-M0067,04/09/2025, NORTH,Grocery, Product 19 ,Online,1,16205
+ORD-M0068,2025-01-10,North ,Electronics, Product 20 ,Partner,3,12997
+ORD-M0069,2025-11-29,north,Electronics, Product 21 ,Retail Store,2,"₹18,492"
+ORD-M0070,20/10/2025,West,Home, Product 22 ,Online,2,
+ORD-M0071,2025-12-04,East,Sports, Product 23 ,Retail Store,3,11460
+ORD-M0072,2025-09-12, NORTH,Electronics, Product 24 ,,1,927
+ORD-M0073,19/04/2025,East,Beauty, Product 25 ,Online,2,9983
+ORD-M0074,2025-12-17,North ,Beauty, Product 26 ,Retail Store,2,4758
+ORD-M0075,2025-06-04,South,Grocery, Product 27 ,Partner,2,7262
+ORD-M0076,07/09/2025,East,Electronics, Product 28 ,Online,3,15347
+ORD-M0077,2025-05-08,North ,Home, Product 29 ,,3,15455
+ORD-M0078,2025-07-09,North ,Electronics, Product 30 ,Partner,3,17464
+ORD-M0079,30/07/2025,South,Sports, Product 31 ,,3,7937
+ORD-M0080,2025-08-24,East,Sports, Product 32 ,Partner,3,16652
+ORD-M0081,2025-05-30,South,Electronics, Product 33 ,Retail Store,2,12768
+ORD-M0082,05/02/2025,West,Home, Product 34 ,Retail Store,3,574
+ORD-M0083,2025-06-16,East,Home, Product 35 ,Online,1,16454
+ORD-M0084,2025-03-28,north,Sports, Product 36 ,,1,17469
+ORD-M0085,06/12/2025,north,Electronics, Product 37 ,Retail Store,3,3294
+ORD-M0086,2025-10-22,West,Grocery, Product 38 ,Retail Store,2,"₹4,131"
+ORD-M0087,2025-08-09, NORTH,Electronic, Product 39 ,Online,2,18850
+ORD-M0088,,South,Home, Product 40 ,,2,7466
+ORD-M0089,2025-05-05,West,Sports, Product 41 ,Partner,2,5859
+ORD-M0090,2025-03-11,north,Beauty, Product 42 ,Online,1,3266
+ORD-M0091,04/06/2025,north,Electronic, Product 43 ,Online,1,2001
+ORD-M0092,2025-06-25,East,Apparel, Product 44 ,,2,9675
+ORD-M0093,2025-08-09, NORTH,Home, Product 45 ,Online,2,
+ORD-M0094,22/12/2025,East,Beauty, Product 46 ,Online,3,6564
+ORD-M0095,2025-04-11, NORTH,Apparel, Product 47 ,Online,3,6757
+ORD-M0096,2025-04-08,South,Electronics, Product 48 ,Partner,2,18514
+ORD-M0097,15/10/2025,East,Grocery, Product 1 ,Online,1,1310
+ORD-M0098,2025-05-28,North ,Beauty, Product 2 ,,2,8650
+ORD-M0099,2025-12-01, NORTH,Home, Product 3 ,,3,11490
+ORD-M0100,17/02/2025,South,Grocery, Product 4 ,Partner,2,10174
+ORD-M0101,2025-08-10,South,Electronic, Product 5 ,Partner,1,8036
+ORD-M0102,2025-06-09, NORTH,Grocery, Product 6 ,,1,10276
+ORD-M0103,27/06/2025,South,Home, Product 7 ,,2,"₹13,800"
+ORD-M0104,2025-05-24,north,Sports, Product 8 ,,3,2427
+ORD-M0105,2025-07-23,North ,Electronics, Product 9 ,Online,2,15837
+ORD-M0106,06/05/2025, NORTH,Electronic, Product 10 ,Online,2,19303
+ORD-M0107,2025-08-07,north,Grocery, Product 11 ,Retail Store,2,3723
+ORD-M0108,2025-06-29,north,Apparel, Product 12 ,,2,16576
+ORD-M0109,09/11/2025,West,Apparel, Product 13 ,Partner,3,17961
+ORD-M0110,2025-12-02,West,Grocery, Product 14 ,,2,3673
+ORD-M0111,2025-06-01,West,Electronic, Product 15 ,,2,7093
+ORD-M0112,29/01/2025,East,Electronic, Product 16 ,Retail Store,3,11326
+ORD-M0113,2025-10-11,north,Electronics, Product 17 ,Online,2,887
+ORD-M0114,2025-09-13,north,Electronics, Product 18 ,Online,3,6720
+ORD-M0115,12/03/2025,East,Apparel, Product 19 ,Partner,2,5116
+ORD-M0116,2025-06-09, NORTH,Beauty, Product 20 ,Retail Store,3,
+ORD-M0117,, NORTH,Sports, Product 21 ,,3,10515
+ORD-M0118,24/02/2025,East,Beauty, Product 22 ,Partner,2,4730
+ORD-M0119,2025-04-01,East,Apparel, Product 23 ,,1,10456
+ORD-M0120,2025-02-01,West,Electronic, Product 24 ,Retail Store,1,"₹8,869"
+ORD-M0121,08/09/2025,North ,Sports, Product 25 ,,3,1955
+ORD-M0122,2025-05-08,South,Apparel, Product 26 ,Online,2,4196
+ORD-M0123,2025-03-22,West,Beauty, Product 27 ,Partner,3,2266
+ORD-M0124,26/07/2025,South,Home, Product 28 ,Retail Store,1,5596
+ORD-M0125,2025-08-27,north,Sports, Product 29 ,Partner,1,5918
+ORD-M0126,2025-07-23,East,Home, Product 30 ,Partner,3,14015
+ORD-M0127,14/04/2025, NORTH,Home, Product 31 ,Online,2,4673
+ORD-M0128,2025-10-04,north,Beauty, Product 32 ,Retail Store,2,15841
+ORD-M0129,2025-11-15,North ,Apparel, Product 33 ,Retail Store,2,8187
+ORD-M0130,26/05/2025,north,Electronic, Product 34 ,Retail Store,3,14562
+ORD-M0131,2025-04-17,West,Grocery, Product 35 ,Retail Store,3,19424
+ORD-M0132,2025-06-09,West,Home, Product 36 ,Online,1,6208
+ORD-M0133,07/06/2025,West,Sports, Product 37 ,Retail Store,2,8043
+ORD-M0134,2025-01-08, NORTH,Apparel, Product 38 ,,3,10043
+ORD-M0135,2025-05-22, NORTH,Apparel, Product 39 ,,2,5994
+ORD-M0136,04/01/2025,North ,Beauty, Product 40 ,Partner,3,6057
+ORD-M0137,2025-07-07,East,Electronic, Product 41 ,Partner,3,"₹6,725"
+ORD-M0138,2025-10-27,South,Sports, Product 42 ,Retail Store,3,4121
+ORD-M0139,06/06/2025,North ,Apparel, Product 43 ,Online,1,
+ORD-M0140,2025-12-29,South,Electronic, Product 44 ,,3,5801
+ORD-M0141,2025-01-08, NORTH,Apparel, Product 45 ,,3,5535
+ORD-M0142,03/02/2025, NORTH,Electronic, Product 46 ,Partner,3,8428
+ORD-M0143,2025-10-03,East,Home, Product 47 ,,3,18340
+ORD-M0144,2025-06-07,East,Sports, Product 48 ,Online,3,19195
+ORD-M0145,29/10/2025,North ,Home, Product 1 ,Retail Store,2,13089
+ORD-M0146,, NORTH,Beauty, Product 2 ,Partner,1,6047
+ORD-M0147,2025-04-22, NORTH,Beauty, Product 3 ,Partner,2,13520
+ORD-M0148,25/08/2025,West,Home, Product 4 ,Online,2,14811
+ORD-M0149,2025-05-03,West,Electronics, Product 5 ,,2,5849
+ORD-M0150,2025-01-17, NORTH,Grocery, Product 6 ,,1,17522
+ORD-M0151,25/06/2025, NORTH,Sports, Product 7 ,Retail Store,2,19328
+ORD-M0152,2025-01-17,South,Electronics, Product 8 ,Online,3,3825
+ORD-M0153,2025-09-06, NORTH,Sports, Product 9 ,Partner,3,15905
+ORD-M0154,15/04/2025,north,Grocery, Product 10 ,Online,1,"₹3,503"
+ORD-M0155,2025-04-13,West,Electronic, Product 11 ,Online,2,12413
+ORD-M0156,2025-08-29,West,Sports, Product 12 ,,3,720
+ORD-M0157,14/11/2025,East,Electronic, Product 13 ,Online,1,15579
+ORD-M0158,2025-08-07, NORTH,Apparel, Product 14 ,,1,13903
+ORD-M0159,2025-10-20,West,Grocery, Product 15 ,Online,2,7404
+ORD-M0160,11/12/2025,South,Electronics, Product 16 ,,2,2144
+ORD-M0161,2025-09-10,South,Beauty, Product 17 ,Online,2,18899
+ORD-M0162,2025-05-31,West,Sports, Product 18 ,Online,2,
+ORD-M0163,21/07/2025,East,Electronics, Product 19 ,,2,13555
+ORD-M0164,2025-11-16,North ,Grocery, Product 20 ,Partner,2,6455
+ORD-M0165,2025-11-05,South,Grocery, Product 21 ,,2,8255
+ORD-M0166,04/11/2025,East,Apparel, Product 22 ,,2,2514
+ORD-M0167,2025-04-12,South,Electronic, Product 23 ,,1,3563
+ORD-M0168,2025-12-04,West,Beauty, Product 24 ,Retail Store,3,3240
+ORD-M0169,18/07/2025, NORTH,Beauty, Product 25 ,Partner,2,5487
+ORD-M0170,2025-02-12,South,Electronic, Product 26 ,Partner,3,5633
+ORD-M0171,2025-10-28,north,Sports, Product 27 ,,1,"₹6,498"
+ORD-M0172,12/01/2025,north,Grocery, Product 28 ,Partner,3,13643
+ORD-M0173,2025-09-17,north,Home, Product 29 ,,2,16353
+ORD-M0174,2025-11-18,North ,Beauty, Product 30 ,,1,5767
+ORD-M0175,,north,Home, Product 31 ,,2,18085
+ORD-M0176,2025-01-18,North ,Beauty, Product 32 ,,1,19787
+ORD-M0177,2025-09-02,South,Grocery, Product 33 ,Partner,2,17600
+ORD-M0178,17/12/2025,South,Electronic, Product 34 ,Online,2,9082
+ORD-M0179,2025-10-14,West,Electronics, Product 35 ,Partner,2,5923
+ORD-M0180,2025-08-13,East,Sports, Product 36 ,,2,11320
+ORD-M0181,28/02/2025,north,Electronic, Product 37 ,Partner,2,14049
+ORD-M0182,2025-05-13,North ,Apparel, Product 38 ,Online,3,19394
+ORD-M0183,2025-12-21,East,Apparel, Product 39 ,Retail Store,2,6491
+ORD-M0184,27/11/2025,north,Beauty, Product 40 ,,2,6702
+ORD-M0185,2025-12-31,South,Home, Product 41 ,,3,
+ORD-M0186,2025-06-05,north,Home, Product 42 ,Online,3,7107
+ORD-M0187,21/07/2025,South,Grocery, Product 43 ,,-1,9055
+ORD-M0188,2025-03-16,West,Apparel, Product 44 ,,2,₹524
+ORD-M0189,2025-12-29,North ,Beauty, Product 45 ,,3,9583
+ORD-M0190,05/02/2025,West,Grocery, Product 46 ,Retail Store,3,18668
+ORD-M0191,2025-03-16,West,Home, Product 47 ,Online,2,17791
+ORD-M0192,2025-08-09,North ,Electronic, Product 48 ,Partner,3,4415
+ORD-M0193,28/05/2025,East,Electronics, Product 1 ,Online,2,14232
+ORD-M0194,2025-05-17,East,Beauty, Product 2 ,Partner,2,13075
+ORD-M0195,2025-07-11, NORTH,Apparel, Product 3 ,Retail Store,3,3115
+ORD-M0196,18/12/2025,West,Electronics, Product 4 ,Partner,2,12074
+ORD-M0197,2025-06-13,South,Home, Product 5 ,,2,9709
+ORD-M0198,2025-04-27,North ,Electronics, Product 6 ,Partner,2,15510
+ORD-M0199,07/07/2025, NORTH,Apparel, Product 7 ,Retail Store,2,7809
+ORD-M0200,2025-02-25, NORTH,Apparel, Product 8 ,Partner,2,4107
+ORD-M0201,2025-08-15, NORTH,Home, Product 9 ,Online,3,14425
+ORD-M0202,05/12/2025,South,Beauty, Product 10 ,,3,6730
+ORD-M0203,2025-05-30,West,Electronics, Product 11 ,Online,3,9350
+ORD-M0204,, NORTH,Sports, Product 12 ,Partner,2,978
+ORD-M0205,24/08/2025, NORTH,Apparel, Product 13 ,Retail Store,2,"₹9,333"
+ORD-M0206,2025-09-27, NORTH,Apparel, Product 14 ,Online,2,2156
+ORD-M0207,2025-06-17,north,Beauty, Product 15 ,Partner,2,4672
+ORD-M0208,13/12/2025,East,Apparel, Product 16 ,Retail Store,2,
+ORD-M0209,2025-01-03,East,Sports, Product 17 ,,1,14529
+ORD-M0210,2025-12-26,South,Electronic, Product 18 ,Partner,1,11601
+ORD-M0211,02/10/2025,North ,Electronic, Product 19 ,Retail Store,1,8927
+ORD-M0212,2025-05-15,East,Sports, Product 20 ,Partner,2,10557
+ORD-M0213,2025-09-30,north,Grocery, Product 21 ,Partner,3,4112
+ORD-M0214,26/06/2025,West,Home, Product 22 ,Online,1,10665
+ORD-M0215,2025-06-12, NORTH,Electronic, Product 23 ,Online,2,10467
+ORD-M0216,2025-09-24,North ,Electronics, Product 24 ,Online,3,15130
+ORD-M0217,05/08/2025, NORTH,Electronic, Product 25 ,Online,2,17870
+ORD-M0218,2025-09-03,South,Electronics, Product 26 ,Retail Store,3,18651
+ORD-M0219,2025-04-28,north,Electronic, Product 27 ,Partner,2,8806
+ORD-M0220,30/08/2025,East,Sports, Product 28 ,Partner,3,4943
+ORD-M0221,2025-05-31,East,Sports, Product 29 ,Partner,2,7355
+ORD-M0222,2025-07-29,West,Electronic, Product 30 ,,2,"₹1,652"
+ORD-M0223,19/08/2025,North ,Home, Product 31 ,Partner,2,17035
+ORD-M0224,2025-11-16,West,Home, Product 32 ,,1,4680
+ORD-M0225,2025-11-08,South,Grocery, Product 33 ,Retail Store,3,1180
+ORD-M0226,04/11/2025,north,Electronic, Product 34 ,Online,1,5601
+ORD-M0227,2025-11-17,South,Home, Product 35 ,,2,18139
+ORD-M0228,2025-04-12,West,Sports, Product 36 ,Partner,2,12961
+ORD-M0229,08/11/2025,North ,Apparel, Product 37 ,Online,2,10884
+ORD-M0230,2025-02-16,North ,Electronic, Product 38 ,Retail Store,3,4207
+ORD-M0231,2025-01-31,North ,Grocery, Product 39 ,Retail Store,2,
+ORD-M0232,18/04/2025,South,Electronic, Product 40 ,,1,9617
+ORD-M0233,,North ,Beauty, Product 41 ,Retail Store,3,7737
+ORD-M0234,2025-07-24,South,Grocery, Product 42 ,Partner,2,17889
+ORD-M0235,29/03/2025, NORTH,Electronic, Product 43 ,Partner,1,8249
+ORD-M0236,2025-08-04,North ,Home, Product 44 ,Online,3,3242
+ORD-M0237,2025-01-09,North ,Home, Product 45 ,,1,7232
+ORD-M0238,06/03/2025,South,Electronics, Product 46 ,,2,16124
+ORD-M0239,2025-07-27,South,Electronics, Product 47 ,Partner,1,"₹3,541"
+ORD-M0240,2025-12-28,East,Beauty, Product 48 ,Online,3,15426
+ORD-M0241,15/12/2025, NORTH,Home, Product 1 ,,1,19158
+ORD-M0242,2025-05-06, NORTH,Electronic, Product 2 ,Online,3,12935
+ORD-M0243,2025-02-17,East,Electronic, Product 3 ,,2,7950
+ORD-M0244,20/09/2025, NORTH,Electronic, Product 4 ,Online,1,13666
+ORD-M0245,2025-10-08,South,Home, Product 5 ,,3,6064
+ORD-M0246,2025-05-04,West,Electronics, Product 6 ,,2,13891
+ORD-M0247,19/09/2025,East,Home, Product 7 ,Online,1,10389
+ORD-M0248,2025-06-25,north,Home, Product 8 ,,2,8218
+ORD-M0249,2025-03-26,West,Apparel, Product 9 ,,3,12653
+ORD-M0250,13/04/2025,North ,Apparel, Product 10 ,,1,2505
+ORD-M0251,2025-02-19,north,Sports, Product 11 ,Partner,3,6508
+ORD-M0252,2025-06-21,South,Apparel, Product 12 ,Retail Store,3,4280
+ORD-M0253,25/05/2025,north,Beauty, Product 13 ,Online,2,8021
+ORD-M0254,2025-09-12,East,Sports, Product 14 ,Online,3,
+ORD-M0255,2025-05-15,North ,Electronics, Product 15 ,Online,3,18560
+ORD-M0256,18/01/2025,South,Electronics, Product 16 ,,2,"₹3,243"
+ORD-M0257,2025-11-21, NORTH,Sports, Product 17 ,Retail Store,2,5100
+ORD-M0258,2025-07-21,South,Sports, Product 18 ,Partner,2,6509
+ORD-M0259,29/07/2025, NORTH,Electronic, Product 19 ,Partner,1,12913
+ORD-M0260,2025-11-06, NORTH,Home, Product 20 ,Retail Store,2,12841
+ORD-M0261,2025-03-30,north,Electronics, Product 21 ,,3,13915
+ORD-M0262,,north,Grocery, Product 22 ,Retail Store,2,18535
+ORD-M0263,2025-02-15, NORTH,Grocery, Product 23 ,Partner,2,2519
+ORD-M0264,2025-06-27,West,Apparel, Product 24 ,Online,1,7382
+ORD-M0265,12/05/2025, NORTH,Home, Product 25 ,Online,2,2371
+ORD-M0266,2025-12-15,West,Electronics, Product 26 ,Partner,1,7586
+ORD-M0267,2025-01-24,West,Beauty, Product 27 ,Retail Store,2,17549
+ORD-M0268,07/05/2025,South,Apparel, Product 28 ,Retail Store,2,5651
+ORD-M0269,2025-01-11,north,Beauty, Product 29 ,,3,11958
+ORD-M0270,2025-04-08,North ,Beauty, Product 30 ,Retail Store,3,5733
+ORD-M0271,14/09/2025,North ,Electronic, Product 31 ,Partner,3,5048
+ORD-M0272,2025-02-23, NORTH,Beauty, Product 32 ,Partner,3,5813
+ORD-M0273,2025-08-02,East,Apparel, Product 33 ,,1,"₹14,608"
+ORD-M0274,24/08/2025,North ,Electronics, Product 34 ,Online,1,10565
+ORD-M0275,2025-03-08,North ,Apparel, Product 35 ,Partner,1,11092
+ORD-M0276,2025-05-27,South,Grocery, Product 36 ,,1,10449
+ORD-M0277,27/01/2025,West,Grocery, Product 37 ,Partner,3,
+ORD-M0278,2025-08-08,north,Electronic, Product 38 ,Online,2,967
+ORD-M0279,2025-10-07,West,Sports, Product 39 ,Partner,3,4980
+ORD-M0280,03/06/2025,North ,Electronics, Product 40 ,Retail Store,1,7579
+ORD-M0281,2025-12-22, NORTH,Beauty, Product 41 ,Retail Store,1,14518
+ORD-M0282,2025-11-19,East,Home, Product 42 ,Retail Store,3,9599
+ORD-M0283,28/01/2025,South,Electronics, Product 43 ,,2,2516
+ORD-M0284,2025-06-18,North ,Beauty, Product 44 ,,1,12813
+ORD-M0285,2025-05-25,North ,Electronic, Product 45 ,,3,4287
+ORD-M0286,06/12/2025, NORTH,Beauty, Product 46 ,Partner,3,4580
+ORD-M0287,2025-10-21,South,Home, Product 47 ,Retail Store,2,14522
+ORD-M0288,2025-11-25,East,Electronics, Product 48 ,,2,16601
+ORD-M0289,16/07/2025, NORTH,Electronics, Product 1 ,Retail Store,3,1996
+ORD-M0290,2025-03-04,South,Grocery, Product 2 ,,3,"₹7,511"
+ORD-M0291,,North ,Grocery, Product 3 ,Retail Store,1,12255
+ORD-M0292,14/09/2025,South,Electronic, Product 4 ,Retail Store,2,13154
+ORD-M0293,2025-02-23,West,Electronic, Product 5 ,Retail Store,2,18895
+ORD-M0294,2025-05-26,South,Apparel, Product 6 ,Partner,1,14080
+ORD-M0295,19/10/2025,West,Beauty, Product 7 ,Retail Store,1,18527
+ORD-M0296,2025-06-02,north,Beauty, Product 8 ,Retail Store,2,4058
+ORD-M0297,2025-09-23,north,Home, Product 9 ,Partner,1,5322
+ORD-M0298,04/02/2025,North ,Electronic, Product 10 ,Online,2,19680
+ORD-M0299,2025-07-10,West,Electronics, Product 11 ,Partner,3,5352
+ORD-M0300,2025-09-04,South,Home, Product 12 ,Partner,2,
+ORD-M0301,13/04/2025,South,Grocery, Product 13 ,,3,1388
+ORD-M0302,2025-09-28,north,Grocery, Product 14 ,Retail Store,3,6324
+ORD-M0303,2025-03-03, NORTH,Home, Product 15 ,Online,1,10540
+ORD-M0304,22/02/2025,South,Home, Product 16 ,Online,3,14455
+ORD-M0305,2025-04-14,North ,Sports, Product 17 ,,2,3952
+ORD-M0306,2025-06-24,north,Apparel, Product 18 ,Partner,2,5379
+ORD-M0307,11/01/2025, NORTH,Home, Product 19 ,Retail Store,1,"₹16,215"
+ORD-M0308,2025-04-16,north,Apparel, Product 20 ,Retail Store,1,10569
+ORD-M0309,2025-09-07,South,Home, Product 21 ,Retail Store,2,9423
+ORD-M0310,27/03/2025, NORTH,Electronics, Product 22 ,Retail Store,1,13515
+ORD-M0311,2025-11-01,South,Sports, Product 23 ,Online,-1,5334
+ORD-M0312,2025-08-14,East,Electronics, Product 24 ,Online,2,11801
+ORD-M0313,07/09/2025,north,Grocery, Product 25 ,Retail Store,1,17171
+ORD-M0314,2025-08-05,South,Home, Product 26 ,Retail Store,2,15168
+ORD-M0315,2025-08-09,East,Apparel, Product 27 ,Online,3,3216
+ORD-M0316,11/09/2025,East,Electronics, Product 28 ,,2,15829
+ORD-M0317,2025-03-06,north,Electronic, Product 29 ,,3,18334
+ORD-M0318,2025-11-07,West,Electronics, Product 30 ,Online,2,9051
+ORD-M0319,11/10/2025,West,Apparel, Product 31 ,Retail Store,1,9789
+ORD-M0320,,East,Beauty, Product 32 ,Retail Store,2,3332
+ORD-M0321,2025-11-08,West,Beauty, Product 33 ,Retail Store,2,13162
+ORD-M0322,30/06/2025,South,Grocery, Product 34 ,,1,9680
+ORD-M0323,2025-04-28, NORTH,Electronics, Product 35 ,Retail Store,2,
+ORD-M0324,2025-08-06,West,Sports, Product 36 ,Online,1,"₹3,502"
+ORD-M0325,26/04/2025,north,Electronics, Product 37 ,,2,7741
+ORD-M0326,2025-09-01,West,Beauty, Product 38 ,Partner,2,5764
+ORD-M0327,2025-09-15, NORTH,Apparel, Product 39 ,Online,3,19966
+ORD-M0328,28/03/2025,West,Beauty, Product 40 ,Online,3,17086
+ORD-M0329,2025-07-23,north,Home, Product 41 ,Retail Store,2,8686
+ORD-M0330,2025-01-12,East,Apparel, Product 42 ,Retail Store,3,12229
+ORD-M0331,16/11/2025, NORTH,Electronics, Product 43 ,Retail Store,2,10147
+ORD-M0332,2025-03-18,North ,Grocery, Product 44 ,Retail Store,2,18138
+ORD-M0333,2025-06-20,north,Apparel, Product 45 ,Retail Store,1,8614
+ORD-M0334,04/04/2025,East,Electronic, Product 46 ,Partner,3,9905
+ORD-M0335,2025-12-09,East,Sports, Product 47 ,Retail Store,2,10817
+ORD-M0336,2025-10-18,West,Grocery, Product 48 ,,1,12034
+ORD-M0337,28/12/2025,East,Beauty, Product 1 ,Partner,2,13118
+ORD-M0338,2025-11-09,West,Electronics, Product 2 ,Partner,2,1732
+ORD-M0339,2025-03-07,West,Beauty, Product 3 ,Retail Store,2,11580
+ORD-M0340,05/12/2025,East,Home, Product 4 ,,3,11838
+ORD-M0341,2025-03-27,North ,Electronic, Product 5 ,Partner,2,"₹1,798"
+ORD-M0342,2025-10-22,East,Home, Product 6 ,Online,-1,15561
+ORD-M0343,23/11/2025, NORTH,Beauty, Product 7 ,Partner,1,18774
+ORD-M0344,2025-12-29,North ,Electronic, Product 8 ,,1,14360
+ORD-M0345,2025-10-31,north,Grocery, Product 9 ,Retail Store,2,16006
+ORD-M0346,15/11/2025,north,Grocery, Product 10 ,Online,1,
+ORD-M0347,2025-03-02,West,Sports, Product 11 ,Partner,1,12372
+ORD-M0348,2025-02-14,north,Beauty, Product 12 ,Partner,2,10598
+ORD-M0349,, NORTH,Apparel, Product 13 ,Retail Store,3,10499
+ORD-M0350,2025-09-19,West,Home, Product 14 ,,3,12328
+ORD-M0351,2025-06-01, NORTH,Grocery, Product 15 ,Retail Store,3,14677
+ORD-M0352,30/09/2025, NORTH,Electronic, Product 16 ,Partner,3,13818
+ORD-M0353,2025-12-12,South,Electronics, Product 17 ,Online,1,3803
+ORD-M0354,2025-11-29,West,Home, Product 18 ,Online,1,11750
+ORD-M0355,09/08/2025,north,Sports, Product 19 ,Partner,2,17532
+ORD-M0356,2025-02-11,West,Electronics, Product 20 ,Partner,1,1922
+ORD-M0357,2025-07-07,North ,Apparel, Product 21 ,Online,2,1347
+ORD-M0358,04/11/2025,north,Electronic, Product 22 ,Retail Store,2,"₹19,819"
+ORD-M0359,2025-05-22,North ,Electronic, Product 23 ,Retail Store,1,9646
+ORD-M0360,2025-09-27,North ,Electronics, Product 24 ,Retail Store,1,12459
+ORD-M0361,28/06/2025,West,Apparel, Product 25 ,Online,2,9479
+ORD-M0362,2025-08-12,East,Beauty, Product 26 ,,2,4093
+ORD-M0363,2025-08-02,North ,Apparel, Product 27 ,Partner,3,4481
+ORD-M0364,04/10/2025,West,Sports, Product 28 ,Online,2,10604
+ORD-M0365,2025-04-22,West,Apparel, Product 29 ,,1,10107
+ORD-M0366,2025-05-25,north,Electronics, Product 30 ,Retail Store,2,608
+ORD-M0367,07/07/2025, NORTH,Electronic, Product 31 ,Partner,2,6537
+ORD-M0368,2025-11-16,West,Electronics, Product 32 ,Retail Store,3,11327
+ORD-M0369,2025-07-21,West,Home, Product 33 ,Online,2,
+ORD-M0370,27/01/2025,north,Beauty, Product 34 ,,3,17823
+ORD-M0371,2025-05-23,East,Apparel, Product 35 ,Retail Store,1,1227
+ORD-M0372,2025-04-21,South,Beauty, Product 36 ,Online,1,8411
+ORD-M0373,03/10/2025,South,Apparel, Product 37 ,Online,3,2194
+ORD-M0374,2025-06-17,South,Home, Product 38 ,Retail Store,1,13864
+ORD-M0375,2025-01-19,North ,Sports, Product 39 ,,1,"₹10,581"
+ORD-M0376,12/03/2025,East,Sports, Product 40 ,Online,1,9344
+ORD-M0377,2025-03-12,South,Grocery, Product 41 ,Partner,3,6446
+ORD-M0378,,north,Electronic, Product 42 ,Online,2,3334
+ORD-M0379,17/05/2025, NORTH,Electronics, Product 43 ,Retail Store,2,1360
+ORD-M0380,2025-09-13,north,Apparel, Product 44 ,Online,1,2738
+ORD-M0381,2025-11-11,South,Home, Product 45 ,,1,4121
+ORD-M0382,18/03/2025,north,Sports, Product 46 ,,1,8572
+ORD-M0383,2025-05-07,East,Electronic, Product 47 ,,2,5422
+ORD-M0384,2025-05-10,East,Grocery, Product 48 ,Online,1,4122
+ORD-M0385,10/04/2025,north,Beauty, Product 1 ,,2,1155
+ORD-M0386,2025-01-30,South,Grocery, Product 2 ,Online,2,8798
+ORD-M0387,2025-06-21,West,Electronics, Product 3 ,Partner,1,4645
+ORD-M0388,05/04/2025, NORTH,Grocery, Product 4 ,Retail Store,1,13672
+ORD-M0389,2025-01-21,East,Beauty, Product 5 ,Online,3,13129
+ORD-M0390,2025-11-16,North ,Electronic, Product 6 ,Retail Store,2,18409
+ORD-M0391,15/06/2025, NORTH,Apparel, Product 7 ,,2,2127
+ORD-M0392,2025-10-06,West,Sports, Product 8 ,Online,2,"₹15,203"
+ORD-M0393,2025-12-10, NORTH,Electronic, Product 9 ,Online,2,18868
+ORD-M0394,16/09/2025,South,Electronics, Product 10 ,,1,10764
+ORD-M0395,2025-07-19,North ,Apparel, Product 11 ,Online,3,9443
+ORD-M0396,2025-09-24, NORTH,Electronics, Product 12 ,Retail Store,2,12649
+ORD-M0397,01/03/2025,West,Sports, Product 13 ,Partner,1,10044
+ORD-M0398,2025-10-04, NORTH,Apparel, Product 14 ,Retail Store,1,4157
+ORD-M0399,2025-11-20, NORTH,Electronic, Product 15 ,Online,2,4056
+ORD-M0400,10/07/2025, NORTH,Beauty, Product 16 ,,1,6434
+ORD-M0401,2025-12-16,South,Electronics, Product 17 ,Retail Store,3,2491
+ORD-M0402,2025-08-29,South,Electronics, Product 18 ,Partner,2,5951
+ORD-M0403,06/12/2025,South,Electronic, Product 19 ,Partner,2,3725
+ORD-M0404,2025-08-07,East,Grocery, Product 20 ,,-1,17868
+ORD-M0405,2025-01-20,North ,Electronics, Product 21 ,,2,8786
+ORD-M0406,12/07/2025, NORTH,Electronics, Product 22 ,Partner,2,16168
+ORD-M0407,,West,Electronics, Product 23 ,Online,1,4074
+ORD-M0408,2025-04-06, NORTH,Grocery, Product 24 ,,2,6347
+ORD-M0409,01/08/2025,north,Sports, Product 25 ,Online,3,"₹2,630"
+ORD-M0410,2025-04-24, NORTH,Sports, Product 26 ,Partner,1,18052
+ORD-M0411,2025-06-17,West,Grocery, Product 27 ,Online,2,3603
+ORD-M0412,05/01/2025,north,Electronics, Product 28 ,Partner,2,19634
+ORD-M0413,2025-05-20,north,Beauty, Product 29 ,Partner,1,6188
+ORD-M0414,2025-06-24,North ,Sports, Product 30 ,,2,10817
+ORD-M0415,27/02/2025,East,Sports, Product 31 ,Retail Store,1,
+ORD-M0416,2025-08-08, NORTH,Beauty, Product 32 ,Retail Store,3,17992
+ORD-M0417,2025-09-16,West,Apparel, Product 33 ,,2,9442
+ORD-M0418,19/06/2025,North ,Beauty, Product 34 ,Online,3,12621
+ORD-M0419,2025-06-07,north,Electronics, Product 35 ,Online,2,17809
+ORD-M0420,2025-08-26,East,Home, Product 36 ,Online,1,6418
+ORD-M0421,17/09/2025,North ,Sports, Product 37 ,Retail Store,2,8012
+ORD-M0422,2025-10-16,East,Beauty, Product 38 ,,1,3471
+ORD-M0423,2025-06-23,North ,Grocery, Product 39 ,Retail Store,2,892
+ORD-M0424,22/10/2025,East,Sports, Product 40 ,Retail Store,2,11084
+ORD-M0425,2025-03-20,South,Grocery, Product 41 ,Online,2,16437
+ORD-M0426,2025-05-22,North ,Sports, Product 42 ,Online,1,"₹12,590"
+ORD-M0427,21/05/2025, NORTH,Sports, Product 43 ,Partner,2,15760
+ORD-M0428,2025-04-02, NORTH,Grocery, Product 44 ,Retail Store,2,13031
+ORD-M0429,2025-12-15,South,Electronics, Product 45 ,Partner,1,19852
+ORD-M0430,06/07/2025,East,Sports, Product 46 ,,3,11057
+ORD-M0431,2025-07-17, NORTH,Beauty, Product 47 ,,3,19159
+ORD-M0432,2025-08-31,North ,Electronic, Product 48 ,,1,19315
+ORD-M0433,17/05/2025,West,Grocery, Product 1 ,Partner,2,4425
+ORD-M0434,2025-05-16,West,Electronics, Product 2 ,Online,2,14068
+ORD-M0435,2025-11-24,north,Sports, Product 3 ,Retail Store,3,12791
+ORD-M0436,,West,Home, Product 4 ,Partner,2,1818
+ORD-M0437,2025-01-08,South,Apparel, Product 5 ,Online,2,19242
+ORD-M0438,2025-03-17,East,Home, Product 6 ,,2,
+ORD-M0439,01/08/2025,West,Electronics, Product 7 ,Retail Store,1,3206
+ORD-M0440,2025-01-05,South,Beauty, Product 8 ,Online,2,4530
+ORD-M0441,2025-12-16,North ,Grocery, Product 9 ,Retail Store,3,4147
+ORD-M0442,05/02/2025,South,Beauty, Product 10 ,Retail Store,2,19933
+ORD-M0443,2025-03-02,north,Electronic, Product 11 ,Online,2,"₹9,347"
+ORD-M0444,2025-01-10,North ,Electronic, Product 12 ,,3,2728
+ORD-M0445,31/03/2025,West,Electronic, Product 13 ,Online,2,13132
+ORD-M0446,2025-08-23,East,Apparel, Product 14 ,Retail Store,3,10016
+ORD-M0447,2025-03-09,North ,Electronic, Product 15 ,Retail Store,3,18341
+ORD-M0448,29/08/2025,South,Electronic, Product 16 ,Retail Store,2,13596
+ORD-M0449,2025-01-07,north,Grocery, Product 17 ,Online,3,9277
+ORD-M0450,2025-01-11,West,Home, Product 18 ,Retail Store,3,5018
+ORD-M0451,15/01/2025, NORTH,Electronic, Product 19 ,,3,15352
+ORD-M0452,2025-11-07,North ,Home, Product 20 ,Partner,2,15078
+ORD-M0453,2025-07-10,North ,Beauty, Product 21 ,Partner,2,16850
+ORD-M0454,12/07/2025, NORTH,Electronic, Product 22 ,Partner,3,19947
+ORD-M0455,2025-12-22,West,Electronics, Product 23 ,,3,9781
+ORD-M0456,2025-11-14,north,Grocery, Product 24 ,Online,1,6452
+ORD-M0457,01/08/2025,north,Apparel, Product 25 ,Partner,2,9518
+ORD-M0458,2025-03-31, NORTH,Beauty, Product 26 ,,2,18972
+ORD-M0459,2025-07-30,East,Home, Product 27 ,Partner,3,1308
+ORD-M0460,04/10/2025,North ,Beauty, Product 28 ,,2,"₹19,203"
+ORD-M0461,2025-05-14,north,Home, Product 29 ,,1,
+ORD-M0462,2025-04-24,South,Electronic, Product 30 ,Partner,3,14208
+ORD-M0463,27/11/2025,North ,Electronics, Product 31 ,,2,6198
+ORD-M0464,2025-05-03,South,Home, Product 32 ,Partner,2,7339
+ORD-M0465,,East,Beauty, Product 33 ,Retail Store,1,14966
+ORD-M0466,29/04/2025,North ,Electronic, Product 34 ,Online,-1,4246
+ORD-M0467,2025-04-25,South,Beauty, Product 35 ,Partner,2,13543
+ORD-M0468,2025-04-22,East,Home, Product 36 ,,3,13543
+ORD-M0469,19/12/2025,north,Beauty, Product 37 ,Retail Store,2,3818
+ORD-M0470,2025-10-03,West,Beauty, Product 38 ,Online,2,5828
+ORD-M0471,2025-08-12,East,Electronic, Product 39 ,Online,1,16759
+ORD-M0472,16/06/2025,East,Home, Product 40 ,Partner,2,19197
+ORD-M0473,2025-07-06,West,Electronics, Product 41 ,Partner,1,11943
+ORD-M0474,2025-12-19,north,Grocery, Product 42 ,Partner,2,958
+ORD-M0475,04/05/2025,South,Electronic, Product 43 ,Online,2,2464
+ORD-M0476,2025-11-15,East,Home, Product 44 ,Retail Store,1,7403
+ORD-M0477,2025-02-01,north,Beauty, Product 45 ,Retail Store,2,"₹11,917"
+ORD-M0478,15/05/2025,West,Sports, Product 46 ,Online,2,4495
+ORD-M0479,2025-12-29,South,Grocery, Product 47 ,,1,990
+ORD-M0480,2025-10-23,West,Sports, Product 48 ,Online,1,18923
+ORD-M0481,03/06/2025,West,Grocery, Product 1 ,Partner,2,18615
+ORD-M0482,2025-11-26, NORTH,Sports, Product 2 ,,3,16932
+ORD-M0483,2025-07-03,North ,Apparel, Product 3 ,Online,1,15136
+ORD-M0484,17/07/2025,South,Electronic, Product 4 ,,1,
+ORD-M0485,2025-07-09,West,Home, Product 5 ,Partner,2,14750
+ORD-M0486,2025-08-31, NORTH,Electronic, Product 6 ,Retail Store,3,17499
+ORD-M0487,20/06/2025,South,Beauty, Product 7 ,,1,15459
+ORD-M0488,2025-08-08,South,Electronic, Product 8 ,Online,3,17603
+ORD-M0489,2025-02-27,north,Apparel, Product 9 ,Online,2,549
+ORD-M0490,19/09/2025,North ,Sports, Product 10 ,Retail Store,2,2642
+ORD-M0491,2025-01-04,East,Sports, Product 11 ,Partner,2,17022
+ORD-M0492,2025-10-23, NORTH,Home, Product 12 ,Online,3,820
+ORD-M0493,09/10/2025, NORTH,Sports, Product 13 ,Retail Store,1,14186
+ORD-M0494,,East,Electronics, Product 14 ,Online,2,"₹2,715"
+ORD-M0495,2025-04-27,north,Electronics, Product 15 ,Online,2,5446
+ORD-M0496,11/10/2025,North ,Sports, Product 16 ,Online,1,4643
+ORD-M0497,2025-10-24,North ,Grocery, Product 17 ,Partner,2,14350
+ORD-M0498,2025-05-30,North ,Electronic, Product 18 ,Partner,2,19602
+ORD-M0499,31/05/2025,north,Electronic, Product 19 ,Partner,3,6502
+ORD-M0500,2025-02-04, NORTH,Beauty, Product 20 ,Partner,2,13684
+ORD-M0501,2025-11-30,South,Electronic, Product 21 ,,3,19023
+ORD-M0502,26/12/2025,North ,Apparel, Product 22 ,,3,3635
+ORD-M0503,2025-12-20,South,Beauty, Product 23 ,Online,2,2545
+ORD-M0504,2025-08-13,South,Electronic, Product 24 ,,3,16194
+ORD-M0505,19/01/2025,South,Electronic, Product 25 ,Retail Store,2,9656
+ORD-M0506,2025-07-13,north,Sports, Product 26 ,,2,5077
+ORD-M0507,2025-12-01, NORTH,Apparel, Product 27 ,,1,
+ORD-M0508,15/07/2025,South,Grocery, Product 28 ,Online,2,16118
+ORD-M0509,2025-04-14,West,Electronics, Product 29 ,Retail Store,2,5104
+ORD-M0510,2025-03-05,East,Home, Product 30 ,Online,3,10825
+ORD-M0511,04/02/2025,West,Sports, Product 31 ,,2,"₹18,842"
+ORD-M0512,2025-10-23,East,Beauty, Product 32 ,Online,3,7584
+ORD-M0513,2025-08-23,north,Electronic, Product 33 ,Online,2,4787
+ORD-M0514,28/06/2025,north,Electronics, Product 34 ,Retail Store,1,9654
+ORD-M0515,2025-01-18,South,Home, Product 35 ,Online,3,18200
+ORD-M0516,2025-05-25,West,Electronics, Product 36 ,Online,2,8043
+ORD-M0517,30/10/2025,north,Sports, Product 37 ,Partner,2,8108
+ORD-M0518,2025-01-09,West,Electronic, Product 38 ,,1,7210
+ORD-M0519,2025-06-22,West,Home, Product 39 ,Partner,1,18923
+ORD-M0520,18/08/2025, NORTH,Sports, Product 40 ,Online,3,12534
+ORD-M0521,2025-04-12,East,Grocery, Product 41 ,,2,16163
+ORD-M0522,2025-05-27,West,Grocery, Product 42 ,Retail Store,2,8771
+ORD-M0523,, NORTH,Beauty, Product 43 ,,3,15178
+ORD-M0524,2025-09-28, NORTH,Electronics, Product 44 ,,1,7010
+ORD-M0525,2025-12-26,north,Home, Product 45 ,Retail Store,1,13363
+ORD-M0526,21/09/2025,East,Grocery, Product 46 ,Retail Store,2,14276
+ORD-M0527,2025-03-31,north,Apparel, Product 47 ,Retail Store,3,14623
+ORD-M0528,2025-11-18,north,Apparel, Product 48 ,,1,"₹11,467"
+ORD-M0529,25/11/2025, NORTH,Apparel, Product 1 ,Retail Store,2,6078
+ORD-M0530,2025-02-11,South,Beauty, Product 2 ,,2,
+ORD-M0531,2025-07-31,north,Apparel, Product 3 ,,2,1969
+ORD-M0532,29/11/2025,West,Apparel, Product 4 ,Partner,1,10301
+ORD-M0533,2025-02-16,North ,Electronics, Product 5 ,Partner,2,9399
+ORD-M0534,2025-03-13,South,Beauty, Product 6 ,,3,14561
+ORD-M0535,19/12/2025,North ,Beauty, Product 7 ,,1,2561
+ORD-M0536,2025-11-09,north,Beauty, Product 8 ,Retail Store,2,16582
+ORD-M0537,2025-12-13, NORTH,Beauty, Product 9 ,,3,11143
+ORD-M0538,05/04/2025,north,Electronics, Product 10 ,Retail Store,1,9591
+ORD-M0539,2025-01-26,East,Home, Product 11 ,Partner,2,13054
+ORD-M0540,2025-02-09,north,Apparel, Product 12 ,Online,2,10326
+ORD-M0541,28/10/2025,South,Home, Product 13 ,Online,2,4804
+ORD-M0542,2025-01-17, NORTH,Grocery, Product 14 ,Online,3,2822
+ORD-M0543,2025-12-09,South,Electronic, Product 15 ,Online,1,11156
+ORD-M0544,16/04/2025,north,Apparel, Product 16 ,,2,505
+ORD-M0545,2025-06-07,West,Home, Product 17 ,,2,"₹7,655"
+ORD-M0546,2025-09-22,South,Apparel, Product 18 ,Online,3,15801
+ORD-M0547,14/03/2025,North ,Sports, Product 19 ,Online,2,3806
+ORD-M0548,2025-05-20, NORTH,Apparel, Product 20 ,Online,3,5360
+ORD-M0549,2025-03-01,North ,Electronic, Product 21 ,,1,13085
+ORD-M0550,03/11/2025,West,Sports, Product 22 ,Partner,1,17634
+ORD-M0551,2025-06-02, NORTH,Beauty, Product 23 ,,2,10494
+ORD-M0552,,West,Beauty, Product 24 ,Online,1,9721
+ORD-M0553,02/04/2025,North ,Home, Product 25 ,,2,
+ORD-M0554,2025-05-01,South,Apparel, Product 26 ,Partner,2,3069
+ORD-M0555,2025-03-09,West,Home, Product 27 ,Online,1,9923
+ORD-M0556,20/02/2025,East,Home, Product 28 ,Retail Store,3,3179
+ORD-M0557,2025-07-31,South,Apparel, Product 29 ,Online,1,10868
+ORD-M0558,2025-01-02, NORTH,Sports, Product 30 ,Retail Store,1,13849
+ORD-M0559,14/12/2025,North ,Apparel, Product 31 ,Online,-1,16240
+ORD-M0560,2025-09-18, NORTH,Home, Product 32 ,Online,2,3140
+ORD-M0561,2025-02-15,East,Apparel, Product 33 ,,2,9540
+ORD-M0562,29/06/2025,north,Beauty, Product 34 ,Retail Store,1,"₹2,394"
+ORD-M0563,2025-06-03,West,Electronics, Product 35 ,Retail Store,2,3930
+ORD-M0564,2025-11-01, NORTH,Grocery, Product 36 ,Retail Store,2,12578
+ORD-M0565,21/03/2025,West,Electronics, Product 37 ,,3,13274
+ORD-M0566,2025-02-17,North ,Beauty, Product 38 ,,2,14277
+ORD-M0567,2025-12-12,north,Sports, Product 39 ,Partner,2,10080
+ORD-M0568,23/05/2025,north,Apparel, Product 40 ,Partner,2,14658
+ORD-M0569,2025-06-27, NORTH,Grocery, Product 41 ,Retail Store,2,19390
+ORD-M0570,2025-08-21,north,Beauty, Product 42 ,Retail Store,3,14820
+ORD-M0571,22/03/2025,West,Electronics, Product 43 ,,1,15765
+ORD-M0572,2025-05-06,East,Beauty, Product 44 ,Online,3,14976
+ORD-M0573,2025-11-05,West,Beauty, Product 45 ,,2,15369
+ORD-M0574,15/03/2025,North ,Sports, Product 46 ,Partner,1,10826
+ORD-M0575,2025-01-02, NORTH,Apparel, Product 47 ,Retail Store,3,593
+ORD-M0576,2025-01-11,South,Sports, Product 48 ,Online,1,
+ORD-M0577,22/11/2025, NORTH,Electronic, Product 1 ,Partner,2,12262
+ORD-M0578,2025-12-18, NORTH,Electronics, Product 2 ,Partner,2,6254
+ORD-M0579,2025-01-12,West,Electronic, Product 3 ,Partner,3,"₹9,097"
+ORD-M0580,18/10/2025, NORTH,Beauty, Product 4 ,,2,18451
+ORD-M0581,,north,Beauty, Product 5 ,Retail Store,2,3379
+ORD-M0582,2025-06-12,north,Home, Product 6 ,Online,1,5705
+ORD-M0583,03/12/2025,North ,Home, Product 7 ,,2,13329
+ORD-M0584,2025-08-01,north,Home, Product 8 ,,3,4814
+ORD-M0585,2025-08-15,North ,Electronics, Product 9 ,,3,6832
+ORD-M0586,11/09/2025,north,Grocery, Product 10 ,Partner,2,11707
+ORD-M0587,2025-11-17, NORTH,Electronic, Product 11 ,,2,4414
+ORD-M0588,2025-07-13,East,Apparel, Product 12 ,,3,8895
+ORD-M0589,03/05/2025,North ,Electronics, Product 13 ,Online,2,13342
+ORD-M0590,2025-04-30,South,Apparel, Product 14 ,Retail Store,-1,4144
+ORD-M0591,2025-07-18,South,Apparel, Product 15 ,,2,13777
+ORD-M0592,19/05/2025,north,Apparel, Product 16 ,,2,10324
+ORD-M0593,2025-04-11,West,Grocery, Product 17 ,Online,1,10209
+ORD-M0594,2025-01-19,West,Sports, Product 18 ,Retail Store,2,17543
+ORD-M0595,14/01/2025,West,Beauty, Product 19 ,Retail Store,1,10283
+ORD-M0596,2025-02-14,East,Home, Product 20 ,,2,"₹1,668"
+ORD-M0597,2025-09-30,north,Grocery, Product 21 ,Retail Store,1,11256
+ORD-M0598,29/05/2025, NORTH,Grocery, Product 22 ,Partner,1,17737
+ORD-M0599,2025-09-14,north,Apparel, Product 23 ,,1,
+ORD-M0600,2025-12-01,West,Home, Product 24 ,,2,604
+ORD-M0601,29/06/2025,north,Home, Product 25 ,Retail Store,2,14657
+ORD-M0602,2025-08-01,East,Beauty, Product 26 ,,2,10445
+ORD-M0603,2025-07-22, NORTH,Sports, Product 27 ,Retail Store,2,792
+ORD-M0604,25/09/2025,South,Apparel, Product 28 ,Retail Store,2,1054
+ORD-M0605,2025-04-21,West,Grocery, Product 29 ,Retail Store,2,720
+ORD-M0606,2025-06-07,South,Apparel, Product 30 ,,2,14750
+ORD-M0607,16/08/2025,north,Electronics, Product 31 ,Online,2,9407
+ORD-M0608,2025-01-25,South,Grocery, Product 32 ,Online,3,6124
+ORD-M0609,2025-09-20,East,Apparel, Product 33 ,Online,2,9177
+ORD-M0610,, NORTH,Home, Product 34 ,Online,2,17206
+ORD-M0611,2025-06-19,North ,Electronic, Product 35 ,,2,1129
+ORD-M0612,2025-09-16, NORTH,Beauty, Product 36 ,Retail Store,3,11498
+ORD-M0613,24/04/2025, NORTH,Sports, Product 37 ,Retail Store,3,"₹9,948"
+ORD-M0614,2025-10-02,North ,Beauty, Product 38 ,,3,10056
+ORD-M0615,2025-03-09,East,Grocery, Product 39 ,Retail Store,2,9959
+ORD-M0616,03/01/2025,North ,Grocery, Product 40 ,,2,17597
+ORD-M0617,2025-09-23,North ,Sports, Product 41 ,Online,1,16661
+ORD-M0618,2025-08-04,East,Apparel, Product 42 ,Retail Store,1,18647
+ORD-M0619,26/05/2025,West,Apparel, Product 43 ,Partner,3,19729
+ORD-M0620,2025-12-31,East,Sports, Product 44 ,Partner,2,19321
+ORD-M0621,2025-07-12,East,Grocery, Product 45 ,,3,14123
+ORD-M0622,13/06/2025,West,Sports, Product 46 ,Retail Store,2,
+ORD-M0623,2025-08-04,East,Apparel, Product 47 ,Online,1,855
+ORD-M0624,2025-10-28,north,Grocery, Product 48 ,Partner,2,6244
+ORD-M0625,04/06/2025, NORTH,Beauty, Product 1 ,Online,2,6673
+ORD-M0626,2025-05-06,North ,Electronic, Product 2 ,Partner,2,8722
+ORD-M0627,2025-01-28,South,Electronic, Product 3 ,Retail Store,1,7186
+ORD-M0628,08/12/2025,North ,Sports, Product 4 ,Partner,3,4888
+ORD-M0629,2025-10-07,North ,Beauty, Product 5 ,Partner,3,9706
+ORD-M0630,2025-11-01,north,Sports, Product 6 ,,1,"₹8,709"
+ORD-M0631,23/09/2025,West,Beauty, Product 7 ,Retail Store,1,19069
+ORD-M0632,2025-02-18, NORTH,Sports, Product 8 ,Retail Store,2,11255
+ORD-M0633,2025-01-30,West,Grocery, Product 9 ,,2,13441
+ORD-M0634,30/01/2025,north,Grocery, Product 10 ,,2,1181
+ORD-M0635,2025-04-03,West,Grocery, Product 11 ,Online,1,1298
+ORD-M0636,2025-02-15,South,Electronics, Product 12 ,Retail Store,2,18498
+ORD-M0637,22/09/2025,north,Apparel, Product 13 ,Online,3,2030
+ORD-M0638,2025-09-03,East,Sports, Product 14 ,,1,3710
+ORD-M0639,,East,Beauty, Product 15 ,,2,1287
+ORD-M0640,04/01/2025,East,Sports, Product 16 ,Online,2,15307
+ORD-M0641,2025-08-16,South,Electronics, Product 17 ,Retail Store,2,17096
+ORD-M0642,2025-09-18,North ,Beauty, Product 18 ,Retail Store,1,13228
+ORD-M0643,07/04/2025,north,Home, Product 19 ,Online,3,12269
+ORD-M0644,2025-03-31,South,Electronic, Product 20 ,,1,7473
+ORD-M0645,2025-08-21,north,Sports, Product 21 ,Online,2,
+ORD-M0646,06/01/2025,north,Electronics, Product 22 ,Retail Store,2,4308
+ORD-M0647,2025-12-06,South,Sports, Product 23 ,Online,2,"₹8,884"
+ORD-M0648,2025-09-04,West,Beauty, Product 24 ,Partner,2,4932
+ORD-M0649,24/03/2025,South,Electronics, Product 25 ,Retail Store,3,5392
+ORD-M0650,2025-04-23,North ,Home, Product 26 ,Partner,2,6010
+ORD-M0651,2025-04-25,East,Electronic, Product 27 ,Online,3,19407
+ORD-M0652,22/06/2025,East,Electronic, Product 28 ,,2,7465
+ORD-M0653,2025-02-04,North ,Electronics, Product 29 ,Partner,2,16478
+ORD-M0654,2025-06-29,South,Electronic, Product 30 ,Partner,2,11886
+ORD-M0655,09/09/2025, NORTH,Grocery, Product 31 ,Partner,3,3037
+ORD-M0656,2025-08-08, NORTH,Sports, Product 32 ,,2,16771
+ORD-M0657,2025-03-15,North ,Sports, Product 33 ,Partner,1,10442
+ORD-M0658,06/08/2025,north,Home, Product 34 ,Partner,2,14359
+ORD-M0659,2025-03-04,North ,Electronics, Product 35 ,Retail Store,1,4536
+ORD-M0660,2025-12-11,South,Sports, Product 36 ,Partner,3,13053
+ORD-M0661,17/07/2025,North ,Home, Product 37 ,Retail Store,1,1098
+ORD-M0662,2025-04-28, NORTH,Beauty, Product 38 ,,3,6662
+ORD-M0663,2025-12-01,North ,Beauty, Product 39 ,Retail Store,1,4188
+ORD-M0664,28/11/2025,north,Home, Product 40 ,Retail Store,3,"₹13,602"
+ORD-M0665,2025-06-02, NORTH,Home, Product 41 ,Online,2,15406
+ORD-M0666,2025-12-30,West,Sports, Product 42 ,Partner,2,3374
+ORD-M0667,04/07/2025,West,Grocery, Product 43 ,Online,2,9452
+ORD-M0668,,South,Electronics, Product 44 ,Online,3,
+ORD-M0669,2025-02-03,North ,Electronics, Product 45 ,,2,6960
+ORD-M0670,08/01/2025,South,Electronics, Product 46 ,Online,2,14189
+ORD-M0671,2025-06-18,East,Home, Product 47 ,Online,3,14732
+ORD-M0672,2025-06-03,West,Apparel, Product 48 ,Partner,2,13589
+ORD-M0673,17/03/2025,North ,Electronic, Product 1 ,,3,7734
+ORD-M0674,2025-05-10,north,Grocery, Product 2 ,Online,1,12104
+ORD-M0675,2025-06-23,North ,Sports, Product 3 ,Retail Store,2,4987
+ORD-M0676,16/06/2025, NORTH,Sports, Product 4 ,,2,2094
+ORD-M0677,2025-06-01,West,Sports, Product 5 ,Retail Store,2,19420
+ORD-M0678,2025-05-16,North ,Grocery, Product 6 ,,1,15035
+ORD-M0679,23/02/2025,north,Home, Product 7 ,Online,3,6566
+ORD-M0680,2025-11-05,East,Apparel, Product 8 ,,2,18877
+ORD-M0681,2025-04-16,South,Apparel, Product 9 ,,3,"₹6,046"
+ORD-M0682,29/11/2025,North ,Grocery, Product 10 ,Retail Store,2,3276
+ORD-M0683,2025-10-21, NORTH,Sports, Product 11 ,,2,6536
+ORD-M0684,2025-03-17,north,Grocery, Product 12 ,Retail Store,3,2071
+ORD-M0685,12/05/2025,north,Electronics, Product 13 ,Partner,3,4409
+ORD-M0686,2025-11-12,north,Sports, Product 14 ,,2,3710
+ORD-M0687,2025-07-16,West,Apparel, Product 15 ,Online,1,16848
+ORD-M0688,22/08/2025,South,Electronics, Product 16 ,Online,1,15274
+ORD-M0689,2025-11-17,North ,Electronics, Product 17 ,Retail Store,2,2671
+ORD-M0690,2025-09-20,north,Electronics, Product 18 ,Retail Store,3,5582
+ORD-M0691,14/06/2025,north,Beauty, Product 19 ,Retail Store,1,
+ORD-M0692,2025-08-14,East,Electronic, Product 20 ,Online,1,5722
+ORD-M0693,2025-03-26, NORTH,Sports, Product 21 ,Partner,2,13492
+ORD-M0694,01/08/2025,West,Beauty, Product 22 ,Partner,2,13209
+ORD-M0695,2025-06-06, NORTH,Grocery, Product 23 ,Retail Store,3,11771
+ORD-M0696,2025-11-30,East,Electronic, Product 24 ,Retail Store,1,16574
+ORD-M0697,,East,Sports, Product 25 ,Online,3,4978
+ORD-M0698,2025-09-27,South,Home, Product 26 ,,2,"₹14,782"
+ORD-M0699,2025-02-02,North ,Beauty, Product 27 ,,2,13829
+ORD-M0700,20/02/2025,North ,Beauty, Product 28 ,,2,19113
+ORD-M0701,2025-07-11,South,Apparel, Product 29 ,Partner,2,13976
+ORD-M0702,2025-06-12,North ,Sports, Product 30 ,Partner,3,12619
+ORD-M0703,30/10/2025,South,Electronic, Product 31 ,Retail Store,2,17417
+ORD-M0704,2025-05-28,north,Beauty, Product 32 ,Partner,1,957
+ORD-M0705,2025-03-04,East,Sports, Product 33 ,Online,2,15453
+ORD-M0706,07/04/2025,north,Home, Product 34 ,Online,2,14864
+ORD-M0707,2025-03-25, NORTH,Electronics, Product 35 ,Retail Store,1,9300
+ORD-M0708,2025-06-07,north,Sports, Product 36 ,Retail Store,3,14465
+ORD-M0709,22/03/2025,North ,Electronic, Product 37 ,Partner,3,4221
+ORD-M0710,2025-05-28, NORTH,Electronic, Product 38 ,Retail Store,2,9216
+ORD-M0711,2025-04-03,West,Electronics, Product 39 ,Partner,3,3068
+ORD-M0712,08/05/2025,North ,Sports, Product 40 ,Retail Store,1,8930
+ORD-M0713,2025-03-21,West,Sports, Product 41 ,Retail Store,2,10179
+ORD-M0714,2025-09-25, NORTH,Electronics, Product 42 ,Online,1,
+ORD-M0715,24/02/2025,North ,Grocery, Product 43 ,Retail Store,2,"₹3,510"
+ORD-M0716,2025-07-07,West,Home, Product 44 ,Retail Store,3,18339
+ORD-M0717,2025-07-27,East,Sports, Product 45 ,,1,2379
+ORD-M0718,16/01/2025,West,Grocery, Product 46 ,Online,2,1644
+ORD-M0719,2025-09-11, NORTH,Apparel, Product 47 ,,1,8419
+ORD-M0720,2025-03-04,North ,Apparel, Product 48 ,Partner,2,19802
+ORD-M0721,23/02/2025, NORTH,Sports, Product 1 ,,2,4465
+ORD-M0722,2025-08-03,north,Beauty, Product 2 ,,2,12290
+ORD-M0723,2025-03-17,north,Beauty, Product 3 ,Online,1,4042
+ORD-M0724,05/01/2025,North ,Beauty, Product 4 ,Partner,2,1591
+ORD-M0725,2025-08-05,North ,Sports, Product 5 ,Partner,3,12396
+ORD-M0726,,North ,Electronics, Product 6 ,,2,16042
+ORD-M0727,28/09/2025,North ,Beauty, Product 7 ,Online,1,15532
+ORD-M0728,2025-05-23,West,Grocery, Product 8 ,Partner,2,990
+ORD-M0729,2025-07-03,South,Apparel, Product 9 ,Partner,1,10351
+ORD-M0730,24/05/2025,East,Apparel, Product 10 ,Online,3,18531
+ORD-M0731,2025-10-25,East,Sports, Product 11 ,Partner,1,1472
+ORD-M0732,2025-08-02,South,Sports, Product 12 ,,2,"₹12,551"
+ORD-M0733,17/05/2025,North ,Electronics, Product 13 ,,2,17622
+ORD-M0734,2025-08-08,North ,Beauty, Product 14 ,Partner,2,14687
+ORD-M0735,2025-08-10,West,Grocery, Product 15 ,Online,3,9020
+ORD-M0736,20/09/2025,West,Apparel, Product 16 ,Partner,2,19385
+ORD-M0737,2025-11-27,East,Grocery, Product 17 ,Online,3,
+ORD-M0738,2025-10-12,East,Electronics, Product 18 ,Retail Store,3,2724
+ORD-M0739,07/11/2025,East,Sports, Product 19 ,Partner,3,11061
+ORD-M0740,2025-06-02,north,Electronic, Product 20 ,Online,3,17619
+ORD-M0741,2025-08-24,North ,Home, Product 21 ,,1,3657
+ORD-M0742,14/09/2025,West,Beauty, Product 22 ,Partner,2,2893
+ORD-M0743,2025-05-13,north,Sports, Product 23 ,,3,19702
+ORD-M0744,2025-12-06,South,Grocery, Product 24 ,,1,18315
+ORD-M0745,30/12/2025,North ,Electronic, Product 25 ,Partner,2,16788
+ORD-M0746,2025-12-10,north,Grocery, Product 26 ,Partner,1,1688
+ORD-M0747,2025-12-31,West,Sports, Product 27 ,Retail Store,2,10773
+ORD-M0748,03/07/2025,North ,Home, Product 28 ,Retail Store,2,13228
+ORD-M0749,2025-09-23,East,Home, Product 29 ,Partner,3,"₹8,357"
+ORD-M0750,2025-05-23,East,Home, Product 30 ,Retail Store,2,6351
+ORD-M0751,15/02/2025,East,Electronic, Product 31 ,,1,11269
+ORD-M0752,2025-07-07,West,Beauty, Product 32 ,Online,2,4647
+ORD-M0753,2025-06-22,East,Apparel, Product 33 ,Retail Store,3,878
+ORD-M0754,28/05/2025,East,Beauty, Product 34 ,,3,5538
+ORD-M0755,,West,Electronics, Product 35 ,,2,9645
+ORD-M0756,2025-05-19,north,Home, Product 36 ,Partner,1,2651
+ORD-M0757,21/09/2025,north,Home, Product 37 ,Partner,2,1741
+ORD-M0758,2025-07-04,East,Electronic, Product 38 ,Partner,2,16281
+ORD-M0759,2025-07-15,South,Electronic, Product 39 ,Online,1,9248
+ORD-M0760,06/02/2025,North ,Grocery, Product 40 ,,2,
+ORD-M0761,2025-03-09,East,Home, Product 41 ,,2,15560
+ORD-M0762,2025-06-27,South,Apparel, Product 42 ,Partner,1,2815
+ORD-M0763,17/09/2025,West,Apparel, Product 43 ,Retail Store,2,9390
+ORD-M0764,2025-11-08,South,Electronic, Product 44 ,Online,1,898
+ORD-M0765,2025-03-04,north,Grocery, Product 45 ,,3,18378
+ORD-M0766,11/01/2025,South,Grocery, Product 46 ,Retail Store,3,"₹6,185"
+ORD-M0767,2025-08-06, NORTH,Electronic, Product 47 ,Retail Store,2,8778
+ORD-M0768,2025-08-18,north,Home, Product 48 ,,3,5193
+ORD-M0769,23/04/2025,north,Electronic, Product 1 ,,2,7016
+ORD-M0770,2025-05-14,East,Home, Product 2 ,Partner,2,16628
+ORD-M0771,2025-06-25,East,Grocery, Product 3 ,Partner,1,10834
+ORD-M0772,29/12/2025,West,Electronics, Product 4 ,Retail Store,1,1916
+ORD-M0773,2025-01-04, NORTH,Beauty, Product 5 ,Online,2,17707
+ORD-M0774,2025-08-10,north,Electronic, Product 6 ,,2,14645
+ORD-M0775,24/04/2025,East,Apparel, Product 7 ,,3,10959
+ORD-M0776,2025-11-19, NORTH,Electronics, Product 8 ,Online,1,18062
+ORD-M0777,2025-12-11,north,Home, Product 9 ,,2,16609
+ORD-M0778,03/05/2025,north,Apparel, Product 10 ,Retail Store,1,624
+ORD-M0779,2025-05-03,South,Grocery, Product 11 ,,2,5872
+ORD-M0780,2025-09-19,West,Beauty, Product 12 ,Retail Store,2,15823
+ORD-M0781,10/07/2025,South,Beauty, Product 13 ,Online,2,7790
+ORD-M0782,2025-08-25,South,Home, Product 14 ,Retail Store,2,7341
+ORD-M0783,2025-10-13, NORTH,Electronics, Product 15 ,Online,2,"₹11,796"
+ORD-M0784,,West,Home, Product 16 ,Retail Store,2,18223
+ORD-M0785,2025-06-21,South,Sports, Product 17 ,Retail Store,2,15445
+ORD-M0786,2025-02-16,East,Grocery, Product 18 ,Retail Store,1,4824
+ORD-M0787,28/01/2025,North ,Apparel, Product 19 ,Online,1,13139
+ORD-M0788,2025-05-11,West,Home, Product 20 ,Partner,2,11567
+ORD-M0789,2025-06-02, NORTH,Beauty, Product 21 ,Partner,2,14697
+ORD-M0790,03/05/2025,East,Home, Product 22 ,,3,19406
+ORD-M0791,2025-04-08,South,Electronic, Product 23 ,Partner,2,19038
+ORD-M0792,2025-04-10, NORTH,Sports, Product 24 ,,1,11371
+ORD-M0793,31/05/2025,East,Sports, Product 25 ,,2,8867
+ORD-M0794,2025-04-16,South,Home, Product 26 ,Partner,1,18247
+ORD-M0795,2025-07-26,north,Sports, Product 27 ,Retail Store,2,4705
+ORD-M0796,22/12/2025,West,Home, Product 28 ,Retail Store,2,14799
+ORD-M0797,2025-02-19,north,Grocery, Product 29 ,,2,10615
+ORD-M0798,2025-04-19,north,Apparel, Product 30 ,Online,2,2754
+ORD-M0799,14/11/2025,North ,Apparel, Product 31 ,Online,3,8979
+ORD-M0800,2025-07-14,North ,Electronic, Product 32 ,Online,2,"₹3,270"
+ORD-M0801,2025-08-20,West,Grocery, Product 33 ,,2,3804
+ORD-M0802,30/09/2025,East,Apparel, Product 34 ,,1,11870
+ORD-M0803,2025-03-13,South,Electronics, Product 35 ,Retail Store,1,19335
+ORD-M0804,2025-04-15,East,Electronics, Product 36 ,,3,16535
+ORD-M0805,09/09/2025,East,Beauty, Product 37 ,,2,2807
+ORD-M0806,2025-06-18,West,Electronic, Product 38 ,Partner,3,
+ORD-M0807,2025-07-27,East,Beauty, Product 39 ,Partner,3,16887
+ORD-M0808,19/06/2025,West,Electronics, Product 40 ,Partner,3,7639
+ORD-M0809,2025-12-17,North ,Beauty, Product 41 ,Partner,2,531
+ORD-M0810,2025-03-30,South,Sports, Product 42 ,Online,1,1944
+ORD-M0811,08/10/2025,South,Beauty, Product 43 ,,1,11945
+ORD-M0812,2025-04-18,West,Grocery, Product 44 ,Retail Store,2,16005
+ORD-M0813,, NORTH,Electronics, Product 45 ,Partner,3,14175
+ORD-M0814,23/11/2025,north,Home, Product 46 ,Partner,2,18236
+ORD-M0815,2025-10-03,South,Electronics, Product 47 ,Retail Store,1,11344
+ORD-M0816,2025-10-30,north,Electronics, Product 48 ,,2,16696
+ORD-M0817,27/11/2025,South,Electronics, Product 1 ,Online,3,"₹6,298"
+ORD-M0818,2025-04-28,East,Electronic, Product 2 ,Retail Store,1,19738
+ORD-M0819,2025-07-20,East,Electronics, Product 3 ,Online,2,11541
+ORD-M0820,17/05/2025,North ,Grocery, Product 4 ,,3,1619
+ORD-M0821,2025-06-29, NORTH,Grocery, Product 5 ,Online,2,4309
+ORD-M0822,2025-03-13,north,Grocery, Product 6 ,Online,2,18697
+ORD-M0823,23/12/2025,West,Electronics, Product 7 ,,1,13971
+ORD-M0824,2025-04-05, NORTH,Electronic, Product 8 ,Retail Store,1,16710
+ORD-M0825,2025-09-15,South,Home, Product 9 ,Retail Store,1,14760
+ORD-M0826,07/07/2025,South,Home, Product 10 ,Retail Store,2,1250
+ORD-M0827,2025-02-06,East,Electronic, Product 11 ,Online,3,15713
+ORD-M0828,2025-09-20, NORTH,Electronics, Product 12 ,,2,15137
+ORD-M0829,01/11/2025,South,Home, Product 13 ,Retail Store,1,
+ORD-M0830,2025-11-12,South,Electronic, Product 14 ,Online,1,7667
+ORD-M0831,2025-05-03, NORTH,Electronic, Product 15 ,Retail Store,2,9088
+ORD-M0832,30/12/2025, NORTH,Electronic, Product 16 ,Partner,2,14942
+ORD-M0833,2025-05-29, NORTH,Beauty, Product 17 ,Partner,1,14507
+ORD-M0834,2025-03-10, NORTH,Home, Product 18 ,Retail Store,2,"₹6,818"
+ORD-M0835,24/09/2025, NORTH,Beauty, Product 19 ,,1,6555
+ORD-M0836,2025-09-17,South,Apparel, Product 20 ,Retail Store,2,1131
+ORD-M0837,2025-02-15,North ,Electronic, Product 21 ,Retail Store,2,13351
+ORD-M0838,05/02/2025,north,Beauty, Product 22 ,Partner,-1,15677
+ORD-M0839,2025-05-14, NORTH,Apparel, Product 23 ,Retail Store,1,1509
+ORD-M0840,2025-03-14,north,Sports, Product 24 ,Partner,2,9148
+ORD-M0841,23/09/2025,South,Home, Product 25 ,Online,3,16293
+ORD-M0842,,West,Beauty, Product 26 ,Partner,2,11846
+ORD-M0843,2025-02-14,North ,Sports, Product 27 ,,1,8343
+ORD-M0844,13/06/2025, NORTH,Electronic, Product 28 ,,3,10969
+ORD-M0845,2025-11-16,north,Electronic, Product 29 ,Partner,3,16510
+ORD-M0846,2025-11-15, NORTH,Beauty, Product 30 ,Retail Store,3,1921
+ORD-M0847,06/03/2025,West,Electronic, Product 31 ,Partner,3,7230
+ORD-M0848,2025-05-17,South,Sports, Product 32 ,Retail Store,1,9585
+ORD-M0849,2025-12-14,north,Electronic, Product 33 ,Online,1,1648
+ORD-M0850,28/05/2025,West,Apparel, Product 34 ,Partner,1,869
+ORD-M0851,2025-06-23,West,Sports, Product 35 ,Online,3,"₹18,731"
+ORD-M0852,2025-11-14,East,Home, Product 36 ,,1,
+ORD-M0853,13/06/2025,West,Electronic, Product 37 ,Online,2,18412
+ORD-M0854,2025-03-19,South,Apparel, Product 38 ,Retail Store,1,19967
+ORD-M0855,2025-07-27,north,Electronics, Product 39 ,,3,14821
+ORD-M0856,12/11/2025, NORTH,Beauty, Product 40 ,Partner,2,3227
+ORD-M0857,2025-02-09, NORTH,Electronic, Product 41 ,Online,2,10102
+ORD-M0858,2025-06-01,East,Home, Product 42 ,Partner,2,2277
+ORD-M0859,10/04/2025,North ,Grocery, Product 43 ,Partner,1,4813
+ORD-M0860,2025-12-29,South,Grocery, Product 44 ,Online,1,17436
+ORD-M0861,2025-05-29, NORTH,Sports, Product 45 ,Partner,2,11210
+ORD-M0862,07/11/2025,West,Sports, Product 46 ,Online,3,19237
+ORD-M0863,2025-02-15,North ,Home, Product 47 ,Online,2,8062
+ORD-M0864,2025-03-23,South,Apparel, Product 48 ,Retail Store,2,7639
+ORD-M0865,15/04/2025,West,Apparel, Product 1 ,Retail Store,1,12206
+ORD-M0866,2025-02-24,north,Electronic, Product 2 ,,2,19453
+ORD-M0867,2025-05-19,north,Beauty, Product 3 ,,1,5598
+ORD-M0868,25/06/2025,East,Electronic, Product 4 ,,1,"₹2,628"
+ORD-M0869,2025-10-13,north,Beauty, Product 5 ,Partner,-1,6767
+ORD-M0870,2025-07-09, NORTH,Beauty, Product 6 ,,1,4138
+ORD-M0871,, NORTH,Apparel, Product 7 ,Partner,2,11775
+ORD-M0872,2025-04-04,East,Electronic, Product 8 ,Online,1,4032
+ORD-M0873,2025-06-29,West,Sports, Product 9 ,Retail Store,1,14686
+ORD-M0874,05/05/2025,West,Apparel, Product 10 ,Partner,1,7334
+ORD-M0875,2025-10-26,North ,Home, Product 11 ,Online,2,
+ORD-M0876,2025-05-30, NORTH,Sports, Product 12 ,Partner,3,7549
+ORD-M0877,28/06/2025,South,Apparel, Product 13 ,Retail Store,3,2799
+ORD-M0878,2025-01-24,West,Electronics, Product 14 ,,2,997
+ORD-M0879,2025-09-17,South,Home, Product 15 ,Partner,3,10677
+ORD-M0880,15/02/2025,South,Beauty, Product 16 ,Online,1,9210
+ORD-M0881,2025-10-08,North ,Grocery, Product 17 ,Retail Store,2,19919
+ORD-M0882,2025-10-05,South,Electronics, Product 18 ,Retail Store,1,6430
+ORD-M0883,27/04/2025,South,Apparel, Product 19 ,Retail Store,3,12264
+ORD-M0884,2025-07-14,East,Grocery, Product 20 ,,2,14134
+ORD-M0885,2025-07-05,North ,Beauty, Product 21 ,Online,3,"₹9,406"
+ORD-M0886,14/06/2025,North ,Electronic, Product 22 ,Retail Store,2,4966
+ORD-M0887,2025-07-17,East,Sports, Product 23 ,Partner,3,11302
+ORD-M0888,2025-08-21,South,Electronics, Product 24 ,Retail Store,1,4005
+ORD-M0889,28/03/2025,North ,Electronic, Product 25 ,Partner,1,16115
+ORD-M0890,2025-10-29,North ,Home, Product 26 ,Retail Store,2,14003
+ORD-M0891,2025-09-20, NORTH,Home, Product 27 ,Retail Store,3,5154
+ORD-M0892,08/07/2025,West,Electronics, Product 28 ,,3,5430
+ORD-M0893,2025-07-14, NORTH,Electronics, Product 29 ,Retail Store,3,1687
+ORD-M0894,2025-03-03, NORTH,Home, Product 30 ,Online,1,7333
+ORD-M0895,22/11/2025,West,Electronics, Product 31 ,Partner,2,9093
+ORD-M0896,2025-10-31,South,Electronics, Product 32 ,Retail Store,2,18207
+ORD-M0897,2025-03-12,South,Electronic, Product 33 ,Online,2,17224
+ORD-M0898,15/08/2025,North ,Sports, Product 34 ,,2,
+ORD-M0899,2025-10-26,East,Grocery, Product 35 ,Partner,1,11214
+ORD-M0900,,East,Electronic, Product 36 ,Retail Store,1,16627
+ORD-M0901,01/07/2025, NORTH,Sports, Product 37 ,Partner,2,4192
+ORD-M0902,2025-04-29,north,Grocery, Product 38 ,,1,"₹15,085"
+ORD-M0903,2025-03-06,north,Sports, Product 39 ,Online,2,12778
+ORD-M0904,25/03/2025,South,Sports, Product 40 ,Partner,1,7472
+ORD-M0905,2025-08-28,North ,Grocery, Product 41 ,,2,10064
+ORD-M0906,2025-07-09,South,Electronics, Product 42 ,Retail Store,2,14772
+ORD-M0907,01/02/2025,north,Apparel, Product 43 ,Retail Store,2,4482
+ORD-M0908,2025-10-05, NORTH,Home, Product 44 ,,2,9800
+ORD-M0909,2025-02-13,north,Home, Product 45 ,,1,15822
+ORD-M0910,24/04/2025, NORTH,Grocery, Product 46 ,Online,2,16519
+ORD-M0911,2025-04-13,North ,Electronic, Product 47 ,Retail Store,2,4340
+ORD-M0912,2025-11-10, NORTH,Sports, Product 48 ,Online,3,10546
+ORD-M0913,01/03/2025,West,Home, Product 1 ,Partner,2,17151
+ORD-M0914,2025-07-16,West,Electronic, Product 2 ,Online,1,14546
+ORD-M0915,2025-10-16,South,Electronic, Product 3 ,,2,5365
+ORD-M0916,19/03/2025,West,Electronics, Product 4 ,Partner,2,5149
+ORD-M0917,2025-03-26,South,Grocery, Product 5 ,Partner,2,1447
+ORD-M0918,2025-07-25,West,Electronics, Product 6 ,Online,2,10058
+ORD-M0919,07/03/2025, NORTH,Grocery, Product 7 ,Online,2,"₹4,985"
+ORD-M0920,2025-06-23,North ,Beauty, Product 8 ,Online,2,10966
+ORD-M0921,2025-04-06,North ,Apparel, Product 9 ,,2,
+ORD-M0922,22/04/2025,north,Grocery, Product 10 ,Retail Store,2,3063
+ORD-M0923,2025-11-02, NORTH,Home, Product 11 ,Partner,2,12809
+ORD-M0924,2025-07-26,north,Electronic, Product 12 ,Retail Store,2,3776
+ORD-M0925,13/10/2025,north,Electronic, Product 13 ,,2,12906
+ORD-M0926,2025-09-18,East,Electronics, Product 14 ,,2,19363
+ORD-M0927,2025-11-04,North ,Grocery, Product 15 ,,3,17591
+ORD-M0928,14/11/2025,North ,Sports, Product 16 ,,3,5867
+ORD-M0929,,East,Sports, Product 17 ,Online,2,13367
+ORD-M0930,2025-03-06,north,Electronic, Product 18 ,Partner,2,2497
+ORD-M0931,01/11/2025, NORTH,Electronics, Product 19 ,Online,-1,15044
+ORD-M0932,2025-08-31,East,Electronics, Product 20 ,Retail Store,2,9816
+ORD-M0933,2025-01-16,South,Home, Product 21 ,Online,2,3190
+ORD-M0934,23/01/2025,North ,Electronic, Product 22 ,Retail Store,1,12412
+ORD-M0935,2025-07-07,north,Electronics, Product 23 ,Partner,2,9690
+ORD-M0936,2025-06-06,West,Sports, Product 24 ,Online,2,"₹3,015"
+ORD-M0937,27/07/2025,South,Electronic, Product 25 ,Retail Store,3,9543
+ORD-M0938,2025-12-13,North ,Apparel, Product 26 ,Online,2,1741
+ORD-M0939,2025-08-12,North ,Electronic, Product 27 ,Online,3,11464
+ORD-M0940,15/06/2025, NORTH,Electronics, Product 28 ,,1,18913
+ORD-M0941,2025-11-05,north,Electronic, Product 29 ,Online,1,1146
+ORD-M0942,2025-05-21,South,Electronic, Product 30 ,,2,7061
+ORD-M0943,27/04/2025,West,Electronic, Product 31 ,Partner,1,18770
+ORD-M0944,2025-12-27,South,Home, Product 32 ,Partner,3,
+ORD-M0945,2025-05-01,North ,Electronics, Product 33 ,,3,6763
+ORD-M0946,07/07/2025,West,Electronics, Product 34 ,Retail Store,1,11829
+ORD-M0947,2025-10-15,North ,Home, Product 35 ,Partner,2,7972
+ORD-M0948,2025-09-07,South,Electronics, Product 36 ,Online,1,9563
+ORD-M0949,01/05/2025,West,Home, Product 37 ,Retail Store,2,533
+ORD-M0950,2025-10-15,South,Home, Product 38 ,,2,5116
+ORD-M0951,2025-01-09,East,Beauty, Product 39 ,,2,15742
+ORD-M0952,15/03/2025,West,Sports, Product 40 ,,2,6832
+ORD-M0953,2025-06-22,north,Electronic, Product 41 ,Online,3,"₹4,538"
+ORD-M0954,2025-03-12,north,Sports, Product 42 ,Retail Store,3,14528
+ORD-M0955,24/08/2025,West,Home, Product 43 ,Partner,3,17899
+ORD-M0956,2025-02-15,East,Home, Product 44 ,Retail Store,2,4188
+ORD-M0957,2025-12-27,north,Electronics, Product 45 ,,2,15740
+ORD-M0958,, NORTH,Electronics, Product 46 ,Retail Store,3,2269
+ORD-M0959,2025-03-15, NORTH,Grocery, Product 47 ,Online,3,9347
+ORD-M0960,2025-03-06,South,Beauty, Product 48 ,Partner,2,13370
+ORD-M0961,29/10/2025,West,Grocery, Product 1 ,Online,3,9253
+ORD-M0962,2025-09-04,north,Grocery, Product 2 ,Online,-1,2520
+ORD-M0963,2025-04-26, NORTH,Electronic, Product 3 ,Retail Store,2,12183
+ORD-M0964,22/09/2025, NORTH,Sports, Product 4 ,Retail Store,2,3159
+ORD-M0965,2025-02-03,North ,Home, Product 5 ,,3,10954
+ORD-M0966,2025-11-25,North ,Apparel, Product 6 ,Online,2,13630
+ORD-M0967,28/11/2025,north,Grocery, Product 7 ,Retail Store,1,
+ORD-M0968,2025-06-11,West,Home, Product 8 ,,2,6915
+ORD-M0969,2025-06-25,West,Electronics, Product 9 ,,2,13826
+ORD-M0970,24/12/2025,South,Grocery, Product 10 ,Online,2,"₹14,516"
+ORD-M0971,2025-12-17,West,Beauty, Product 11 ,Retail Store,3,4527
+ORD-M0972,2025-02-28,West,Apparel, Product 12 ,Partner,2,3644
+ORD-M0973,13/05/2025,North ,Grocery, Product 13 ,Online,2,15539
+ORD-M0974,2025-07-12,South,Apparel, Product 14 ,Online,2,5050
+ORD-M0975,2025-12-17,North ,Apparel, Product 15 ,Partner,3,3565
+ORD-M0976,21/11/2025,West,Electronics, Product 16 ,,2,2264
+ORD-M0977,2025-02-17,north,Grocery, Product 17 ,,2,631
+ORD-M0978,2025-02-21,West,Grocery, Product 18 ,Partner,1,2214
+ORD-M0979,09/04/2025,North ,Home, Product 19 ,,1,18127
+ORD-M0980,2025-04-03, NORTH,Electronics, Product 20 ,,1,5191
+ORD-M0981,2025-01-22,South,Beauty, Product 21 ,Retail Store,2,12194
+ORD-M0982,10/09/2025,north,Apparel, Product 22 ,Partner,2,9355
+ORD-M0983,2025-09-24,north,Apparel, Product 23 ,Retail Store,3,1789
+ORD-M0984,2025-06-11,North ,Home, Product 24 ,Online,3,10766
+ORD-M0985,24/05/2025,north,Electronics, Product 25 ,Retail Store,2,17378
+ORD-M0986,2025-01-11,East,Apparel, Product 26 ,,2,13608
+ORD-M0987,,South,Apparel, Product 27 ,,1,"₹9,897"
+ORD-M0988,05/09/2025,South,Electronics, Product 28 ,Online,3,4446
+ORD-M0989,2025-10-04,East,Sports, Product 29 ,Retail Store,2,16837
+ORD-M0990,2025-09-03,South,Sports, Product 30 ,,1,
+ORD-M0991,25/06/2025,East,Apparel, Product 31 ,Online,1,14270
+ORD-M0992,2025-04-18,South,Beauty, Product 32 ,Online,3,13971
+ORD-M0993,2025-10-19,East,Home, Product 33 ,Retail Store,-1,15440
+ORD-M0994,21/08/2025,North ,Home, Product 34 ,Retail Store,2,7666
+ORD-M0995,2025-03-20, NORTH,Sports, Product 35 ,Retail Store,3,1531
+ORD-M0996,2025-11-29,north,Electronic, Product 36 ,Retail Store,2,1526
+ORD-M0997,18/07/2025,East,Sports, Product 37 ,Retail Store,2,7135
+ORD-M0998,2025-04-13,North ,Electronic, Product 38 ,Retail Store,3,14580
+ORD-M0999,2025-05-12, NORTH,Sports, Product 39 ,,1,12745
+ORD-M1000,17/03/2025,North ,Beauty, Product 40 ,Online,2,5534
+ORD-M1001,2025-08-03,north,Beauty, Product 41 ,,2,1243
+ORD-M1002,2025-06-18,East,Sports, Product 42 ,Online,1,11975
+ORD-M1003,21/06/2025,East,Electronic, Product 43 ,Partner,3,2904
+ORD-M1004,2025-02-18,East,Grocery, Product 44 ,Online,2,"₹9,119"
+ORD-M1005,2025-07-01,north,Apparel, Product 45 ,,2,15089
+ORD-M1006,04/02/2025,East,Apparel, Product 46 ,,2,9898
+ORD-M1007,2025-05-12,north,Electronics, Product 47 ,Online,2,12209
+ORD-M1008,2025-12-06,north,Home, Product 48 ,Retail Store,2,17566
+ORD-M1009,29/07/2025,North ,Grocery, Product 1 ,,1,7201
+ORD-M1010,2025-12-05,north,Home, Product 2 ,Online,3,7603
+ORD-M1011,2025-10-05,East,Grocery, Product 3 ,Partner,1,12161
+ORD-M1012,06/09/2025,north,Apparel, Product 4 ,Online,2,3552
+ORD-M1013,2025-02-19,West,Electronic, Product 5 ,Online,2,
+ORD-M1014,2025-04-24,north,Beauty, Product 6 ,Partner,3,2167
+ORD-M1015,09/01/2025,South,Electronic, Product 7 ,Retail Store,3,10190
+ORD-M1016,,North ,Grocery, Product 8 ,,2,16449
+ORD-M1017,2025-10-22, NORTH,Electronics, Product 9 ,,1,12333
+ORD-M1018,12/12/2025,South,Electronics, Product 10 ,Retail Store,2,2560
+ORD-M1019,2025-07-19,South,Electronic, Product 11 ,,1,7713
+ORD-M1020,2025-05-02, NORTH,Sports, Product 12 ,Partner,1,13166
+ORD-M1021,30/11/2025,East,Grocery, Product 13 ,Partner,3,"₹17,543"
+ORD-M1022,2025-12-21,North ,Electronic, Product 14 ,Retail Store,1,2330
+ORD-M1023,2025-11-27,North ,Grocery, Product 15 ,Partner,2,10510
+ORD-M1024,07/10/2025,North ,Home, Product 16 ,Retail Store,2,2257
+ORD-M1025,2025-09-14,North ,Electronic, Product 17 ,Online,2,3034
+ORD-M1026,2025-10-29,West,Sports, Product 18 ,Online,2,7781
+ORD-M1027,16/08/2025, NORTH,Sports, Product 19 ,Online,3,3731
+ORD-M1028,2025-04-02, NORTH,Electronic, Product 20 ,,3,18399
+ORD-M1029,2025-11-20,North ,Grocery, Product 21 ,Retail Store,3,13790
+ORD-M1030,01/07/2025, NORTH,Sports, Product 22 ,Partner,2,16209
+ORD-M1031,2025-01-11,East,Apparel, Product 23 ,,3,13426
+ORD-M1032,2025-12-13,north,Apparel, Product 24 ,Retail Store,2,16501
+ORD-M1033,10/03/2025,north,Home, Product 25 ,Retail Store,3,1282
+ORD-M1034,2025-03-13, NORTH,Apparel, Product 26 ,,2,3551
+ORD-M1035,2025-07-02,North ,Beauty, Product 27 ,Online,1,13541
+ORD-M1036,26/08/2025,West,Electronic, Product 28 ,Online,1,
+ORD-M1037,2025-08-01,north,Electronic, Product 29 ,Online,3,2936
+ORD-M1038,2025-11-07,north,Electronics, Product 30 ,Online,1,"₹6,258"
+ORD-M1039,12/05/2025,South,Sports, Product 31 ,Online,2,15610
+ORD-M1040,2025-06-17,East,Electronics, Product 32 ,Online,2,17419
+ORD-M1041,2025-07-24,north,Electronics, Product 33 ,,2,10546
+ORD-M1042,18/07/2025, NORTH,Home, Product 34 ,Online,1,10391
+ORD-M1043,2025-12-01,north,Beauty, Product 35 ,Retail Store,1,8328
+ORD-M1044,2025-09-22,West,Grocery, Product 36 ,Online,2,6002
+ORD-M1045,,East,Grocery, Product 37 ,Retail Store,1,9461
+ORD-M1046,2025-06-25, NORTH,Electronic, Product 38 ,Online,1,18461
+ORD-M1047,2025-02-11, NORTH,Beauty, Product 39 ,,1,5420
+ORD-M1048,15/03/2025,West,Sports, Product 40 ,,3,13787
+ORD-M1049,2025-02-28,East,Apparel, Product 41 ,Retail Store,3,5177
+ORD-M1050,2025-09-09,North ,Home, Product 42 ,Retail Store,3,869
+ORD-M1051,11/05/2025,north,Sports, Product 43 ,Retail Store,2,6040
+ORD-M1052,2025-11-16,South,Apparel, Product 44 ,Partner,2,15003
+ORD-M1053,2025-08-31,South,Sports, Product 45 ,Retail Store,2,8646
+ORD-M1054,01/05/2025,West,Apparel, Product 46 ,,1,7572
+ORD-M1055,2025-08-01,West,Apparel, Product 47 ,Partner,2,"₹8,536"
+ORD-M1056,2025-11-01, NORTH,Electronics, Product 48 ,,2,14291
+ORD-M1057,25/12/2025,West,Home, Product 1 ,,2,8738
+ORD-M1058,2025-02-24,East,Beauty, Product 2 ,,2,1585
+ORD-M1059,2025-12-03, NORTH,Apparel, Product 3 ,Partner,3,
+ORD-M1060,01/10/2025,north,Electronic, Product 4 ,Online,1,2802
+ORD-M1061,2025-12-09,North ,Electronics, Product 5 ,Retail Store,2,15938
+ORD-M1062,2025-09-21,South,Apparel, Product 6 ,Partner,2,6110
+ORD-M1063,06/10/2025,South,Sports, Product 7 ,Retail Store,2,5090
+ORD-M1064,2025-12-30,West,Electronic, Product 8 ,Online,2,1810
+ORD-M1065,2025-02-11,north,Electronics, Product 9 ,,1,13223
+ORD-M1066,02/01/2025, NORTH,Beauty, Product 10 ,Online,2,15312
+ORD-M1067,2025-05-09,North ,Grocery, Product 11 ,Partner,1,14798
+ORD-M1068,2025-06-11,East,Home, Product 12 ,Partner,3,17863
+ORD-M1069,14/06/2025,North ,Sports, Product 13 ,Retail Store,1,16470
+ORD-M1070,2025-01-05,South,Home, Product 14 ,,2,11870
+ORD-M1071,2025-08-08,South,Beauty, Product 15 ,,3,12595
+ORD-M1072,30/06/2025,East,Grocery, Product 16 ,Partner,1,"₹9,132"
+ORD-M1073,2025-03-07,north,Apparel, Product 17 ,Retail Store,1,15111
+ORD-M1074,, NORTH,Apparel, Product 18 ,Partner,2,7339
+ORD-M1075,09/03/2025,South,Sports, Product 19 ,,1,14001
+ORD-M1076,2025-02-09, NORTH,Electronics, Product 20 ,Retail Store,2,6406
+ORD-M1077,2025-01-26,north,Electronic, Product 21 ,Retail Store,2,19395
+ORD-M1078,03/03/2025,north,Sports, Product 22 ,Partner,3,15987
+ORD-M1079,2025-12-23,East,Sports, Product 23 ,,1,6824
+ORD-M1080,2025-01-07,East,Apparel, Product 24 ,,1,18128
+ORD-M1081,16/11/2025,North ,Grocery, Product 25 ,Retail Store,3,880
+ORD-M1082,2025-12-11,South,Sports, Product 26 ,Retail Store,1,
+ORD-M1083,2025-10-02,East,Electronics, Product 27 ,Partner,2,6736
+ORD-M1084,23/04/2025,north,Grocery, Product 28 ,Partner,1,17251
+ORD-M1085,2025-07-04,East,Electronic, Product 29 ,,2,6829
+ORD-M1086,2025-09-10,South,Electronic, Product 30 ,,2,18270
+ORD-M1087,22/05/2025, NORTH,Beauty, Product 31 ,,2,9687
+ORD-M1088,2025-09-20,West,Electronic, Product 32 ,,2,17337
+ORD-M1089,2025-08-10,East,Electronics, Product 33 ,Online,1,"₹7,189"
+ORD-M1090,28/05/2025,north,Beauty, Product 34 ,,3,5199
+ORD-M1091,2025-06-27,West,Apparel, Product 35 ,Online,3,16026
+ORD-M1092,2025-08-31,North ,Electronic, Product 36 ,,2,1996
+ORD-M1093,10/04/2025, NORTH,Electronic, Product 37 ,Retail Store,1,19850
+ORD-M1094,2025-06-03,north,Sports, Product 38 ,Partner,3,9682
+ORD-M1095,2025-12-28, NORTH,Home, Product 39 ,,2,13103
+ORD-M1096,14/11/2025,north,Apparel, Product 40 ,Online,2,19901
+ORD-M1097,2025-03-16,north,Electronics, Product 41 ,,3,4609
+ORD-M1098,2025-01-09,North ,Electronic, Product 42 ,Partner,3,15172
+ORD-M1099,06/03/2025,North ,Home, Product 43 ,Online,2,4069
+ORD-M1100,2025-01-11, NORTH,Electronics, Product 44 ,Online,2,8437
+ORD-M1101,2025-10-19, NORTH,Apparel, Product 45 ,Retail Store,2,8017
+ORD-M1102,17/02/2025,north,Beauty, Product 46 ,Partner,2,4859
+ORD-M1103,,West,Electronics, Product 47 ,Partner,3,11517
+ORD-M1104,2025-01-31, NORTH,Apparel, Product 48 ,Online,2,10313
+ORD-M1105,23/07/2025,North ,Electronics, Product 1 ,Partner,3,
+ORD-M1106,2025-07-29,North ,Electronic, Product 2 ,Online,2,"₹1,659"
+ORD-M1107,2025-11-05,East,Apparel, Product 3 ,,1,4179
+ORD-M1108,16/02/2025,West,Grocery, Product 4 ,Partner,2,15643
+ORD-M1109,2025-12-23,north,Grocery, Product 5 ,Online,1,15230
+ORD-M1110,2025-11-11,West,Apparel, Product 6 ,Online,2,11057
+ORD-M1111,09/09/2025,South,Electronic, Product 7 ,Partner,1,755
+ORD-M1112,2025-03-11,East,Beauty, Product 8 ,,2,11982
+ORD-M1113,2025-09-28,North ,Grocery, Product 9 ,Retail Store,2,8613
+ORD-M1114,25/08/2025, NORTH,Grocery, Product 10 ,Online,2,12240
+ORD-M1115,2025-06-20,South,Electronics, Product 11 ,Retail Store,2,15594
+ORD-M1116,2025-12-08, NORTH,Beauty, Product 12 ,,2,16555
+ORD-M1117,05/10/2025,South,Home, Product 13 ,Retail Store,1,17813
+ORD-M1118,2025-10-02,north,Home, Product 14 ,Partner,2,18201
+ORD-M1119,2025-12-01,South,Home, Product 15 ,Retail Store,1,7089
+ORD-M1120,09/09/2025, NORTH,Beauty, Product 16 ,Retail Store,2,1973
+ORD-M1121,2025-12-04, NORTH,Sports, Product 17 ,Partner,2,16112
+ORD-M1122,2025-11-05,West,Grocery, Product 18 ,Online,3,17525
+ORD-M1123,02/09/2025,North ,Beauty, Product 19 ,Partner,1,"₹17,665"
+ORD-M1124,2025-09-04,north,Electronics, Product 20 ,Retail Store,2,19762
+ORD-M1125,2025-06-10,north,Apparel, Product 21 ,,3,14235
+ORD-M1126,24/08/2025,West,Home, Product 22 ,Partner,2,7686
+ORD-M1127,2025-03-27,north,Sports, Product 23 ,Online,3,5749
+ORD-M1128,2025-02-15, NORTH,Sports, Product 24 ,Online,2,
+ORD-M1129,07/01/2025,East,Sports, Product 25 ,,1,15697
+ORD-M1130,2025-07-01,East,Grocery, Product 26 ,Partner,3,1420
+ORD-M1131,2025-05-24,West,Sports, Product 27 ,,2,14144
+ORD-M1132,,North ,Grocery, Product 28 ,Online,2,5047
+ORD-M1133,2025-08-11, NORTH,Home, Product 29 ,Online,2,13061
+ORD-M1134,2025-07-31, NORTH,Sports, Product 30 ,Online,3,19957
+ORD-M1135,09/06/2025,North ,Electronic, Product 31 ,Online,2,3358
+ORD-M1136,2025-09-24,South,Electronic, Product 32 ,,2,16996
+ORD-M1137,2025-01-23,South,Apparel, Product 33 ,,2,587
+ORD-M1138,18/02/2025,north,Beauty, Product 34 ,Online,3,13642
+ORD-M1139,2025-10-13,East,Grocery, Product 35 ,Partner,2,5456
+ORD-M1140,2025-08-11,north,Electronics, Product 36 ,Partner,3,"₹3,264"
+ORD-M1141,18/06/2025,East,Electronics, Product 37 ,Partner,1,3404
+ORD-M1142,2025-06-07,East,Electronics, Product 38 ,,2,15531
+ORD-M1143,2025-11-27,north,Apparel, Product 39 ,Partner,1,13490
+ORD-M1144,23/08/2025,North ,Beauty, Product 40 ,Retail Store,3,14793
+ORD-M1145,2025-04-24,West,Electronics, Product 41 ,,2,11210
+ORD-M1146,2025-01-11, NORTH,Home, Product 42 ,Partner,2,5768
+ORD-M1147,09/10/2025, NORTH,Electronic, Product 43 ,,1,8384
+ORD-M1148,2025-10-10,North ,Grocery, Product 44 ,Retail Store,-1,11528
+ORD-M1149,2025-08-06, NORTH,Electronic, Product 45 ,,1,1753
+ORD-M1150,12/12/2025,East,Home, Product 46 ,Retail Store,2,7855
+ORD-M1151,2025-09-20,north,Apparel, Product 47 ,,1,
+ORD-M1152,2025-11-06,West,Home, Product 48 ,Partner,3,2019
+ORD-M1153,12/03/2025,South,Sports, Product 1 ,Online,2,17163
+ORD-M1154,2025-03-28,North ,Home, Product 2 ,Online,3,10719
+ORD-M1155,2025-04-17, NORTH,Beauty, Product 3 ,Retail Store,2,16253
+ORD-M1156,08/04/2025,South,Beauty, Product 4 ,Online,1,4809
+ORD-M1157,2025-11-25,North ,Electronics, Product 5 ,Retail Store,2,"₹4,092"
+ORD-M1158,2025-04-15,West,Apparel, Product 6 ,Partner,3,3232
+ORD-M1159,14/05/2025,East,Sports, Product 7 ,Online,3,15199
+ORD-M1160,2025-01-10,north,Beauty, Product 8 ,Partner,1,19702
+ORD-M1161,,north,Grocery, Product 9 ,Retail Store,1,12045
+ORD-M1162,03/02/2025,East,Apparel, Product 10 ,Online,1,1960
+ORD-M1163,2025-10-19,South,Electronics, Product 11 ,,1,5792
+ORD-M1164,2025-12-10,North ,Apparel, Product 12 ,Partner,1,14274
+ORD-M1165,30/08/2025, NORTH,Sports, Product 13 ,Retail Store,2,9729
+ORD-M1166,2025-09-22,north,Apparel, Product 14 ,Partner,1,5733
+ORD-M1167,2025-11-28,East,Grocery, Product 15 ,,2,4263
+ORD-M1168,25/03/2025,West,Apparel, Product 16 ,,3,18964
+ORD-M1169,2025-09-07,North ,Beauty, Product 17 ,,3,3856
+ORD-M1170,2025-10-31,West,Beauty, Product 18 ,Retail Store,1,16154
+ORD-M1171,27/08/2025, NORTH,Electronics, Product 19 ,Online,3,8549
+ORD-M1172,2025-07-29,North ,Sports, Product 20 ,,1,861
+ORD-M1173,2025-12-18,East,Apparel, Product 21 ,Partner,2,630
+ORD-M1174,02/02/2025,north,Electronics, Product 22 ,,2,"₹18,684"
+ORD-M1175,2025-05-25,north,Beauty, Product 23 ,Retail Store,2,3332
+ORD-M1176,2025-11-06,East,Electronics, Product 24 ,,2,1698
+ORD-M1177,30/10/2025,North ,Electronics, Product 25 ,Partner,2,6460
+ORD-M1178,2025-07-10,West,Electronic, Product 26 ,,2,18823
+ORD-M1179,2025-01-29,north,Beauty, Product 27 ,,-1,4791
+ORD-M1180,21/08/2025,South,Electronics, Product 28 ,Partner,2,11502
+ORD-M1181,2025-10-28,North ,Home, Product 29 ,Online,2,6949
+ORD-M1182,2025-09-30,South,Sports, Product 30 ,Partner,1,6353
+ORD-M1183,21/05/2025,South,Home, Product 31 ,Online,2,12756
+ORD-M1184,2025-06-14, NORTH,Home, Product 32 ,Online,2,17672
+ORD-M1185,2025-10-26,East,Electronic, Product 33 ,Retail Store,3,11586
+ORD-M1186,26/03/2025,South,Electronic, Product 34 ,Retail Store,2,3963
+ORD-M1187,2025-11-01,north,Home, Product 35 ,Online,1,2619
+ORD-M1188,2025-04-24, NORTH,Sports, Product 36 ,Partner,2,6504
+ORD-M1189,14/05/2025,East,Apparel, Product 37 ,,2,12139
+ORD-M1190,, NORTH,Electronics, Product 38 ,Online,3,4923
+ORD-M1191,2025-01-13,North ,Electronics, Product 39 ,Retail Store,2,"₹7,986"
+ORD-M1192,13/09/2025,North ,Electronics, Product 40 ,Online,3,11901
+ORD-M1193,2025-01-23,South,Beauty, Product 41 ,,3,6511
+ORD-M1194,2025-02-16,north,Home, Product 42 ,,1,17225
+ORD-M1195,15/04/2025,East,Sports, Product 43 ,,2,13241
+ORD-M1196,2025-02-24,north,Sports, Product 44 ,,3,13268
+ORD-M1197,2025-11-15,West,Grocery, Product 45 ,Retail Store,1,
+ORD-M1198,10/08/2025,West,Beauty, Product 46 ,Online,3,11280
+ORD-M1199,2025-03-23,East,Beauty, Product 47 ,Online,1,3319
+ORD-M1200,2025-10-22,South,Electronic, Product 48 ,,2,11768
+ORD-M1201,24/11/2025,South,Electronic, Product 1 ,Retail Store,2,11824
+ORD-M1202,2025-12-14,West,Home, Product 2 ,,1,18633
+ORD-M1203,2025-08-27,North ,Electronic, Product 3 ,Retail Store,2,889
+ORD-M1204,29/11/2025,North ,Sports, Product 4 ,Retail Store,2,10718
+ORD-M1205,2025-10-11,West,Grocery, Product 5 ,Retail Store,2,4847
+ORD-M1206,2025-07-18,north,Electronic, Product 6 ,Retail Store,2,16873
+ORD-M1207,20/08/2025,north,Electronic, Product 7 ,Retail Store,1,19213
+ORD-M1208,2025-04-02,South,Home, Product 8 ,,3,"₹2,671"
+ORD-M1209,2025-07-07,South,Apparel, Product 9 ,Retail Store,2,9752
+ORD-M1210,09/03/2025,West,Sports, Product 10 ,Partner,2,14086
+ORD-M1211,2025-11-29,north,Sports, Product 11 ,Partner,3,4525
+ORD-M1212,2025-10-30,East,Grocery, Product 12 ,Partner,1,19552
+ORD-M1213,11/09/2025,West,Home, Product 13 ,Partner,3,8133
+ORD-M1214,2025-07-06,north,Electronics, Product 14 ,,2,1894
+ORD-M1215,2025-06-19, NORTH,Beauty, Product 15 ,,3,3544
+ORD-M1216,03/09/2025,North ,Beauty, Product 16 ,Retail Store,1,5858
+ORD-M1217,2025-09-17,East,Home, Product 17 ,Retail Store,1,8785
+ORD-M1218,2025-07-13,East,Apparel, Product 18 ,Online,2,19440
+ORD-M1219,,North ,Grocery, Product 19 ,Online,2,1601
+ORD-M1220,2025-06-23,South,Grocery, Product 20 ,Partner,1,
+ORD-M1221,2025-11-16,East,Electronics, Product 21 ,Partner,2,18107
+ORD-M1222,30/11/2025,North ,Electronic, Product 22 ,Partner,2,17421
+ORD-M1223,2025-04-30,South,Sports, Product 23 ,Retail Store,2,4894
+ORD-M1224,2025-08-28,North ,Apparel, Product 24 ,Online,3,11251
+ORD-M1225,12/10/2025,north,Home, Product 25 ,Online,1,"₹8,876"
+ORD-M1226,2025-07-07, NORTH,Beauty, Product 26 ,Retail Store,3,14302
+ORD-M1227,2025-03-17,North ,Apparel, Product 27 ,Online,1,4777
+ORD-M1228,27/03/2025, NORTH,Electronic, Product 28 ,Retail Store,1,17821
+ORD-M1229,2025-05-25,South,Grocery, Product 29 ,Partner,2,8760
+ORD-M1230,2025-03-31,South,Electronics, Product 30 ,Retail Store,2,3594
+ORD-M1231,14/10/2025,East,Sports, Product 31 ,,2,18660
+ORD-M1232,2025-05-19,West,Beauty, Product 32 ,,1,10054
+ORD-M1233,2025-08-19,South,Grocery, Product 33 ,Partner,2,5977
+ORD-M1234,22/10/2025,north,Beauty, Product 34 ,Partner,2,16044
+ORD-M1235,2025-06-08,East,Beauty, Product 35 ,Online,2,1188
+ORD-M1236,2025-01-09,South,Home, Product 36 ,,1,6627
+ORD-M1237,07/08/2025,north,Beauty, Product 37 ,Online,2,3984
+ORD-M1238,2025-07-13, NORTH,Electronic, Product 38 ,Retail Store,1,6910
+ORD-M1239,2025-10-18, NORTH,Sports, Product 39 ,Retail Store,2,14269
+ORD-M1240,07/04/2025,north,Apparel, Product 40 ,Retail Store,1,9707
+ORD-M1241,2025-07-09,North ,Home, Product 41 ,,-1,7643
+ORD-M1242,2025-10-06, NORTH,Grocery, Product 42 ,Partner,2,"₹4,536"
+ORD-M1243,08/09/2025,East,Electronics, Product 43 ,Online,2,
+ORD-M1244,2025-06-16,East,Apparel, Product 44 ,Partner,2,18304
+ORD-M1245,2025-02-24,West,Sports, Product 45 ,Retail Store,2,16257
+ORD-M1246,18/12/2025, NORTH,Apparel, Product 46 ,Retail Store,3,13322
+ORD-M1247,2025-10-07,north,Electronic, Product 47 ,,2,1936
+ORD-M1248,, NORTH,Electronic, Product 48 ,Online,2,8881
+ORD-M1249,29/03/2025,South,Electronic, Product 1 ,Partner,2,19208
+ORD-M1250,2025-09-17,North ,Sports, Product 2 ,Retail Store,2,6184
+ORD-M1251,2025-05-06,East,Beauty, Product 3 ,Partner,1,16518
+ORD-M1252,05/11/2025,north,Sports, Product 4 ,Retail Store,2,16970
+ORD-M1253,2025-12-21,West,Grocery, Product 5 ,,2,6023
+ORD-M1254,2025-10-18,East,Electronic, Product 6 ,,3,17789
+ORD-M1255,29/03/2025,South,Sports, Product 7 ,,1,903
+ORD-M1256,2025-03-13,West,Apparel, Product 8 ,Retail Store,2,15444
+ORD-M1257,2025-08-10, NORTH,Sports, Product 9 ,Partner,1,14260
+ORD-M1258,18/04/2025,North ,Grocery, Product 10 ,Online,2,18468
+ORD-M1259,2025-02-25,North ,Beauty, Product 11 ,Retail Store,2,"₹12,083"
+ORD-M1260,2025-12-07,north,Electronics, Product 12 ,Online,3,14341
+ORD-M1261,16/11/2025,north,Home, Product 13 ,Partner,1,18630
+ORD-M1262,2025-06-18,North ,Home, Product 14 ,Online,2,9193
+ORD-M1263,2025-12-04,north,Electronic, Product 15 ,Retail Store,3,19544
+ORD-M1264,18/02/2025,North ,Electronics, Product 16 ,Retail Store,2,1434
+ORD-M1265,2025-10-19,South,Electronics, Product 17 ,,1,18057
+ORD-M1266,2025-09-01,West,Electronics, Product 18 ,Retail Store,1,
+ORD-M1267,07/06/2025, NORTH,Apparel, Product 19 ,Online,1,919
+ORD-M1268,2025-04-03,South,Sports, Product 20 ,Partner,3,16081
+ORD-M1269,2025-06-17,East,Electronics, Product 21 ,,2,10342
+ORD-M1270,15/04/2025,north,Sports, Product 22 ,Retail Store,2,3220
+ORD-M1271,2025-09-15, NORTH,Sports, Product 23 ,Partner,1,15074
+ORD-M1272,2025-02-12,South,Beauty, Product 24 ,Online,3,8302
+ORD-M1273,29/04/2025, NORTH,Grocery, Product 25 ,Partner,3,16206
+ORD-M1274,2025-07-12,north,Beauty, Product 26 ,Retail Store,3,15779
+ORD-M1275,2025-06-20, NORTH,Beauty, Product 27 ,,3,8977
+ORD-M1276,06/10/2025,South,Electronics, Product 28 ,Partner,3,"₹8,396"
+ORD-M1277,,north,Home, Product 29 ,Online,2,15655
+ORD-M1278,2025-06-20, NORTH,Electronics, Product 30 ,Partner,3,5046
+ORD-M1279,15/05/2025, NORTH,Grocery, Product 31 ,Partner,2,8692
+ORD-M1280,2025-02-22, NORTH,Sports, Product 32 ,,1,19260
+ORD-M1281,2025-05-16, NORTH,Apparel, Product 33 ,Online,2,1670
+ORD-M1282,27/12/2025,north,Sports, Product 34 ,Online,3,5598
+ORD-M1283,2025-09-30, NORTH,Sports, Product 35 ,Partner,3,541
+ORD-M1284,2025-09-25,north,Grocery, Product 36 ,Partner,2,7912
+ORD-M1285,03/11/2025, NORTH,Electronic, Product 37 ,Retail Store,2,15000
+ORD-M1286,2025-05-05,North ,Electronic, Product 38 ,Online,3,2677
+ORD-M1287,2025-09-03, NORTH,Apparel, Product 39 ,Partner,1,15449
+ORD-M1288,22/06/2025,South,Electronic, Product 40 ,Partner,1,11962
+ORD-M1289,2025-07-05, NORTH,Sports, Product 41 ,Retail Store,1,
+ORD-M1290,2025-01-23, NORTH,Home, Product 42 ,Partner,2,8294
+ORD-M1291,12/12/2025,East,Apparel, Product 43 ,Partner,3,6142
+ORD-M1292,2025-01-24,North ,Beauty, Product 44 ,,2,8347
+ORD-M1293,2025-09-10, NORTH,Electronic, Product 45 ,Retail Store,2,"₹8,349"
+ORD-M1294,07/02/2025,North ,Apparel, Product 46 ,Online,3,10055
+ORD-M1295,2025-04-28,East,Home, Product 47 ,Partner,2,1876
+ORD-M1296,2025-05-07,South,Home, Product 48 ,Retail Store,2,17001
+ORD-M1297,13/09/2025,North ,Electronics, Product 1 ,Partner,2,5788
+ORD-M1298,2025-07-18, NORTH,Beauty, Product 2 ,Online,2,11426
+ORD-M1299,2025-05-06, NORTH,Sports, Product 3 ,Partner,1,18350
+ORD-M1300,04/07/2025,North ,Electronic, Product 4 ,Partner,2,3177
+ORD-M1301,2025-04-03,South,Apparel, Product 5 ,Retail Store,1,8498
+ORD-M1302,2025-11-08,north,Electronics, Product 6 ,Online,2,10180
+ORD-M1303,22/03/2025,North ,Sports, Product 7 ,Online,1,2562
+ORD-M1304,2025-09-17,South,Home, Product 8 ,,3,10557
+ORD-M1305,2025-06-30,East,Apparel, Product 9 ,Partner,1,8943
+ORD-M1306,,West,Electronics, Product 10 ,,3,11922
+ORD-M1307,2025-03-23,north,Apparel, Product 11 ,Online,2,15436
+ORD-M1308,2025-09-04,north,Apparel, Product 12 ,Online,3,3147
+ORD-M1309,07/07/2025,West,Home, Product 13 ,Online,2,17603
+ORD-M1310,2025-07-04,West,Electronic, Product 14 ,Online,3,"₹8,496"
+ORD-M1311,2025-04-08,South,Beauty, Product 15 ,Retail Store,1,7216
+ORD-M1312,22/04/2025, NORTH,Sports, Product 16 ,Retail Store,2,
+ORD-M1313,2025-10-11,North ,Grocery, Product 17 ,Retail Store,2,14269
+ORD-M1314,2025-06-02,north,Electronic, Product 18 ,,3,5394
+ORD-M1315,01/10/2025, NORTH,Apparel, Product 19 ,Partner,2,8139
+ORD-M1316,2025-04-01,north,Electronics, Product 20 ,Retail Store,2,4626
+ORD-M1317,2025-10-25,South,Grocery, Product 21 ,Online,1,11581
+ORD-M1318,22/08/2025,East,Beauty, Product 22 ,Partner,1,2091
+ORD-M1319,2025-01-07,West,Home, Product 23 ,Partner,3,19291
+ORD-M1320,2025-08-04,West,Beauty, Product 24 ,Partner,1,10474
+ORD-M1321,05/05/2025, NORTH,Home, Product 25 ,Partner,2,8691
+ORD-M1322,2025-01-11,North ,Home, Product 26 ,,2,2867
+ORD-M1323,2025-10-05, NORTH,Electronics, Product 27 ,Online,1,2238
+ORD-M1324,26/04/2025, NORTH,Electronic, Product 28 ,Partner,2,10266
+ORD-M1325,2025-02-02,north,Sports, Product 29 ,Retail Store,2,16440
+ORD-M1326,2025-06-25,East,Sports, Product 30 ,,3,5093
+ORD-M1327,23/02/2025,South,Apparel, Product 31 ,Partner,2,"₹14,608"
+ORD-M1328,2025-01-29,North ,Electronics, Product 32 ,,3,16455
+ORD-M1329,2025-01-22,East,Beauty, Product 33 ,,1,3809
+ORD-M1330,22/12/2025, NORTH,Sports, Product 34 ,Retail Store,2,11263
+ORD-M1331,2025-08-09,North ,Sports, Product 35 ,Partner,2,1590
+ORD-M1332,2025-12-15,East,Beauty, Product 36 ,Partner,2,13913
+ORD-M1333,19/02/2025,South,Electronics, Product 37 ,Online,1,16517
+ORD-M1334,2025-04-13,West,Grocery, Product 38 ,Retail Store,1,17068
+ORD-M1335,,West,Grocery, Product 39 ,Online,2,
+ORD-M1336,25/02/2025,north,Apparel, Product 40 ,Retail Store,1,14516
+ORD-M1337,2025-11-30,West,Sports, Product 41 ,Online,1,7156
+ORD-M1338,2025-01-01, NORTH,Beauty, Product 42 ,Online,1,14832
+ORD-M1339,05/12/2025,North ,Home, Product 43 ,,3,15604
+ORD-M1340,2025-06-28,North ,Beauty, Product 44 ,Partner,3,3871
+ORD-M1341,2025-09-27,West,Electronic, Product 45 ,Partner,3,8383
+ORD-M1342,25/05/2025,north,Apparel, Product 46 ,Partner,3,15018
+ORD-M1343,2025-03-15,north,Electronic, Product 47 ,Retail Store,2,3133
+ORD-M1344,2025-06-24,north,Home, Product 48 ,Retail Store,2,"₹16,916"
+ORD-M1345,05/07/2025,West,Sports, Product 1 ,Retail Store,2,7558
+ORD-M1346,2025-11-07,north,Electronic, Product 2 ,Partner,3,3372
+ORD-M1347,2025-01-22, NORTH,Grocery, Product 3 ,Retail Store,3,13941
+ORD-M1348,22/02/2025,East,Sports, Product 4 ,Retail Store,1,9868
+ORD-M1349,2025-09-13,North ,Sports, Product 5 ,,2,19500
+ORD-M1350,2025-09-18,East,Home, Product 6 ,Online,2,18933
+ORD-M1351,20/09/2025,West,Apparel, Product 7 ,Partner,2,13987
+ORD-M1352,2025-09-19,North ,Home, Product 8 ,Retail Store,2,1305
+ORD-M1353,2025-09-29,north,Home, Product 9 ,Online,1,3467
+ORD-M1354,11/03/2025,East,Home, Product 10 ,Retail Store,2,10323
+ORD-M1355,2025-04-16,West,Apparel, Product 11 ,Retail Store,1,17979
+ORD-M1356,2025-10-02,north,Home, Product 12 ,Partner,3,9399
+ORD-M1357,01/04/2025,north,Apparel, Product 13 ,Partner,3,13828
+ORD-M1358,2025-04-05,North ,Beauty, Product 14 ,Online,3,
+ORD-M1359,2025-04-10,north,Home, Product 15 ,,3,12431
+ORD-M1360,11/10/2025,West,Beauty, Product 16 ,,2,8056
+ORD-M1361,2025-01-21, NORTH,Home, Product 17 ,,2,"₹16,753"
+ORD-M1362,2025-07-10,East,Electronic, Product 18 ,Retail Store,2,6718
+ORD-M1363,16/02/2025, NORTH,Beauty, Product 19 ,,3,13744
+ORD-M1364,,North ,Grocery, Product 20 ,Online,2,13850
+ORD-M1365,2025-02-20,north,Home, Product 21 ,Online,1,11741
+ORD-M1366,28/04/2025, NORTH,Beauty, Product 22 ,,3,1866
+ORD-M1367,2025-02-24,West,Beauty, Product 23 ,Partner,2,18188
+ORD-M1368,2025-09-23,North ,Beauty, Product 24 ,Partner,2,17018
+ORD-M1369,13/10/2025,north,Beauty, Product 25 ,Retail Store,3,9469
+ORD-M1370,2025-08-25,South,Electronics, Product 26 ,Online,1,6637
+ORD-M1371,2025-12-17,South,Beauty, Product 27 ,Online,3,15383
+ORD-M1372,20/04/2025,South,Apparel, Product 28 ,Online,1,7710
+ORD-M1373,2025-10-25,north,Grocery, Product 29 ,Online,1,6496
+ORD-M1374,2025-02-16,north,Electronics, Product 30 ,,1,18424
+ORD-M1375,24/08/2025,East,Sports, Product 31 ,,2,17148
+ORD-M1376,2025-10-24, NORTH,Sports, Product 32 ,,1,12188
+ORD-M1377,2025-01-13,North ,Electronic, Product 33 ,Online,1,17322
+ORD-M1378,28/12/2025,South,Grocery, Product 34 ,Partner,2,"₹7,847"
+ORD-M1379,2025-07-27,East,Grocery, Product 35 ,Online,2,7576
+ORD-M1380,2025-02-15,South,Apparel, Product 36 ,Partner,3,3542
+ORD-M1381,18/05/2025,north,Sports, Product 37 ,,2,
+ORD-M1382,2025-08-05,East,Beauty, Product 38 ,Online,3,15214
+ORD-M1383,2025-09-02,West,Grocery, Product 39 ,Retail Store,3,5133
+ORD-M1384,03/07/2025,north,Home, Product 40 ,Retail Store,2,3569
+ORD-M1385,2025-09-29,West,Electronics, Product 41 ,,3,1487
+ORD-M1386,2025-01-05,North ,Electronics, Product 42 ,Online,2,3808
+ORD-M1387,29/12/2025,North ,Electronics, Product 43 ,Online,3,688
+ORD-M1388,2025-08-05,East,Sports, Product 44 ,Retail Store,2,16531
+ORD-M1389,2025-10-11,South,Grocery, Product 45 ,Retail Store,2,16811
+ORD-M1390,21/01/2025,South,Beauty, Product 46 ,,2,13250
+ORD-M1391,2025-04-11,East,Home, Product 47 ,Online,1,19696
+ORD-M1392,2025-01-03,North ,Apparel, Product 48 ,Online,1,16321
+ORD-M1393,,South,Apparel, Product 1 ,,3,11382
+ORD-M1394,2025-11-01,North ,Electronics, Product 2 ,,2,6533
+ORD-M1395,2025-01-16,north,Grocery, Product 3 ,Online,1,"₹16,106"
+ORD-M1396,01/10/2025,North ,Grocery, Product 4 ,Online,1,14329
+ORD-M1397,2025-02-22, NORTH,Electronics, Product 5 ,,1,13829
+ORD-M1398,2025-05-09,South,Electronics, Product 6 ,,2,3795
+ORD-M1399,13/05/2025, NORTH,Electronics, Product 7 ,Retail Store,2,5258
+ORD-M1400,2025-06-06,West,Grocery, Product 8 ,,1,13495
+ORD-M1401,2025-04-01,West,Home, Product 9 ,Retail Store,1,2270
+ORD-M1402,06/04/2025,north,Apparel, Product 10 ,Partner,2,7895
+ORD-M1403,2025-12-27,North ,Grocery, Product 11 ,Retail Store,2,15255
+ORD-M1404,2025-09-23,north,Beauty, Product 12 ,,2,
+ORD-M1405,08/04/2025,north,Apparel, Product 13 ,,2,6489
+ORD-M1406,2025-11-10,South,Beauty, Product 14 ,,2,9253
+ORD-M1407,2025-10-05,north,Home, Product 15 ,,3,10572
+ORD-M1408,04/08/2025,North ,Electronics, Product 16 ,Online,2,15572
+ORD-M1409,2025-04-22,West,Electronics, Product 17 ,Online,3,4100
+ORD-M1410,2025-07-06,East,Grocery, Product 18 ,Online,2,16166
+ORD-M1411,16/11/2025,north,Grocery, Product 19 ,Partner,3,3761
+ORD-M1412,2025-02-07, NORTH,Home, Product 20 ,Online,2,"₹12,916"
+ORD-M1413,2025-08-20,North ,Beauty, Product 21 ,Online,2,9578
+ORD-M1414,16/06/2025,North ,Sports, Product 22 ,Partner,1,5106
+ORD-M1415,2025-08-14, NORTH,Beauty, Product 23 ,Online,3,3079
+ORD-M1416,2025-03-13,South,Electronics, Product 24 ,Online,2,10442
+ORD-M1417,28/07/2025,West,Sports, Product 25 ,Partner,2,13719
+ORD-M1418,2025-06-06,north,Sports, Product 26 ,Online,2,19215
+ORD-M1419,2025-11-21,South,Electronic, Product 27 ,Retail Store,2,15727
+ORD-M1420,10/01/2025,North ,Electronics, Product 28 ,Partner,3,8280
+ORD-M1421,2025-08-19,north,Beauty, Product 29 ,,3,1730
+ORD-M1422,,East,Electronic, Product 30 ,Online,3,4983
+ORD-M1423,03/12/2025,North ,Sports, Product 31 ,Partner,3,15487
+ORD-M1424,2025-11-06,East,Apparel, Product 32 ,,3,4175
+ORD-M1425,2025-03-17, NORTH,Apparel, Product 33 ,Online,2,2181
+ORD-M1426,14/08/2025,West,Grocery, Product 34 ,Partner,1,2782
+ORD-M1427,2025-02-15, NORTH,Apparel, Product 35 ,Partner,3,
+ORD-M1428,2025-06-19, NORTH,Beauty, Product 36 ,Online,3,3882
+ORD-M1429,15/10/2025, NORTH,Apparel, Product 37 ,Retail Store,2,"₹19,103"
+ORD-M1430,2025-05-03,North ,Apparel, Product 38 ,Partner,1,1939
+ORD-M1431,2025-03-30,West,Apparel, Product 39 ,Retail Store,2,17502
+ORD-M1432,09/09/2025,East,Sports, Product 40 ,Online,1,15350
+ORD-M1433,2025-10-07,North ,Electronics, Product 41 ,,2,16258
+ORD-M1434,2025-02-06,East,Sports, Product 42 ,Partner,1,2947
+ORD-M1435,13/01/2025,East,Electronic, Product 43 ,,1,4786
+ORD-M1436,2025-05-18,West,Grocery, Product 44 ,Online,2,9118
+ORD-M1437,2025-11-26,South,Grocery, Product 45 ,Retail Store,3,3932
+ORD-M1438,01/11/2025,north,Apparel, Product 46 ,Online,2,13465
+ORD-M1439,2025-09-18,North ,Electronics, Product 47 ,,2,931
+ORD-M1440,2025-07-10,West,Electronics, Product 48 ,Online,2,18603
+ORD-M1441,16/11/2025,north,Sports, Product 1 ,Retail Store,1,1316
+ORD-M1442,2025-09-11,North ,Apparel, Product 2 ,,1,12888
+ORD-M1443,2025-08-18,West,Home, Product 3 ,Online,2,16296
+ORD-M1444,09/08/2025, NORTH,Grocery, Product 4 ,Online,2,11007
+ORD-M1445,2025-08-05,South,Electronic, Product 5 ,Online,2,7096
+ORD-M1446,2025-03-22,North ,Electronic, Product 6 ,Online,2,"₹11,989"
+ORD-M1447,29/08/2025,West,Grocery, Product 7 ,Retail Store,2,3061
+ORD-M1448,2025-05-21,North ,Electronic, Product 8 ,Retail Store,3,13269
+ORD-M1449,2025-03-12,north,Apparel, Product 9 ,Retail Store,2,14491
+ORD-M1450,28/07/2025,East,Grocery, Product 10 ,Partner,1,
+ORD-M1451,, NORTH,Apparel, Product 11 ,Retail Store,2,10915
+ORD-M1452,2025-11-30,West,Electronics, Product 12 ,Retail Store,2,11822
+ORD-M1453,30/05/2025, NORTH,Home, Product 13 ,,1,4708
+ORD-M1454,2025-10-01,West,Sports, Product 14 ,,3,12694
+ORD-M1455,2025-07-27,East,Home, Product 15 ,Online,3,14471
+ORD-M1456,08/11/2025,West,Home, Product 16 ,Retail Store,2,2853
+ORD-M1457,2025-11-24,West,Electronics, Product 17 ,,2,15907
+ORD-M1458,2025-01-29,North ,Home, Product 18 ,Retail Store,-1,8490
+ORD-M1459,01/04/2025,East,Electronics, Product 19 ,Retail Store,2,14768
+ORD-M1460,2025-09-16,South,Electronic, Product 20 ,Partner,2,15890
+ORD-M1461,2025-10-22,South,Apparel, Product 21 ,Partner,1,15589
+ORD-M1462,16/10/2025,North ,Grocery, Product 22 ,Online,2,5260
+ORD-M1463,2025-07-01,West,Beauty, Product 23 ,Retail Store,2,"₹1,282"
+ORD-M1464,2025-01-27,north,Electronic, Product 24 ,Online,1,10661
+ORD-M1465,31/01/2025,North ,Sports, Product 25 ,Retail Store,2,16165
+ORD-M1466,2025-08-25,West,Electronics, Product 26 ,Online,1,17810
+ORD-M1467,2025-02-19,North ,Beauty, Product 27 ,Online,3,11591
+ORD-M1468,28/01/2025,north,Grocery, Product 28 ,,2,19577
+ORD-M1469,2025-04-17,East,Electronic, Product 29 ,Retail Store,1,18192
+ORD-M1470,2025-11-08,East,Home, Product 30 ,Online,3,6190
+ORD-M1471,22/08/2025,South,Electronic, Product 31 ,,1,3202
+ORD-M1472,2025-05-05,South,Sports, Product 32 ,Partner,2,17737
+ORD-M1473,2025-09-24, NORTH,Apparel, Product 33 ,Partner,2,
+ORD-M1474,10/12/2025,East,Home, Product 34 ,Retail Store,2,16829
+ORD-M1475,2025-09-02,north,Electronics, Product 35 ,Online,1,17042
+ORD-M1476,2025-02-11,South,Grocery, Product 36 ,Partner,2,3683
+ORD-M1477,16/05/2025,West,Electronics, Product 37 ,,2,16587
+ORD-M1478,2025-10-25,West,Electronic, Product 38 ,Partner,1,3320
+ORD-M1479,2025-02-07,north,Electronics, Product 39 ,Retail Store,2,7152
+ORD-M1480,,West,Home, Product 40 ,,1,"₹10,212"
+ORD-M1481,2025-03-25,north,Apparel, Product 41 ,,3,16168
+ORD-M1482,2025-03-02, NORTH,Electronics, Product 42 ,,2,9334
+ORD-M1483,25/08/2025,East,Beauty, Product 43 ,Partner,2,11524
+ORD-M1484,2025-12-17,South,Electronic, Product 44 ,Partner,3,19361
+ORD-M1485,2025-10-17,north,Apparel, Product 45 ,Retail Store,1,5757
+ORD-M1486,30/01/2025,north,Beauty, Product 46 ,Online,2,12615
+ORD-M1487,2025-02-23,north,Electronic, Product 47 ,Online,1,17677
+ORD-M1488,2025-02-06,West,Home, Product 48 ,,1,18328
+ORD-M1489,23/07/2025,East,Home, Product 1 ,,-1,5280
+ORD-M1490,2025-12-14,East,Sports, Product 2 ,Partner,2,703
+ORD-M1491,2025-03-16,South,Electronics, Product 3 ,,2,1572
+ORD-M1492,05/08/2025,East,Grocery, Product 4 ,Retail Store,1,18825
+ORD-M1493,2025-09-14,north,Electronics, Product 5 ,Retail Store,2,2516
+ORD-M1494,2025-12-06,South,Home, Product 6 ,Partner,1,1545
+ORD-M1495,23/02/2025, NORTH,Sports, Product 7 ,Partner,2,2436
+ORD-M1496,2025-11-29,North ,Electronic, Product 8 ,,3,
+ORD-M1497,2025-03-18,East,Apparel, Product 9 ,,1,"₹1,811"
+ORD-M1498,27/12/2025,West,Sports, Product 10 ,,2,3069
+ORD-M1499,2025-11-21,north,Electronics, Product 11 ,,2,1727
+ORD-M1500,2025-09-14, NORTH,Home, Product 12 ,,3,19410
+ORD-M0001,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0002,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0003,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0004,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0005,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0006,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0007,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0008,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0009,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0010,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0011,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0012,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0013,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0014,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0015,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0016,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0017,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0018,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0019,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0020,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0021,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0022,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0023,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0024,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0025,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0026,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0027,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0028,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0029,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M0030,2025-03-15,North,Electronics, Product 1 ,Online,2,5000
+ORD-M9999,31/02/2025,North,Electronics, Product 1 ,Online,1,5000

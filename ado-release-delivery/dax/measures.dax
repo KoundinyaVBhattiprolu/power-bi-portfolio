@@ -1,0 +1,197 @@
+// ADO Release Delivery — DAX measures
+// Paste into Power BI Desktop: Modeling -> New measure.
+// Tables (from this pack): WorkItems (ado_work_items.csv),
+// Sprints (sprint_dim.csv), Builds (builds_deployments.csv),
+// Support (support_tickets.csv), Tests (test_runs.csv).
+// Also create a Date table first (see bottom of this file) and relate:
+//   WorkItems[CreatedDate] -> Date[Date]  (active)
+//   WorkItems[ClosedDate]  -> Date[Date]  (inactive, for burndown)
+//   Sprints[StartDate]     -> Date[Date]  (inactive)
+//   Builds[BuildDate]      -> Date[Date]  (active)
+//   Support[CreatedDate]   -> Date[Date]  (active)
+//   Sprints[SprintID] is the key joining WorkItems, Builds and Tests.
+//
+// --- Work items -------------------------------------------------------
+Total Work Items =
+COUNTROWS ( WorkItems )
+
+Total Stories =
+COUNTROWS ( FILTER ( WorkItems, WorkItems[WorkItemType] = "User Story" ) )
+
+Total Tasks =
+COUNTROWS ( FILTER ( WorkItems, WorkItems[WorkItemType] = "Task" ) )
+
+Stories Completed =
+COUNTROWS (
+    FILTER (
+        WorkItems,
+        WorkItems[WorkItemType] = "User Story"
+            && WorkItems[State] IN { "Closed", "Resolved" }
+    )
+)
+
+Stories Completed % =
+DIVIDE ( [Stories Completed], [Total Stories] )
+
+// Release Readiness % = share of the release's stories done.
+// Slice it by Release. For the next release (R26.3) the verified
+// value in this sample data is 61.2% (301 of 492 stories done).
+Release Readiness % = [Stories Completed %]
+
+Open Stories =
+COUNTROWS (
+    FILTER (
+        WorkItems,
+        WorkItems[WorkItemType] = "User Story"
+            && WorkItems[State] IN { "New", "Active" }
+    )
+)
+
+Completed Story Points =
+SUMX (
+    FILTER (
+        WorkItems,
+        WorkItems[WorkItemType] = "User Story"
+            && WorkItems[State] IN { "Closed", "Resolved" }
+    ),
+    WorkItems[StoryPoints]
+)
+
+// Sprint Velocity = completed story points per sprint.
+// Slice by SprintID. Verified average across the 49 completed
+// sprints in this sample data is 279.1 points.
+Sprint Velocity = [Completed Story Points]
+
+Avg Sprint Velocity =
+AVERAGEX (
+    VALUES ( Sprints[SprintID] ),
+    [Completed Story Points]
+)
+
+// --- Bugs / defects ---------------------------------------------------
+Bugs Created =
+COUNTROWS ( FILTER ( WorkItems, WorkItems[WorkItemType] = "Bug" ) )
+
+Bugs Fixed =
+COUNTROWS (
+    FILTER (
+        WorkItems,
+        WorkItems[WorkItemType] = "Bug"
+            && WorkItems[State] IN { "Closed", "Resolved" }
+    )
+)
+
+Open Bugs =
+COUNTROWS (
+    FILTER (
+        WorkItems,
+        WorkItems[WorkItemType] = "Bug"
+            && WorkItems[State] IN { "New", "Active" }
+    )
+)
+
+// Defect Backlog is the same open-bug count, named the way
+// stakeholders ask for it in release reviews.
+Defect Backlog = [Open Bugs]
+
+Net Bug Change =
+[Bugs Created] - [Bugs Fixed]
+// In this sample data Net Bug Change = 502 overall
+// (2,397 created - 1,895 fixed). For the next release R26.3
+// it is 149 (371 created - 222 fixed). A falling net change
+// across sprints is what "are we winning against bugs" looks like.
+
+Open Critical Bugs =
+COUNTROWS (
+    FILTER (
+        WorkItems,
+        WorkItems[WorkItemType] = "Bug"
+            && WorkItems[State] IN { "New", "Active" }
+            && WorkItems[Severity] = "Critical"
+    )
+)
+
+// Defect Leakage / Escape Rate = share of bugs found in Production.
+// Verified overall: 6.97% (167 of 2,397 bugs). R26.3: 6.2%.
+Defect Leakage % =
+DIVIDE (
+    COUNTROWS (
+        FILTER (
+            WorkItems,
+            WorkItems[WorkItemType] = "Bug"
+                && WorkItems[FoundIn] = "Production"
+        )
+    ),
+    [Bugs Created]
+)
+
+// Bug Burndown (use on a line chart with Date[Date] on the axis):
+// created counts by CreatedDate (active relationship),
+// fixed counts by ClosedDate (inactive relationship).
+Bugs Created in Period = [Bugs Created]
+
+Bugs Fixed in Period =
+CALCULATE (
+    [Bugs Fixed],
+    USERELATIONSHIP ( WorkItems[ClosedDate], 'Date'[Date] )
+)
+
+// --- Testing ----------------------------------------------------------
+// Verified overall: 92.2% pass rate on 52,399 test cases.
+Test Cases Executed = SUM ( Tests[TestCasesExecuted] )
+
+Test Cases Passed = SUM ( Tests[TestCasesPassed] )
+
+Test Pass Rate % =
+DIVIDE ( [Test Cases Passed], [Test Cases Executed] )
+
+Test Cases Failed = SUM ( Tests[TestCasesFailed] )
+
+// --- CI/CD pipeline ---------------------------------------------------
+// Verified overall: 91.7% build success (Jenkins 90.0%, ADO 92.4%).
+Build Success Rate % =
+DIVIDE (
+    COUNTROWS ( FILTER ( Builds, Builds[Status] = "Success" ) ),
+    COUNTROWS ( Builds )
+)
+
+Failed Builds =
+COUNTROWS ( FILTER ( Builds, Builds[Status] = "Failed" ) )
+
+// Deployment Frequency = production deployments in the current
+// filter context (e.g. per month, per release).
+// Verified: 97 production deployments in total, 41 of them in 2026.
+Deployment Frequency =
+COUNTROWS (
+    FILTER (
+        Builds,
+        Builds[DeploymentEnv] = "Prod"
+            && Builds[Deployed] = "Yes"
+    )
+)
+
+// --- RTE / client / stakeholder support -------------------------------
+// Verified: 972 tickets, 81 open or in progress, 7.9% SLA breach.
+Support Tickets Open =
+COUNTROWS (
+    FILTER ( Support, Support[Status] IN { "Open", "In Progress" } )
+)
+
+Support Tickets Total = COUNTROWS ( Support )
+
+SLA Breach % =
+DIVIDE (
+    COUNTROWS ( FILTER ( Support, Support[SLABreached] = "Yes" ) ),
+    [Support Tickets Total]
+)
+
+// --- Date table (create once, then relate as noted at the top) --------
+/*
+Date =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2025, 1, 1 ), DATE ( 2026, 12, 31 ) ),
+    "Year", YEAR ( [Date] ),
+    "Month", FORMAT ( [Date], "yyyy-mm" ),
+    "MonthName", FORMAT ( [Date], "mmm yyyy" )
+)
+*/
